@@ -5,6 +5,7 @@ import Heroes from '../../comp/Grid/Heroes'
 import Hero from '../../comp/Hero/Hero'
 import Menu from '../../comp/Menu/Menu'
 export default function Home() {
+  const text = "Georgian Liberty is a non-profit, non-governmental organization founded in September 2021 by three teenagers. Our goal is to raise awareness about conflict and occupied territories in Georgia, both locally and globally.";
   return (
     <div>
       <Head>
@@ -14,7 +15,7 @@ export default function Home() {
       </Head>
       <Menu />
       <Hero />  
-      <Short />
+      <Short title="About The Project" p={text} link="Learn More"/>
       <Cta />
       {/* <Heroes /> */}
     </div>
