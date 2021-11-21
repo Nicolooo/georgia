@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Short from '../../comp/About/short'
 import Cta from '../../comp/CTA/Cta'
-import Heroes from '../../comp/Grid/Heroes'
+// import Heroes from '../../comp/Grid/Heroes'
 import Hero from '../../comp/Hero/Hero'
 import Menu from '../../comp/Menu/Menu'
 export default function Home() {
@@ -17,7 +17,6 @@ export default function Home() {
       <Hero />  
       <Short title="About The Project" p={text} link="Learn More"/>
       <Cta />
-      {/* <Heroes /> */}
     </div>
   )
 }
