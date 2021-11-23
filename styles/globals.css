@@ -422,7 +422,11 @@ a {
   font-family: 'Fira Mono', monospace;
   letter-spacing: -7px;
 }
-
+/*  About Us */
+.about-wrapper{
+	background-color: #1E1E1E;
+	height: 100vh;
+}
 /*
 	  Responsive
 */

@@ -8,7 +8,7 @@ const internalLinks = [
     component: <span>Home</span>,
   },
   {
-    url: "#2",
+    url: "/en/about/",
     component: <span>About us</span>,
    
   },
