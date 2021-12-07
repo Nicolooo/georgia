@@ -484,6 +484,19 @@ a {
   height: 300px;
   text-align: center;
 }
+.career-cont{
+	height: 50vh;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+.career-title{
+	font-size: 4em;
+	font-family: var(--averca);
+	color: red;
+	align-self: center;
+}
 /*
 	  Responsive
 */
