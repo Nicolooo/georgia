@@ -3,7 +3,7 @@ import Link from 'next/link'
 const index = () => {
   return (
     <div className="lang-wrap">
-      <h2 class="home-title">
+      <h2 className="home-title">
         <span>Choose Language</span>
         <span>აირჩიე ენა</span>
       </h2>
