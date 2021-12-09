@@ -1,10 +1,13 @@
 import React from "react";
+import SEO from '../comp/SEO/title'
 const Notfound = () => {
     return (
-        <div className="four" title="404">
+        <>
+        <SEO title="404" />
+        <div className="four" title="404" data-aos="fade-up">
             404
-            
         </div>
+        </>
     )
 }
 

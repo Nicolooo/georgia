@@ -25,7 +25,7 @@ const internalLinks = [
     component: <span>Samachablo</span>,
   },
   {
-    url: "#6",
+    url: "/en/contact",
     component: <span>Contact</span>,
   },
 ];
