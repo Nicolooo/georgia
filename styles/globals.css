@@ -374,8 +374,6 @@ a {
 	End About Us (Short)
 
 */
-
-
 /* 
 	404
 */
@@ -395,7 +393,7 @@ a {
 /*  About Us */
 .about-wrapper{
 	background-color: #1E1E1E;
-	height: 100vh;
+	height: 90vh;
 }
 .abt-title-wrap{
 	height: 70vh;
@@ -437,6 +435,7 @@ a {
 	justify-content:center ;
 	/* flex-direction: column; */
 	/* height: 50vh; */
+	padding-top: 3em;
 }
 .map-headline{
 	text-align: center;
@@ -451,6 +450,7 @@ a {
 	font-size: 3em;
 	font-weight: 900;
 	font-family: var(--averca);
+	padding-top: 2em;
 }
 /*  Inv */
 .inv-wrapper{
@@ -496,6 +496,76 @@ a {
 	font-family: var(--averca);
 	color: red;
 	align-self: center;
+}
+
+/*  Contact */
+.contact-wrapper{
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+
+}
+.contact-headline{
+	font-size: 4em;
+	font-family: var(--averca);
+	color: red;
+	align-self: center;
+}
+/* cards */
+.contact-cards{
+	height: 10vh;
+	flex-wrap: wrap;
+    width:80%;
+    margin: 0 auto;
+	display: flex;
+}
+.contact-card{
+	width: 5cm;
+	height: 6cm;
+	text-align: center;
+	display: block;
+    box-sizing: border-box;
+    flex: 33.3%;
+    padding: 5px; 
+}
+.contact-card-head{
+	font-size: 2em;
+	font-family: var(--averca);
+	color: red;
+}
+.contact-card-body{
+	font-size: 1em;
+	font-family: var(--averca);
+	color: white;
+	padding: 16px;
+	text-align: center;
+}
+.contact-sct{
+	height: 50vh;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+}
+.contact-form-wrap{
+	height: 10vh;
+	flex-wrap: wrap;
+    width:80%;
+    margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.contact-info{
+	width: 5cm;
+	height: 6cm;
+	text-align: center;
+	display: block;
+    box-sizing: border-box;
+    flex: 50%;
+    padding: 5px; 
 }
 /*
 	  Responsive
