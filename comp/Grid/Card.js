@@ -1,16 +1,13 @@
 import React from 'react'
-
-const Card = ({image,title,desc}) => {
+import Link from 'next/link'
+const Card = ({title,desc,links}) => {
     return (
-      <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><img src={image} /></div>
-        <div class="card_content">
-          <h2 class="card_title">{title}</h2>
-          <p class="card_text">{desc}</p>
+      <div className="grid-column">
+        <div className="grid-card">
+          <h3>{title}</h3>
+          <div className="grid-buton"><Link href={links}><a>{desc}</a></Link></div>
         </div>
       </div>
-    </li>
     )
 }
 
