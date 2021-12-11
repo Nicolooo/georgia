@@ -12,7 +12,7 @@ const Footer = () => {
                     
                 </div>
                     <div className="footer-col">
-                    
+                
                 </div>
             </div>
         </div>

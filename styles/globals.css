@@ -567,6 +567,21 @@ a {
     flex: 50%;
     padding: 5px; 
 }
+/* Programs */
+.programs-container{
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+.programs-headline{
+	color: white;
+	text-align:center;
+	color: red;
+	font-family: var(--averca);
+	font-size: 3em;
+}
 /*
 	  Responsive
 */
