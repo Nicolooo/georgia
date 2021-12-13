@@ -2,6 +2,7 @@ import React from 'react'
 import Menu from '../../comp/Menu/Menu'
 import Title from '../../comp/SEO/title'
 const J = () => {
+    //  To do: Fetch API Of Careers avalable
     return (
         <>
         <Title title="Career"/>

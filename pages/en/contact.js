@@ -1,9 +1,10 @@
 import React from 'react'
 import Card from '../../comp/Contact/cards'
-// To dos: Form
 import SEO from '../../comp/SEO/title'
 import Menu from '../../comp/Menu/Menu'
+import FormC from '../../comp/Contact/Form'
 const contact = () => {
+    //  To do: Responsive + add ylinji for info
     return (
         <>
         <SEO title="Contact"/>
@@ -16,6 +17,9 @@ const contact = () => {
             <Card title="Share" body="Tell us about your experience, thoughts or recommendations."/>
             <Card title="Support Us" body="We accept offers for financial aid in order to continue our project."/>
             <Card title="Put a word" body="Share our project to your friends and family to increase awareness."/>
+            </div>
+            <div className="contact-form">
+            <FormC />
             </div>
         </div>
         </>

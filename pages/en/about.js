@@ -5,6 +5,7 @@ import Abt from '../../data/data'
 import Staff from '../../comp/About-page/Staff'
 
 const About = () => {
+    // To Dos: Resize The text measurements so it fits in perfecly
     return (
         <div className="about-wrapper">
           <Menu />

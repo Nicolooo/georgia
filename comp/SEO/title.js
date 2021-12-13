@@ -5,7 +5,7 @@ const Title = ({title, meta}) => {
         <Head>
         <title>{title}</title>
         <meta name="description" content={meta} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://www.georgianliberty.support/wp-content/uploads/2021/09/cropped-wqedqwd.png" />
       </Head>
     )
 }

@@ -1,3 +1,6 @@
- # todos
- Page Transitions
- responsivness
+# todos
+Menu MUltilang Navigation System
+history PopUps
+Content Pages
+Blog
+News

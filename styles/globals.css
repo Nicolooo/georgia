@@ -343,7 +343,7 @@ a {
 	font-family: var(--averca);
 	font-size: 2.4vh;
 	padding: 10px;
-	padding-right: 92vh;
+	padding-right: 86vh;
 	text-decoration: underline;
 }
 .reveal {
@@ -374,6 +374,7 @@ a {
 	End About Us (Short)
 
 */
+
 /* 
 	404
 */
@@ -383,12 +384,16 @@ a {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   margin: 0;
   background: #131313;
   color: #fff;
   font-size: 96px;
-  font-family: 'Fira Mono', monospace;
-  letter-spacing: -7px;
+  font-family: var(--averca);
+  overflow: hidden !important;
+}
+.four > a{
+	font-size: 40px;
 }
 /*  About Us */
 .about-wrapper{
@@ -457,7 +462,7 @@ a {
 	margin-top: 100px;
 	background-color: #1E1E1E;
 	color: white;
-	height: 100vh;
+	height: 101vh;
 	text-align: center;
 }
 .inv-wrapper h2{
@@ -469,6 +474,14 @@ a {
 	display: flex;
 	justify-content: center;
 	align-content: center;
+}
+.inv-link{
+	color: white;
+	font-family: var(--averca);
+	background-color: red;
+	padding: 16px;
+	margin-top: 15px;
+	display: inline-block;
 }
 /*  Thanks  */
 .staff-wrap{
@@ -500,7 +513,7 @@ a {
 
 /*  Contact */
 .contact-wrapper{
-	height: 50vh;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-content: center;
@@ -567,45 +580,192 @@ a {
     flex: 50%;
     padding: 5px; 
 }
+
+/* FORM STUFF */
+.form-input::-webkit-input-placeholder, .form-textarea::-webkit-input-placeholder {
+	color: #aca49c;
+	font-size: 0.875em;
+  }
+  
+  .form-input:focus::-webkit-input-placeholder, .form-textarea:focus::-webkit-input-placeholder {
+	color: #bbb5af;
+  }
+  
+  .form-input::-moz-placeholder, .form-textarea::-moz-placeholder {
+	color: #aca49c;
+	font-size: 0.875em;
+  }
+  
+  .form-input:focus::-moz-placeholder, .form-textarea:focus::-moz-placeholder {
+	color: #bbb5af;
+  }
+  
+  .form-input::placeholder, .form-textarea::placeholder {
+	color: #aca49c;
+	font-size: 0.875em;
+  }
+  
+  .form-input:focus::placeholder, .form-textarea::focus:placeholder {
+	color: #bbb5af;
+  }
+  
+  .form-input::-ms-placeholder, .form-textarea::-ms-placeholder {
+	color: #aca49c;
+	font-size: 0.875em;
+  }
+  
+  .form-input:focus::-ms-placeholder, .form-textarea:focus::-ms-placeholder {
+	color: #bbb5af;
+  }
+  
+  /* on hover placeholder */
+  
+  .form-input:hover::-webkit-input-placeholder, .form-textarea:hover::-webkit-input-placeholder {
+	color: #e2dedb;
+	font-size: 0.875em;
+  }
+  
+  .form-input:hover:focus::-webkit-input-placeholder, .form-textarea:hover:focus::-webkit-input-placeholder {
+	color: #cbc6c1;
+  }
+  
+  .form-input:hover::-moz-placeholder, .form-textarea:hover::-moz-placeholder {
+	color: #e2dedb;
+	font-size: 0.875em;
+  }
+  
+  .form-input:hover:focus::-moz-placeholder, .form-textarea:hover:focus::-moz-placeholder {
+	color: #cbc6c1;
+  }
+  
+  .form-input:hover::placeholder, .form-textarea:hover::placeholder {
+	color: #e2dedb;
+	font-size: 0.875em;
+  }
+  
+  .form-input:hover:focus::placeholder, .form-textarea:hover:focus::placeholder {
+	color: #cbc6c1;
+  }
+  
+  .form-input:hover::placeholder, .form-textarea:hover::placeholder {
+	color: #e2dedb;
+	font-size: 0.875em;
+  }
+  
+  .form-input:hover:focus::-ms-placeholder, .form-textarea:hover::focus:-ms-placeholder {
+	color: #cbc6c1;
+  }
+  #form {
+	position: relative;
+	width: 500px;
+	margin: 50px auto 100px auto;
+  }
+  .form-input {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.875em;
+	width: 470px;
+	height: 50px;
+	padding: 0px 15px 0px 15px;
+	background: transparent;
+	outline: none;
+	color: #726659;
+	border: solid 1px #b3aca7;
+	border-bottom: none;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+  }
+  .form-input:hover {
+	background: #b3aca7;
+	color: #e2dedb;
+  }
+  .form-textarea {
+	width: 470px;
+	max-width: 470px;
+	height: 110px;
+	max-height: 110px;
+	padding: 15px;
+	background: transparent;
+	outline: none;
+	color: #726659;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.875em;
+	border: solid 1px #b3aca7;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+  }
+  
+  .form-textarea:hover {
+	background: #b3aca7;
+	color: #e2dedb;
+  }
+  .contact-form{
+	  height: 70vh;
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-end;
+	  flex-direction: column;
+  }
+  .con-sub{
+	  border: 2px #b3aca7 solid;
+	  background-color: transparent;
+	  width: 7em;
+	  height: 3em;
+	  margin-top: 10px;
+	  color: white;
+  }
+  .con-title{
+	  margin-top: 2rem;
+	  font-size: 4em;
+	  text-align: center;
+	  color: white;
+	  font-family: var(--averca);
+  }
 /* Programs */
 .programs-container{
-	height: 75vh;
+	height: 210vh;
 	display: flex;
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
+	padding-bottom: 50px;
 }
 .programs-headline{
 	color: white;
 	text-align:center;
 	color: red;
 	font-family: var(--averca);
-	font-size: 4em;
-	
+	font-size: 7em;
+	margin-top: 3em;
+	padding-bottom: 20px;
 }
 
 /*  programs Grid  */
 
 .grid-column {
-	float: left;
-	width: 33.3%;
-	padding: 0 10px 10px;
+	padding: 20px;
   }
-  
   .grid-row {
-	margin: 0 -5px;
-	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
   }
-
+  /* 
+ 	idk es raari mara egdos jandabas 
   .grid-row:after {
 	content: "";
 	display: table;
 	clear: both;
-  }
+  } */
   
   .grid-card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
 	padding: 16px;
+	width: 50em;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -628,7 +788,6 @@ a {
 	width: 10em;
 	height: 3em;
 }
-
 /*
 	  Responsive
 */
@@ -646,15 +805,15 @@ a {
 	.headline-wrapper{
 		font-size: 2em;
 	}
+	.programs-container{
+		height: 200vh;
+	}
+	.programs-headline{
+		margin-top: 10em;
+
+	}
   .menu-button{
     display: none;
   }
-  .grid-column {
-	width: 100%;
-	display: block;
-	margin-bottom: 20px;
-  }
-  .programs-container{
-	  height: 150vh;
-  }
+
 }

@@ -18,7 +18,7 @@ export default function Home() {
       <Short title="About The Project" p={text} link="Learn More"/>
       <Headline title="OCCUPIED TERRITORIES"/>
       <Map />
-      <Inv />
+      <Inv LinkF="/en/interviews" />
     </div>
   )
 }
