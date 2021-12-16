@@ -10,7 +10,7 @@ const Staff = () => {
                 <h4 className="abt-names">Nika Khabelashvili</h4>
             </div>
             <div className="about-col">
-                <h3 className="abt-h">Special tahnks To</h3>
+                <h3 className="abt-h">Special thanks To</h3>
                 <h4 className="abt-names">Nikusha Sirbiladze</h4>
                 <h4 className="abt-names">Giorgi Kakhani</h4>
                 <h4 className="abt-names">Nika Khabelashvili</h4>

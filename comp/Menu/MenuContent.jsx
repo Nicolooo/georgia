@@ -4,7 +4,7 @@ import { Facebook, Instagram, Youtube, Dribbble, Twitch } from "react-feather";
 import cn from "classnames";
 const internalLinks = [
   {
-    url: "#1",
+    url: "/en",
     component: <span>Home</span>,
   },
   {
@@ -13,7 +13,7 @@ const internalLinks = [
    
   },
   {
-    url: "#3",
+    url: "/en/programs",
     component: <span>Programs</span>,
   },
   {
