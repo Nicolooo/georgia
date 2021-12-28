@@ -15,6 +15,7 @@
 }
 :root{
 	--averca: 'AvertaCYBold';
+	--main-red: '#ff0000',
 }
 html,
 body {
@@ -24,7 +25,7 @@ body {
   background: #1E1E1E;
 }
 ::selection{
-	background: red; 
+	background: #ff0000; 
 	color: white;
 }
 a {
@@ -37,6 +38,7 @@ a {
   padding: 0;
   margin: 0;
 }
+
 /* Language */
 .lang-wrap{
 	height: 100vh;
@@ -817,5 +819,4 @@ a {
   .menu-button{
     display: none;
   }
-
 }
