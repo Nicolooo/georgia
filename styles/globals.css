@@ -37,6 +37,29 @@ a {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-size: 100%;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+	width: .7rem !important;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background-color: red !important;
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: #1E1E1E !important;
+  }
+
+/* Container classes for responsive */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Language */
@@ -792,9 +815,47 @@ a {
 	height: 3em;
 }
 
+
 /*
 	  Responsive
 */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.container, .container-sm {
+		max-width: 540px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.container, .container-md, .container-sm {
+		max-width: 720px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.container, .container-lg, .container-md, .container-sm {
+		max-width: 960px;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+		max-width: 1140px;
+	}
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+		max-width: 1320px;
+	}
+}
+
+
  @media screen and (max-width: 600px) {
   .menu-inside .menu-nav-container {
 		 left: 10%;
