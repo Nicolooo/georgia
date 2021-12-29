@@ -27,7 +27,7 @@ const  Ge = [
     component: <span>სამაჩაბლო</span>,
   },
   {
-    url: "/en/contact",
+    url: "/ge/contact",
     component: <span>კონტაქტი</span>,
   },
 ];
