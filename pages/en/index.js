@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Title title="Georgian Liberty"/>
-      <Menu />
+      <Menu LANG='En' />
       <Hero />  
       <Short title="About The Project" p={text} link="Learn More"/>
       <Headline title="OCCUPIED TERRITORIES"/>

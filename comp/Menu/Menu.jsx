@@ -1,13 +1,18 @@
 import React from 'react'
+import MenuContentGe from './MenuContentGe'
+import MenuContentEn from './MenuContentEn'
 import MenuButton from './MenuButton'
-import MenuContent from './MenuContent'
-const Menu = () => {
-    return (
+
+const Menu = (LANG) => {
+
+   return (
+      
         <div className="menu-wrapper">
         <MenuButton />
-        <MenuContent />
+        {LANG.LANG === "Ge" ? <MenuContentGe/> : <MenuContentEn/> }
+       
         </div>
-    )
+    ) 
 }
 
 export default Menu
