@@ -15,7 +15,7 @@ const  Ge = [
 
   },
   {
-    url: "/en/programs",
+    url: "/ge/programs",
     component: <span>პროგრამები</span>,
   },
   {
