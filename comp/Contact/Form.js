@@ -94,7 +94,7 @@ const FormC = () => {
           placeholder="E-MAIL"
           className="form-textarea"
         />
-      <button type="submit" disabled={status.submitting} className="con-sub" >
+      <button type="submit" disabled={status.submitting} className="btn con-sub" >
           {!status.submitting
             ? !status.submitted
               ? 'Submit'

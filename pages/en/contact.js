@@ -9,16 +9,16 @@ const contact = () => {
         <>
         <SEO title="Contact"/>
         <Menu />
-        <div className="contact-wrapper">
-            <div className="contact-sct">
+        <div className="container-fluid">
+            <div className="container">
                 <h3 className="contact-headline" data-aos="fade-up">Contact Us</h3>
             </div>
-            <div className="contact-cards">
-            <Card title="Share" body="Tell us about your experience, thoughts or recommendations."/>
-            <Card title="Support Us" body="We accept offers for financial aid in order to continue our project."/>
-            <Card title="Put a word" body="Share our project to your friends and family to increase awareness."/>
+            <div className="container row">
+                <Card title="Share" body="Tell us about your experience, thoughts or recommendations."/>
+                <Card title="Support Us" body="We accept offers for financial aid in order to continue our project."/>
+                <Card title="Put a word" body="Share our project to your friends and family to increase awareness."/>
             </div>
-            <div className="contact-form">
+            <div className="contact-form container">
             <FormC />
             </div>
         </div>
