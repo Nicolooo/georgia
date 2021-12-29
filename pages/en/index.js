@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Short from '../../comp/About/short'
 import Cta from '../../comp/CTA/Cta'
+import Footer from '../../comp/Footer/Footer'
 import Headline from '../../comp/Headline/Headline'
 // import Heroes from '../../comp/Grid/Heroes'
 import Hero from '../../comp/Hero/Hero'
@@ -19,6 +20,7 @@ export default function Home() {
       <Headline title="OCCUPIED TERRITORIES"/>
       <Map />
       <Inv LinkF="/en/interviews" />
+      <Footer />
     </div>
   )
 }
