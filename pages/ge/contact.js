@@ -5,10 +5,13 @@ import Menu from '../../comp/Menu/Menu'
 import FormC from '../../comp/Contact/Form'
 const contact = () => {
     //  To do: Responsive + add ylinji for info
+  
     return (
+
         <>
+                
         <SEO title="Contact"/>
-        <Menu />
+        <Menu LANG='Ge'/>
         <div className="container-fluid">
             <div className="container">
                 <h3 className="contact-headline" data-aos="fade-up">კონტაქტი</h3>

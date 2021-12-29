@@ -6,7 +6,7 @@ const J = () => {
     return (
         <>
         <Title title="Career"/>
-        <Menu />
+        <Menu LANG='Ge'/>
         <div className="career-cont">
             <h2 className="career-title">Careers At Georgian Liberty</h2>
         </div>

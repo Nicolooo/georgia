@@ -7,7 +7,7 @@ const Programs = () => {
     return (
         <>
         <SEO title="Programs" />
-        <Menu />
+        <Menu LANG='Ge'/>
         <div className="programs-container">
             <h1 className="programs-headline" data-aos="fade-down">Programs</h1>
             <Heroes />

@@ -7,7 +7,7 @@ const About = () => {
     // To Dos: Resize The text measurements so it fits in perfecly
     return (
         <div className="about-wrapper">
-          <Menu />
+            <Menu LANG='Ge'/>
           <Title title="About" />
         <div className="abt-title-wrap">
             <h2 className="abt-title" data-aos="fade-down">About Us</h2>
