@@ -34,15 +34,15 @@ const En = [
 
 const externalLinks = [
   {
-    url: "www.facebook.com",
+    url: "https://www.facebook.com/georgianliberty",
     component: <Facebook />,
   },
   {
-    url: "www.instagram.com",
+    url: "https://www.instagram.com/georgianliberty/",
     component: <Instagram />,
   },
   {
-    url: "www.youtube.com",
+    url: "https://www.youtube.com/channel/UCUvGWCPrEt8djat0s5V4b_w",
     component: <Youtube />,
   },
 ];
