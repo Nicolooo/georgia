@@ -47,7 +47,8 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-thumb {
-	background-color: red !important;
+	  /*  Iyos am feri */
+	background-color: #1E1E1E  !important;
   }
   
   body::-webkit-scrollbar-track {
