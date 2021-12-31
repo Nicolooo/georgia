@@ -1,6 +1,4 @@
-# todos
-Menu MUltilang Navigation System
-history PopUps
+ხhistory PopUps
 Content Pages
 Blog
 News

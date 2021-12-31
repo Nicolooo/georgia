@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const FormC = () => {
+const FormC = ({message,title}) => {
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -51,7 +51,7 @@ const FormC = () => {
       .then((response) => {
         handleServerResponse(
           true,
-          'Thank you, your message has been submitted.',
+          message,
         );
       })
       .catch((error) => {
@@ -60,7 +60,7 @@ const FormC = () => {
   };
   return (
     <section className="scta">
-      <h3 className="con-title">WE RESPOND TO EVERY MAIL</h3>
+      <h3 className="con-title">{title}</h3>
       <form onSubmit={handleOnSubmit} id="form" className="topBefore" autocomplete="false">
       <input
           autocomplete="off"

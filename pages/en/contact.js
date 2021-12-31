@@ -19,7 +19,7 @@ const contact = () => {
                 <Card title="Put a word" body="Share our project to your friends and family to increase awareness."/>
             </div>
             <div className="contact-form container">
-            <FormC />
+            <FormC message="Thank you, your message has been submitted." title="WE RESPOND TO EVERY EMAIL" />
             </div>
         </div>
         </>
