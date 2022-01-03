@@ -8,10 +8,10 @@ const Programs = () => {
         <>
         <SEO title="Programs" />
         <Menu />
-        <div className="programs-container">
+        <div className="container-fluid">
             <h1 className="programs-headline" data-aos="fade-down">Programs</h1>
             <Heroes />
-            </div>
+        </div>
         </>
     )
 }
