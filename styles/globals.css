@@ -362,20 +362,16 @@ body::-webkit-scrollbar {
 	align-items: center;
 }
 .hero-text{
-	font-size: 6vw;
+	font-size: 9vw;
 	font-family: var(--averca);
 	color: red;
 }
 /* 
-
 	Hero Ends
-
 */
 
 /* 
-
 	About Us (Short)
-
 */
 .about-short-wrap{
 	height: 120vh;
@@ -836,6 +832,9 @@ body::-webkit-scrollbar {
 	.grid-wrapper{
 		width: 50%;
 	}
+	.hero-text{
+		font-size: 6vw;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -885,21 +884,19 @@ body::-webkit-scrollbar {
 
 /* Only for Phones */
 @media (max-width: 540px) {
-	
+	.menu-holder .menu-inside .menu-nav-container {
+		left: 30%;
+		top: 30%;
+		overflow: hidden;
+		width: 100%;
+	}
 }
 
  @media screen and (max-width: 600px) {
-  .menu-inside .menu-nav-container {
-		 left: 10%;
-		 width: 100vw;
-	}
 	.menu-inside .menu-nav-container img {
 		 display: none !important;
 	}
 	.headline-wrapper{
 		font-size: 2em;
 	}
-  	.menu-button{
-    	display: none;
-  	}
 }
