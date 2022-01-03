@@ -9,11 +9,13 @@ const About = () => {
         <div className="about-wrapper">
           <Menu />
           <Title title="About" />
-        <div className="abt-title-wrap">
-            <h2 className="abt-title" data-aos="fade-down">About Us</h2>
-            <p className="abt-text" data-aos="fade-down">{Abt[0]}<span className="abt-red">{Abt[1]}</span></p>
-        </div>
-            <Staff />
+            <div className="container-fluid">
+                <div className="container">
+                    <h1 className="abt-title" data-aos="fade-down">About Us</h1>
+                    <p className="abt-text" data-aos="fade-down">{Abt[0]}<span className="abt-red">{Abt[1]}</span></p>
+                </div>
+                <Staff />
+            </div>
         </div>
     )
 }

@@ -457,25 +457,20 @@ body::-webkit-scrollbar {
 /*  About Us */
 .about-wrapper{
 	background-color: #1E1E1E;
-	height: 150vh;
-}
-.abt-title-wrap{
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
 }
 .abt-text{
 	color: white;
 	font-family: var(--averca);
-	padding: 60px;
-	font-size: 1.4em;
+	font-size: 1em;
 }
 .abt-title{
-	color: white;
-	font-size: 3cm;
+	color: red;
 	font-family: var(--averca);
+	padding-top: 72px;
+	padding-bottom: 2rem;
+    font-size: 3em;
+	align-self: center;
+	text-align: center;
 }
 .abt-red{
 	margin-left: 3px;
@@ -485,11 +480,11 @@ body::-webkit-scrollbar {
 .abt-names{
 	color: white;
 	font-family: var(--averca);
-	font-size: 2em;
+	font-size: 1.2em;
 }
 .abt-h{
 	color: red;
-	font-size: 3em;
+	font-size: 2em;
 	font-family: var(--averca);
 }
 /* Map */
@@ -543,18 +538,11 @@ body::-webkit-scrollbar {
 	display: inline-block;
 }
 /*  Thanks  */
-.staff-wrap{
-	height: 50vh;
-	display: flex;
-	flex-direction: row;
-	align-content: center;
-	justify-content: center;
-}
 .about-col {
-  flex: 50%;
-  padding: 10px;
-  height: 300px;
-  text-align: center;
+  	padding: 5px;
+  	text-align: center;
+  	width: 100%;
+	margin-bottom: 3rem;
 }
 .career-cont{
 	height: 50vh;
@@ -844,6 +832,22 @@ body::-webkit-scrollbar {
 		color: #ff0000;
 		font-family: var(--averca);
 	}
+	.about-col{
+		width: 50%;
+		margin-bottom: 1rem;
+	}
+	.abt-title{
+		font-size: 6em;
+	}
+	.abt-text{
+		font-size: 1.5em;
+	}
+	.abt-h{
+		font-size: 3em;
+	}
+	.abt-names{
+		font-size: 2em;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -901,10 +905,7 @@ body::-webkit-scrollbar {
 		 left: 10%;
 		 width: 100vw;
 	}
-	.about-col{
-		width: 100%;
-	}
-	 .menu-inside .menu-nav-container img {
+	.menu-inside .menu-nav-container img {
 		 display: none !important;
 	}
 	.headline-wrapper{
@@ -915,7 +916,6 @@ body::-webkit-scrollbar {
 	}
 	.programs-headline{
 		margin-top: 10em;
-
 	}
   .menu-button{
     display: none;

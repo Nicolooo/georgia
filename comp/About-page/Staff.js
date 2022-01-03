@@ -2,7 +2,7 @@ import React from 'react'
 
 const Staff = () => {
     return (
-        <div className="staff-wrap">
+        <div className="container row">
             <div className="about-col">
                 <h3 className="abt-h">Our Team</h3>
                 <h4 className="abt-names">Nikusha Sirbiladze</h4>
