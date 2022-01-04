@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { MenuContext } from "./MenuManager";
-import { Facebook, Instagram, Youtube, Dribbble, Twitch } from "react-feather";
+import { Facebook, Instagram, Youtube} from "react-feather";
 import cn from "classnames";
 const En = [
   {
@@ -15,6 +15,10 @@ const En = [
   {
     url: "/en/programs",
     component: <span>Programs</span>,
+  },
+  {
+    url: "/en/news",
+    component: <span>News</span>,
   },
   {
     url: "#4",

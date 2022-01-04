@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Facebook, Instagram, Youtube,} from "react-feather";
+import Link from "next/link";
 const Footer = () => {
     return (
         <div className="footer-wrapper">
@@ -9,9 +10,9 @@ const Footer = () => {
                     <h3>Copyright 2021 © Georgian Liberty</h3>
                 </div>
                 <div className="footer-col">
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-instagram-square"></i>
-                    <i class="fab fa-youtube-square"></i>
+                    <Link href="/"><Facebook /></Link>
+                    <Link href="/"><Instagram /></Link>
+                    <Link href="/"><Youtube /></Link>
                 </div>
                 <div className="footer-col">
                     <i class="fas fa-chevron-up goup-icon"></i>
