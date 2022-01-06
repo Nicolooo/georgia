@@ -833,7 +833,18 @@ body::-webkit-scrollbar {
 .footer-wrapper .footer-details .footer-icon {
 	width: 50px;
 	height: 50px;
-	background-color: #ff0000;
+	background-color: #1E1E1E;
+	margin: 0 .5rem 0 .5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ff0000;
+	transition-duration: .3s;
+}
+
+.footer-wrapper .footer-details .footer-icon:hover {
+	transform: scale(0.9);
+	transition-duration: .3s;
 }
 
 /*

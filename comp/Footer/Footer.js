@@ -10,9 +10,9 @@ const Footer = () => {
                     <h3 className="font-size-3">Copyright 2021 © Georgian Liberty</h3>
                 </div>
                 <div className="footer-col">
-                    <Link href="/"><Facebook /></Link>
-                    <Link href="/"><Instagram /></Link>
-                    <Link href="/"><Youtube /></Link>
+                    <Link href="/"><a className="footer-icon"><Facebook /></a></Link>
+                    <Link href="/"><a className="footer-icon"><Instagram /></a></Link>
+                    <Link href="/"><a className="footer-icon"><Youtube /></a></Link>
                 </div>
                 <div className="footer-col">
                     <i class="fas fa-chevron-up goup-icon"></i>
