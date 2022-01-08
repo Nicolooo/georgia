@@ -3,6 +3,7 @@ import Card from '../../comp/Contact/cards'
 import SEO from '../../comp/SEO/title'
 import Menu from '../../comp/Menu/Menu'
 import FormC from '../../comp/Contact/Form'
+import Footer from '../../comp/Footer/Footer'
 const contact = () => {
     //  To do: Responsive + add ylinji for info
     return (
@@ -22,6 +23,7 @@ const contact = () => {
             <FormC message="Thank you, your message has been submitted." title="WE RESPOND TO EVERY EMAIL" />
             </div>
         </div>
+        <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
         </>
     )
 }

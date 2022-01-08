@@ -1,13 +1,17 @@
 import React from 'react'
-import { Facebook, Instagram, Youtube,} from "react-feather";
+import { Facebook, Instagram, Youtube, ArrowUp} from "react-feather";
 import Link from "next/link";
-const Footer = () => {
+const top = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+const Footer = ({main,copyright}) => {
     return (
         <div className="footer-wrapper container-fluid">
-            <h2 className="footer-headline">Stand Against Illegal occupation</h2>
+            <h2 className="footer-headline">{main}</h2>
             <div className="footer-details">
                 <div className="footer-col">
-                    <h3 className="font-size-3">Copyright 2021 © Georgian Liberty</h3>
+                    <h3 className="font-size-3">{copyright}</h3>
                 </div>
                 <div className="footer-col">
                     <Link href="/"><a className="footer-icon"><Facebook /></a></Link>
@@ -15,7 +19,7 @@ const Footer = () => {
                     <Link href="/"><a className="footer-icon"><Youtube /></a></Link>
                 </div>
                 <div className="footer-col">
-                    <i class="fas fa-chevron-up goup-icon"></i>
+                    <div className="footer-icon"><ArrowUp onClick={top}/></div>
                 </div>
             </div>
         </div>

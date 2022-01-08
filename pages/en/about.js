@@ -3,6 +3,7 @@ import Menu from '../../comp/Menu/Menu'
 import Abt from '../../data/data'
 import Staff from '../../comp/About-page/Staff'
 import Title from '../../comp/SEO/title'
+import Footer from '../../comp/Footer/Footer'
 const About = () => {
     // To Dos: Resize The text measurements so it fits in perfecly
     return (
@@ -15,6 +16,7 @@ const About = () => {
                     <p className="abt-text" data-aos="fade-down">{Abt[0]}<span className="abt-red">{Abt[1]}</span></p>
                 </div>
                 <Staff />
+                <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
             </div>
         </div>
     )

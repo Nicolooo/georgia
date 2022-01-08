@@ -1,14 +1,12 @@
-import Head from 'next/head'
 import Short from '../../comp/About/short'
-import Cta from '../../comp/CTA/Cta'
 import Footer from '../../comp/Footer/Footer'
 import Headline from '../../comp/Headline/Headline'
-// import Heroes from '../../comp/Grid/Heroes'
 import Hero from '../../comp/Hero/Hero'
 import Inv from '../../comp/Inv/Inv'
 import Map from '../../comp/Map/Map'
 import Menu from '../../comp/Menu/Menu'
 import Title from '../../comp/SEO/title'
+import Hrid from '../../comp/Grid-Heroes/grid'
 export default function Home() {
   const text = "Georgian Liberty is a non-profit, non-governmental organization founded in September 2021 by three teenagers. Our goal is to raise awareness about conflict and occupied territories in Georgia, both locally and globally.";
   return (
@@ -20,7 +18,8 @@ export default function Home() {
       <Headline title="OCCUPIED TERRITORIES"/>
       <Map />
       <Inv LinkF="/en/interviews" />
-      <Footer />
+      <Hrid />
+      <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>
   )
 }
