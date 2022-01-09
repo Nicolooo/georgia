@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import React from 'react'
 import Link from 'next/link'
 import SEO from '../../../comp/SEO/title'
@@ -13,7 +14,7 @@ function News({ posts }) {
       </div>
       <div className="news-card">
       {posts.map((post) => (
-        // eslint-disable-next-line react/jsx-key
+
        <Link href={`/en/news/${post.id}`}>
         <a className="news-card-content">
           <h2>{post.title}</h2>
