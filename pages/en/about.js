@@ -4,11 +4,13 @@ import Abt from '../../data/data'
 import Staff from '../../comp/About-page/Staff'
 import Title from '../../comp/SEO/title'
 import Footer from '../../comp/Footer/Footer'
+import Switcher from '../../comp/LangSwitcher/Switcher'
 const About = () => {
     // To Dos: Resize The text measurements so it fits in perfecly
     return (
         <div className="about-wrapper">
           <Menu />
+          <Switcher />
           <Title title="About" />
             <div className="container-fluid">
                 <div className="container">

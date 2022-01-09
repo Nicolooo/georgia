@@ -19,6 +19,15 @@ const  Ge = [
     component: <span>პროგრამები</span>,
   },
   {
+    url: "/ge/news",
+    component: <span>სიახლეები</span>,
+  },
+  {
+    url: "/ge/blog",
+    component: <span>ბლოგი</span>,
+  },
+  
+  {
     url: "#4",
     component: <span>აბხაზეთი</span>,
   },

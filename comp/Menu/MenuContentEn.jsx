@@ -21,6 +21,11 @@ const En = [
     component: <span>News</span>,
   },
   {
+    url: "/en/blog",
+    component: <span>Blog</span>,
+  },
+  
+  {
     url: "#4",
     component: <span>Abkhazia</span>,
   },
@@ -32,6 +37,7 @@ const En = [
     url: "/en/contact",
     component: <span>Contact</span>,
   },
+  
 ];
 
 ;
