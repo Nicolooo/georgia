@@ -8,7 +8,7 @@ const contact = () => {
     //  To do: Responsive + add ylinji for info
     return (
         <>
-        <SEO title="Contact"/>
+        <SEO title="Contact "/>
         <Menu />
         <div className="container-fluid">
             <div className="container">
