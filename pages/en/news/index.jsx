@@ -6,6 +6,7 @@ function News({ posts }) {
   return (
     <>
     <SEO title="News" />
+    
     <Menu LANG="en" />
     <div className="news-container">
       <div className="news-header">
