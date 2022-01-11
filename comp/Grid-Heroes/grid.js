@@ -3,7 +3,7 @@ import Card from './Card'
 const Hrid = () => {
     return (
         <div className="heroes-wrapper container-fluid">
-            <h2>NATIONAL HEROES</h2>
+            <h2 className='heroes-header'>NATIONAL HEROES</h2>
             <div className="container row">
                 <Card title="Guram Gabiskiria" title="MAYOR OF SOKHUMI"/>
                 <Card title="GIORGI ANTSUXELIDZE" title="JUNIOR SERGEANT OF THE GEORGIAN ARMED FORCE"/>
