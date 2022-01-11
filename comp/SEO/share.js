@@ -8,8 +8,8 @@ const Share = ({url}) => {
     return (<>
     <h3 className="share-title">Share Article</h3>
         <div className="share-wrapper">
-            <Link href={fb + url}><a className="footer-icon"><Facebook /></a></Link>
-            <Link href={tw +url}><a className="footer-icon"><Twitter /></a></Link>
+            <Link href={fb + url}><a className="share-icon-fb"><Facebook /></a></Link>
+            <Link href={tw +url}><a className="share-icon-tw"><Twitter /></a></Link>
         </div>
         </>
     )
