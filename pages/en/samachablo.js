@@ -1,6 +1,8 @@
 import React from 'react'
 import Menu from '../../comp/Menu/Menu'
 import Count from '../../comp/Samachablo/counter'
+import Switcher from '../../comp/LangSwitcher/Switcher'
+
 const data = {
     "counts": [
         {
