@@ -28,6 +28,7 @@ const samachablo = () => {
     return (
         <>
             <Menu />
+            <Switcher title="GE" link="/ge/samachablo"/>
         <div className="samachablo-wrapper">
         <div className="samachablo-title"> 
         <h1>SAMACHABLO</h1>

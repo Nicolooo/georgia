@@ -14,6 +14,7 @@ export default function Home() {
     <div>
       <Title title="Georgian Liberty"/>
       <Menu LANG='En' />
+      <Switcher title="Ge" link="/ge"/>
       <Hero />  
       <Short title="About The Project" p={text} link="Learn More"/>
       <Headline title="OCCUPIED TERRITORIES"/>

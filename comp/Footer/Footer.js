@@ -19,7 +19,7 @@ const Footer = ({main,copyright}) => {
                     <Link href="/"><a className="footer-icon"><Youtube /></a></Link>
                 </div>
                 <div className="footer-col">
-                    <div className="footer-icon"><ArrowUp onClick={top}/></div>
+                    <div className="footer-icon" onClick={top}><ArrowUp /></div>
                 </div>
             </div>
         </div>

@@ -1,6 +1,11 @@
 import React from 'react'
 import Menu from '../../comp/Menu/Menu'
 import Count from '../../comp/Abk/counter'
+import Switcher from '../../comp/LangSwitcher/Switcher'
+import Storage from '../../data/Content'
+import Share from '../../comp/SEO/share'
+import Title from '../../comp/SEO/title'
+
 const data = {
     "counts": [
         {
@@ -27,21 +32,39 @@ const data = {
 const abkhazia = () => {
     return (
         <>
+        <Title title="Abkhazia" />
             <Menu />
+            <Switcher title="Ge" link="/ge/abkhazia"/>
         <div className="abkhazia-wrapper">
-        <div className="abkhazia-title"> 
-        <h1>ABKHAZIA</h1>
-        </div>
-            
+            <div className="abkhazia-title"> 
+                <h1>ABKHAZIA</h1>
+                <p className="abkhazia-shorttext">At the end of 80-ies of the 20th century in Georgia on the background of sharp activation of national movement for independence, Kremlin (Moscow) interferes by mobilizing and manipulating with the separatists, anti-Georgian nationalists in Abkhazia thus to maintain powerful influence upon Georgia. At this time the following actions are carried out which are founding aggressive separatism in Abkhazia.</p>
+            </div>
             <div className="abkhazia-stats">
             {data.counts.map(count => <Count key={count.id} data={count}/>)}
             </div>
             <div className="abkhazia-content">
-                
+                <p>
+                    {Storage.Abkhazia.first}
+                </p>
             </div>
             <div className="abkhazia-images">
-
+                    <img src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
             </div>
+            <div className="abkhazia-content">
+                <p>
+                    {Storage.Abkhazia.second}
+                </p>
+            </div>
+            <div className="abkhazia-images">
+                    <img src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
+            </div>
+            <div className="abkhazia-content">
+                <p>
+                    {Storage.Abkhazia.third}
+                </p>
+            </div>
+            <Share url="/en/abkhazia" />
         </div>
         </>
     )

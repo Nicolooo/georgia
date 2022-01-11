@@ -8,6 +8,7 @@ const Programs = () => {
         <>
         <SEO title="Programs" />
         <Menu />
+        <Switcher title="GE" link="/ge/programs"/>
         <div className="container-fluid">
             <h1 className="programs-headline" data-aos="fade-down">Programs</h1>
             <Heroes />

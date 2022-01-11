@@ -70,13 +70,6 @@ export default function MenuContentEn() {
                 </li>
               ))}
             </ul>
-            <ul className="external-nav-links">
-              {externalLinks.map((link) => (
-                <li key={link.url}>
-                  <a href={link.url}>{link.component}</a>
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
       </div>
