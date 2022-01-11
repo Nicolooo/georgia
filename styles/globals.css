@@ -1076,6 +1076,10 @@ body::-webkit-scrollbar {
 	height: auto;
 	max-width: 100%;
 	border: none;
+	transition: .5s;
+}
+.heroes-wrapper .heroes-card img:hover {
+	transform: scale(1.05);
 }
 .heroes-wrapper .heroes-card .heroes-card-text {
 	text-align: center;
@@ -1091,6 +1095,10 @@ body::-webkit-scrollbar {
 	font-weight: 300;
 	text-transform: uppercase;
 	line-height: 1.7em;
+}
+
+.menu-button .menu-clickable-txt {
+	display: none;
 }
 /*
 	  Responsive
@@ -1179,6 +1187,7 @@ body::-webkit-scrollbar {
 	}
 }
 
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	.container, .container-lg, .container-md, .container-sm {
@@ -1214,6 +1223,39 @@ body::-webkit-scrollbar {
 		width: 30%;
 		text-align: center;
 		padding: 1rem;
+	}
+	.menu-button-wrap .menu-button {
+		color: #FF0000;
+    	font-family: var(--averca);
+    	font-size: 34px;
+    	font-weight: 600;
+    	writing-mode: vertical-lr;
+    	transform: rotate(270deg);
+		width: 50vh;
+    	height: 100%;
+    	position: fixed;
+    	outline: none;
+    	border: none;
+    	top: calc(100% + 25rem);
+    	left: -14rem;
+	}
+	.menu-button-wrap .menu-button::before {
+		content: '';
+		width: 3px;
+		position: fixed;
+		border-radius: 50%;
+		height: 35vh;
+		background-color: #ff0000;
+		top: calc(100% + -6rem);
+		left: calc(100% + -13.5rem);
+		transform: rotate(270deg);
+		box-shadow: -2px 0px 5px 0 #ff0000;
+	}
+	.menu-button-wrap .menu-button .menu-clickable-txt {
+		display: block;
+	}
+	.menu-button-wrap .menu-button .menu-burger {
+		display: none;
 	}
 }
 
