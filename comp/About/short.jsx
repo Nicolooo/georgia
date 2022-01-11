@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 const Short = ({title,p,link}) => {
-    // To do : Link Fix 
     return (
         <div className="about-short-wrap container-fluid">
             <h1 className="reveal about-us-short-h1">{title}</h1>
