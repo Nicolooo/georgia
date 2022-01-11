@@ -170,6 +170,13 @@ body::-webkit-scrollbar {
 	font-size: 1cm;
 	font-family: var(--averca);
 }
+/* Switcher */
+.switcher{
+	position: fixed;
+	right: 0;
+	background-color: #1E1E1E;
+	color: #fff;
+}
 /*
 	Menu Begins
 */
@@ -350,8 +357,6 @@ body::-webkit-scrollbar {
 	
 */
  
-/*  animations */
-
 /* title styles */
 .home-title span{
     position: relative;
@@ -486,6 +491,38 @@ body::-webkit-scrollbar {
 
 */
 
+
+/* Abkhazia Page Styles */
+.abkhazia-wrapper {
+	height: 100vh;
+	width: 100%;
+	
+}
+.abkhazia-title{
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.abkhazia-title h1{
+	
+	font-family: var(--averca);
+	font-size: 10vh;
+	padding-bottom: 2rem;
+	text-align: center;
+	color: white;
+}
+.abkhazia-stats{
+	display:flex;
+}
+.Count{
+	text-align:center;
+	margin:auto;
+	display:grid;
+	color:#fff;
+	font-family: var(--averca);
+	font-size: 4vh;
+}
 /* 
 	404
 */

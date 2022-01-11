@@ -7,6 +7,7 @@ import Map from '../../comp/Map/Map'
 import Menu from '../../comp/Menu/Menu'
 import Title from '../../comp/SEO/title'
 import Hrid from '../../comp/Grid-Heroes/grid'
+import Switcher from '../../comp/LangSwitcher/Switcher'
 export default function Home() {
   const text = "Georgian Liberty is a non-profit, non-governmental organization founded in September 2021 by three teenagers. Our goal is to raise awareness about conflict and occupied territories in Georgia, both locally and globally.";
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Map />
       <Inv LinkF="/en/interviews" />
       <Hrid />
+      <Switcher title="Ge" link="/ge"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>
   )

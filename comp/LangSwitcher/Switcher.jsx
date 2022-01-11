@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from "next/link"
 
-const Switcher = () => {
+const Switcher = ({title,link}) => {
         
     return (
-        <div>
-            <Link href="">
-                <a>En</a>
+        <div className="switcher">
+            <Link href={link}>
+                <a>{title}</a>
                 </Link>
 
         </div>

@@ -26,7 +26,7 @@ const En = [
   },
   
   {
-    url: "#4",
+    url: "/en/abkhazia",
     component: <span>Abkhazia</span>,
   },
   {
