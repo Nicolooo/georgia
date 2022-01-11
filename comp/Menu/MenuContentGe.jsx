@@ -28,11 +28,11 @@ const  Ge = [
   },
   
   {
-    url: "#4",
+    url: "/ge/abkhazia",
     component: <span>აბხაზეთი</span>,
   },
   {
-    url: "#5",
+    url: "/en/samachablo",
     component: <span>სამაჩაბლო</span>,
   },
   {

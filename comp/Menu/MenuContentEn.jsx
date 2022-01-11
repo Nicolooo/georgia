@@ -30,7 +30,7 @@ const En = [
     component: <span>Abkhazia</span>,
   },
   {
-    url: "#5",
+    url: "/en/samachablo",
     component: <span>Samachablo</span>,
   },
   {
