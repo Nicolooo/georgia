@@ -8,7 +8,6 @@ export default function MenuButton() {
     <div className={cn("menu-button-wrap", { open })}>
       <button className="menu-button" onClick={() => setOpen(!open)}>
         <span className="menu-burger" />
-        <p className="menu-clickable-txt">GEORGIAN LIBERTY</p>
       </button>
     </div>
   );
