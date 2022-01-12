@@ -14,9 +14,9 @@ const Footer = ({main,copyright}) => {
                     <h3 className="font-size-3">{copyright}</h3>
                 </div>
                 <div className="footer-col">
-                    <Link href="/"><a className="footer-icon"><Facebook /></a></Link>
-                    <Link href="/"><a className="footer-icon"><Instagram /></a></Link>
-                    <Link href="/"><a className="footer-icon"><Youtube /></a></Link>
+                    <Link href="https://www.facebook.com/georgianliberty"><a className="footer-icon"><Facebook /></a></Link>
+                    <Link href="https://www.instagram.com/georgianliberty/"><a className="footer-icon"><Instagram /></a></Link>
+                    <Link href="https://www.youtube.com/channel/UCUvGWCPrEt8djat0s5V4b_w"><a className="footer-icon"><Youtube /></a></Link>
                 </div>
                 <div className="footer-col">
                     <div className="footer-icon" onClick={top}><ArrowUp /></div>
