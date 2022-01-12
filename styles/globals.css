@@ -968,7 +968,7 @@ body::-webkit-scrollbar {
 
 .footer-wrapper {
 	background-color: #000000;
-	background-image: url("https://www.georgianliberty.support/wp-content/uploads/2021/08/ftyrtyrt-scaled.webp");
+	background-image: url("https://www.georgianliberty.support/wp-content/uploads/2021/08/ftyrtyrt-scaled.webp") !important;
 	background-attachment: fixed;
 	padding: 1rem 0 1rem 0;
 	font-family: var(--averca);
@@ -999,7 +999,7 @@ body::-webkit-scrollbar {
 }
 
 .font-size-3 {
-	font-size: 1.4rem !important;
+	font-size: 1.2rem !important;
 }
 
 .footer-wrapper .footer-details .footer-icon {
@@ -1143,6 +1143,9 @@ body::-webkit-scrollbar {
 @media (min-width: 576px) {
 	.container, .container-sm {
 		max-width: 540px;
+	}
+	.font-size-3 {
+		font-size: 1.2rem !important;
 	}
 }
 
@@ -1341,7 +1344,7 @@ body::-webkit-scrollbar {
 	}
 	.switcher {
 		top: 30px;
-		left: 20px;
+		left: 10px;
 		z-index: 11;
 	}
 	.menu-button-wrap.open {
