@@ -340,6 +340,9 @@ body::-webkit-scrollbar {
 	color: red;
 	/*  To do: animation */
 }
+.menu-holder .menu-inside.open .internal-nav-links li a span {
+	transition: .3s;
+}
  .menu-holder .menu-inside .internal-nav-links li:hover img {
 	 opacity: 1;
 	 transform: translateY(-50%) translateX(30px);
@@ -1145,7 +1148,9 @@ body::-webkit-scrollbar {
 .news-container .news-card .news-card-content {
 	width: 100%;
     text-align: center;
-    padding: 5px;
+    padding: 2rem 1rem 2rem 1rem;
+	background-color: #303030;
+	margin: 1rem 1rem 1rem 1rem;
 }
 
 /*
@@ -1305,7 +1310,7 @@ body::-webkit-scrollbar {
 	}
 	.news-container .news-card .news-card-content {
 		flex: 0 0 auto;
-    	width: 33.3333333333%;
+    	width: 30.33333333%;
 	}
 }
 
