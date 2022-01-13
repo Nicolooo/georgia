@@ -197,7 +197,7 @@ body::-webkit-scrollbar {
     font-size: 1.5em;
     font-family: var(--averca);
     text-transform: uppercase;
-    background: #ff0000;
+    background: transparent;
     padding: 3px;
 }
 
@@ -691,6 +691,7 @@ body::-webkit-scrollbar {
 	max-width: 1175px;
     width: 100%;
     height: 100%;
+	border: none;
 }
 .inv-link{
 	color: white;
@@ -1114,7 +1115,9 @@ body::-webkit-scrollbar {
 	transform: scale(1.05);
 }
 .heroes-wrapper .heroes-card .heroes-card-text {
-	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .heroes-card .heroes-card-text h3 {
 	margin-bottom: 13px;
@@ -1127,6 +1130,22 @@ body::-webkit-scrollbar {
 	font-weight: 300;
 	text-transform: uppercase;
 	line-height: 1.7em;
+}
+
+/* Blog Page CSS */
+.news-container .news-header .news-title {
+	padding-top: 72px;
+    font-size: 3em;
+    font-family: var(--averca);
+    color: red;
+    align-self: center;
+    text-align: center;
+}
+
+.news-container .news-card .news-card-content {
+	width: 100%;
+    text-align: center;
+    padding: 5px;
 }
 
 /*
@@ -1216,6 +1235,9 @@ body::-webkit-scrollbar {
 	.heroes-card .heroes-card-text p {
 		font-size: 1.5rem;
 	}
+	.news-container .news-header .news-title {
+		font-size: 6em;
+	}
 }
 
 
@@ -1280,6 +1302,10 @@ body::-webkit-scrollbar {
 	}
 	.abkhazia-title h1{
 		font-size: 10vh;
+	}
+	.news-container .news-card .news-card-content {
+		flex: 0 0 auto;
+    	width: 33.3333333333%;
 	}
 }
 
