@@ -8,7 +8,7 @@ import Switcher from '../../comp/LangSwitcher/Switcher'
 const About = () => {
     return (
         <div className="about-wrapper">
-          <Menu />
+          <Menu LANG="Ge" />
           <Switcher title="EN" link="/en/about"/>
           <Title title="About" />
             <div className="container-fluid">
