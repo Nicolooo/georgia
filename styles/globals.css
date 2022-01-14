@@ -1109,7 +1109,7 @@ body::-webkit-scrollbar {
 	margin: 15px 15px 15px 15px;
 }
 .heroes-wrapper .heroes-card img {
-	height: auto;
+	height: 380px;
 	max-width: 100%;
 	border: none;
 	transition: .5s;
@@ -1118,14 +1118,15 @@ body::-webkit-scrollbar {
 	transform: scale(1.05);
 }
 .heroes-wrapper .heroes-card .heroes-card-text {
-	display: flex;
-    justify-content: center;
-    align-items: center;
+	display: block;
 }
 .heroes-card .heroes-card-text h3 {
 	margin-bottom: 13px;
 	color: #FF0000;
 	font-size: 1.2rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .heroes-card .heroes-card-text p {
 	color: #DADADA;
