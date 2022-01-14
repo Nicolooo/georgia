@@ -3,6 +3,7 @@ import Link from 'next/link'
 import SEO from '../../../comp/SEO/title'
 import Menu from '../../../comp/Menu/Menu'
 function News({ posts }) {
+  console.log(posts)
   return (
     <>
     <SEO title="News" />
@@ -17,7 +18,6 @@ function News({ posts }) {
        <Link href={`/en/news/${post.id}`} key={post.id}>
         <a className="news-card-content">
           <h2>{post.title}</h2>
-          <p>{post.author}</p>
           <p>{post.date}</p>
         </a>
         </Link>
@@ -28,7 +28,7 @@ function News({ posts }) {
   )
 }
 export async function getStaticProps() {
-  const res = await fetch('https://georgian-liberty.herokuapp.com/blog')
+  const res = await fetch('https://georgian-liberty.herokuapp.com/news')
   const posts = await res.json()
   return {
     props: {

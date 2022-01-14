@@ -9,21 +9,20 @@ const Modal = ({setIsOpen}) => {
       <div className="modal-darkBG" onClick={() => setIsOpen(false)} />
         <div className="modal-centered">
           <div className="modal">          
-      <Swiper spaceBetween={50} slidesPerView={1} height="100%" className="mySwiper">
+    <Swiper spaceBetween={50} slidesPerView={1} height="100%" className="mySwiper">
       {Slides.map((slide) => (
-                 <SwiperSlide key={slide.id} >
-                 <div className="modal-left">
-                         <h2>{slide.name}</h2>
-                         <p>gandoi</p>
-                         
-                           </div>
-                         <div className="modal-right">
-                           <h2>{}</h2>
-                           </div>
-                     <div className="modalActions">
-                       <div className="actionsContainer">      
+        <SwiperSlide key={slide.id} >
+          <div className="modal-left">
+            <h2>{slide.name}</h2>
+              <p>{slide.text}</p>
+                </div>
+              <div className="modal-right">
+                  <h2>{slide.id}</h2>
+                    </div>
+              <div className="modalActions">
+                  <div className="actionsContainer">      
                        </div>
-                     </div>
+                  </div>
                    <button className="deleteBtn" onClick={()=>setIsOpen(false)}>
                            Close
                    </button>   
