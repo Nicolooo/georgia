@@ -1152,11 +1152,104 @@ body::-webkit-scrollbar {
 	background-color: #303030;
 	margin: 1rem 1rem 1rem 1rem;
 }
+/* Slider Styles */
+.modal-darkBG {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  .modal-centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .modal {
+    background: white;
+    color: white;
+	z-index: 1;
+    height: 70vh;
+    width: 70vw;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  }
+  .modalHeader {
+    height: 50px;
+    background: white;
+    overflow: hidden;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  .modalContent {
+    padding: 10px;
+    font-size: 14px;
+    color: #2c3e50;
+    text-align: center;
+  }
+  .modalActions {
+    position: absolute;
+    bottom: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .actionsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .modal-left {
+	  height:100%;
+	  width: 50%;
+	  float: left;
+	  background-color:midnightblue;
+  }
+  .modal-right {
+	  height: 100%;
+	  width:50%;
+	  float: right;
+	  background-color: grey;
+	  
+  }
+  .modal-darkBG{
+	  background-color: rgba(0, 0, 0, 0.85);
+  }
+  /* button.deleteBtn {
+    background-color: black;
+    width: 60px;
+} */
 
+.swiper {
+	width: 100%;
+	height: 100%;
+	background-color: #191919;
+	color: white;
+  }
+.swiper-slide{
+		text-align: center;
+		font-size: 18px;
+		background: #191919;
+		color: #fff;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+}
 /*
 	  Responsive
 */
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 	.container, .container-sm {

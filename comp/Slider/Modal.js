@@ -1,29 +1,38 @@
 import React from 'react'
-import styles from "../../styles/slider.module.css";
+import { Swiper,SwiperSlide } from "swiper/react";
+import "swiper/css";
+import SlideContent from '../../comp/Slider/Swiper';
 const Modal = ({setIsOpen}) => {
+  const json = {"name":"John", "age":30, "car":null}
     return (
     <>
-        <div className={styles.darkBG} onClick={() => setIsOpen(false)} />
-        <div className={styles.centered}>
-          <div className={styles.modal}>
-            <div className={styles.modalHeader}>
-              <h5 className={styles.heading}>Dialog</h5>
-            </div>
-            <button className={styles.closeBtn} onClick={() => setIsOpen(false)}>
-                close
-            </button>
-            <div className={styles.modalContent}>
-              MY PP IS BIG(L.K)
-            </div>
-            <div className={styles.modalActions}>
-              <div className={styles.actionsContainer}>
-                <button className={styles.deleteBtn} onClick={() => setIsOpen(false)}>
-                  Close
-                </button>                
-              </div>
-            </div>
+      <div className="modal-darkBG" onClick={() => setIsOpen(false)} />
+        <div className="modal-centered">
+          <div className="modal">          
+      <Swiper spaceBetween={50} slidesPerView={1} height="100%" className="mySwiper">
+      {Object.entries(json).map(([key, val], i) => (
+         <SwiperSlide key={i}>
+         <div className="modal-left">
+                 <h2>{val}</h2>
+                 <p>gandoi</p>
+                 
+                   </div>
+                 <div className="modal-right">
+                   <h2>{val}</h2>
+                   </div>
+             <div className="modalActions">
+               <div className="actionsContainer">      
+               </div>
+             </div>
+           <button className="deleteBtn" onClick={()=>setIsOpen(false)}>
+                   Close
+           </button>   
+         </SwiperSlide>
+        ))}
+        </Swiper>
           </div>
         </div>
+     
       </>
     )
 }

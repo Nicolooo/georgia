@@ -5,8 +5,12 @@ import Staff from '../../comp/About-page/Staff'
 import Title from '../../comp/SEO/title'
 import Footer from '../../comp/Footer/Footer'
 import Switcher from '../../comp/LangSwitcher/Switcher'
+import Title from '../../comp/SEO/title'
 const About = () => {
     return (
+        <>
+        <Title title="Georgian Liberty | About Us"
+         meta="Find out more about our movement and share your thoughts about our initiative of taking action against illegal occupation." />
         <div className="about-wrapper">
           <Menu />
           <Switcher title="Ge" link="/ge/about"/>
@@ -20,6 +24,7 @@ const About = () => {
                 <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
             </div>
         </div>
+        </>
     )
 }
 export default About
