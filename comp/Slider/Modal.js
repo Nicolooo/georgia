@@ -13,19 +13,13 @@ const Modal = ({setIsOpen}) => {
                 close
             </button>
             <div className={styles.modalContent}>
-              Are you sure you want to delete the item?
+              MY PP IS BIG(L.K)
             </div>
             <div className={styles.modalActions}>
               <div className={styles.actionsContainer}>
                 <button className={styles.deleteBtn} onClick={() => setIsOpen(false)}>
-                  Delete
-                </button>
-                <button
-                  className={styles.cancelBtn}
-                  onClick={() => setIsOpen(false)}
-                >
-                  Cancel
-                </button>
+                  Close
+                </button>                
               </div>
             </div>
           </div>

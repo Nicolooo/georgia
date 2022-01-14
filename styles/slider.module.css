@@ -124,3 +124,10 @@
     transform: none;
     background: whitesmoke;
   }
+  .modal{
+
+    z-index: 1;
+    border-radius: 0px;
+    height: 100vh;
+    width: 100vw;
+  }
