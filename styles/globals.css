@@ -1137,21 +1137,30 @@ body::-webkit-scrollbar {
 }
 
 /* Blog Page CSS */
-.news-container .news-header .news-title {
+.blog-container {
+	font-family: var(--averca);
+}
+.blog-container .blog-header .blog-title {
 	padding-top: 72px;
     font-size: 3em;
-    font-family: var(--averca);
     color: red;
     align-self: center;
     text-align: center;
 }
-
-.news-container .news-card .news-card-content {
+.blog-container .blog-card .blog-card-content {
 	width: 100%;
     text-align: center;
     padding: 2rem 1rem 2rem 1rem;
 	background-color: #303030;
 	margin: 1rem 1rem 1rem 1rem;
+	color: #fff;
+}
+.blog-container .blog-card .blog-card-content h2 {
+	font-size: 1.5rem;
+	padding: 0 0 1rem 0;
+}
+.blog-container .blog-card .blog-card-content p {
+	font-size: 1rem;
 }
 /* Slider Styles */
 .modal-darkBG {
@@ -1334,7 +1343,7 @@ body::-webkit-scrollbar {
 	.heroes-card .heroes-card-text p {
 		font-size: 1.5rem;
 	}
-	.news-container .news-header .news-title {
+	.blog-container .blog-header .blog-title {
 		font-size: 6em;
 	}
 }
@@ -1402,7 +1411,7 @@ body::-webkit-scrollbar {
 	.abkhazia-title h1{
 		font-size: 10vh;
 	}
-	.news-container .news-card .news-card-content {
+	.blog-container .blog-card .blog-card-content {
 		flex: 0 0 auto;
     	width: 30.33333333%;
 	}

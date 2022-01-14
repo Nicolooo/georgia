@@ -8,7 +8,7 @@ function News({ posts }) {
     <>
     <SEO title="News" />
     <Menu LANG="en" />
-    <div className="news-container">
+    <div className="news-container container">
       <div className="news-header">
         <h1 className="news-title">News</h1>
       </div>

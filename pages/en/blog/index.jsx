@@ -5,17 +5,17 @@ import Menu from '../../../comp/Menu/Menu'
 function News({ posts }) {
   return (
     <>
-    <SEO title="News" />
+    <SEO title="Blog" />
     <Menu LANG="en" />
-    <div className="news-container container">
-      <div className="news-header">
-        <h1 className="news-title">შლოგი</h1>
+    <div className="blog-container container">
+      <div className="blog-header">
+        <h1 className="blog-title">შლოგი</h1>
       </div>
-      <div className="news-card row">
+      <div className="blog-card row">
       {posts.map((post) => (
 
-       <Link href={`/en/news/${post.id}`} key={post.id}>
-        <a className="news-card-content">
+       <Link href={`/en/blog/${post.id}`} key={post.id}>
+        <a className="blog-card-content">
           <h2>{post.title}</h2>
           <p>{post.author}</p>
           <p>{post.date}</p>

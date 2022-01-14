@@ -7,9 +7,9 @@ function Post({ post }) {
       <SEO title={post.title} />
       <Menu LANG="en"/>
       <div className="post-page">
-          <div className="news-single">
+          <div className="blog-single">
               <h2>{post.title}</h2>
-              <div className="news-single-info">
+              <div className="blog-single-info">
               <h3>Author:{post.author}</h3>
               <h3>Date:{post.date}</h3>
               <h3>Reading time:{post.rtime}(mins)</h3>
