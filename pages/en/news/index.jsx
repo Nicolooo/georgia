@@ -11,8 +11,13 @@ function News({ posts }) {
     <div className="news-container container">
       <div className="news-header">
         <h1 className="news-title">News</h1>
+        <div className="news-latest">
+
+        </div>
       </div>
       <div className="news-card">
+        <h3 className="news-other">Other News</h3>
+        <div className="row">
       {posts.map((post) => (
 
        <Link href={`/en/news/${post.id}`} key={post.id}>
@@ -22,8 +27,9 @@ function News({ posts }) {
         </a>
         </Link>
       ))}
+        </div>
       </div>
-      </div>
+    </div>
       </>
   )
 }
