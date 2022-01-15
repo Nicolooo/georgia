@@ -740,7 +740,7 @@ body::-webkit-scrollbar {
 }
 /*  Contact */
 .contact-headline{
-	padding-top: 72px;
+	padding-top: calc(0% + 55px);
 	font-size: 3em;
 	font-family: var(--averca);
 	color: red;
@@ -930,7 +930,7 @@ body::-webkit-scrollbar {
   }
 /* Programs */
 .programs-headline{
-	padding-top: calc(0% + 20px);
+	padding-top: calc(0% + 55px);
 	text-align: center;
 	color: red;
 	font-family: var(--averca);
@@ -1502,18 +1502,6 @@ body::-webkit-scrollbar {
 	.switcher {
 		top: 25px;
 		left: 3rem;
-	}
-	.news-container .news-header .news-title {
-		padding-top: calc(0% + 20px);
-	}
-	.blog-container .blog-header .blog-title {
-		padding-top: calc(0% + 20px);
-	}
-	.abt-title {
-		padding-top: calc(0% + 20px);
-	}
-	.programs-headline {
-		padding-top: calc(0% + 20px);
 	}
 }
 

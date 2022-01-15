@@ -14,7 +14,7 @@ const contact = () => {
         <Switcher title="Ge" link="/ge/contact"/>
         <div className="container-fluid">
             <div className="container">
-                <h3 className="contact-headline" data-aos="fade-up">Contact Us</h3>
+                <h3 className="contact-headline mb-5" data-aos="fade-up">Contact Us</h3>
             </div>
             <div className="container row">
                 <Card title="Share" body="Tell us about your experience, thoughts or recommendations."/>
