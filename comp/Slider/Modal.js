@@ -1,34 +1,28 @@
-import React from 'react'
-import { Swiper,SwiperSlide } from "swiper/react";
-import "swiper/css";
-import Slides from '../../data/Slides';
+import React,{useState} from 'react'
+import { ArrowLeft, ArrowRight} from "react-feather";
+import Arr from '../../data/s'
 
 const Modal = ({setIsOpen}) => {
+    const [value,setValue] = useState(0);
+    
+
     return (
     <>
       <div className="modal-darkBG" onClick={() => setIsOpen(false)} />
         <div className="modal-centered">
-          <div className="modal">          
-    <Swiper spaceBetween={50} slidesPerView={1} height="100%" className="mySwiper">
-      {Slides.map((slide) => (
-        <SwiperSlide key={slide.id} >
-          <div className="modal-left">
-            <h2>{slide.name}</h2>
-              <p>{slide.text}</p>
-                </div>
-              <div className="modal-right">
-                  <h2>{slide.id}</h2>
-                    </div>
-              <div className="modalActions">
-                  <div className="actionsContainer">      
-                       </div>
-                  </div>
-                   <button className="deleteBtn" onClick={()=>setIsOpen(false)}>
-                           Close
-                   </button>   
-                 </SwiperSlide>
-        ))}
-        </Swiper>
+          <div className="modal" style={{backgroundImage: `url(${Arr[value].image})`}}>          
+          <div className='slider-container'>
+            {/*  Ukan  */}
+            {/*  Main heading */}
+            <h2 className="slider-title">{Arr[value].title}</h2>
+            {/*  Sub heading */} 
+            <h3>{Arr[value].text}</h3>
+            {/* short desc */}
+            <p>{Arr[value].desc}</p>       
+           {/* link call to action  */}
+            </div>
+            <button type="button" onClick={() => value === 0 ? setValue(5) : setValue(value - 1)}><ArrowLeft /></button>
+            <button type="button" onClick={() => value === 5 ? setValue(0) : setValue(value + 1)}><ArrowRight /></button>
           </div>
         </div>
      
