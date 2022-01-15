@@ -108,7 +108,12 @@ body::-webkit-scrollbar {
 	align-self: center;
 	text-align: center;
 }
-
+.mb-5 {
+	margin-bottom: 5rem;
+}
+.mt-5 {
+	margin-top: 5rem;
+}
 /* NEWS */
 .news-title{
 	font-size: 2.5rem;
@@ -517,6 +522,43 @@ body::-webkit-scrollbar {
 	End About Us (Short)
 */
 
+/* Count Style */
+.Count {
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+	background-color: #191919;
+	margin: 15px 0 15px 0;
+	color: #fff;
+    font-family: var(--averca);
+    font-size: 2rem;
+}
+.Count h4{
+	font-size: 3rem;
+}
+.Count h3{
+	font-family: var(--averca);
+	color:red;
+}
+
+/* Samachablo Page Styles */
+.samachablo-wrapper {
+	color: white;
+	font-family: var(--averca);
+}
+.samachablo-wrapper .samachablo-title {
+	padding-top: calc(0% + 55px);
+    width: 100%;
+    font-family: var(--averca);
+    font-size: 6.5vh;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: red;
+}
+.samachablo-wrapper .samachablo-stats {
+
+}
+
 /* Abkhazia Page Styles */
 .abkhazia-wrapper {
 	width: 100%;
@@ -536,14 +578,8 @@ body::-webkit-scrollbar {
 .abkhazia-title h4{
 	color:red;
 }
-.Count h4{
-	font-size: 3rem;
-}
-.Count h3{
-	font-family: var(--averca);
-	color:red;
-}
 .abkhazia-title h1{
+	padding-top: calc(0% + 55px);
 	width: 100%;
 	font-family: var(--averca);
 	font-size: 6.5vh;
@@ -551,43 +587,10 @@ body::-webkit-scrollbar {
 	text-align: center;
 	color: red;
 }
-.abkhazia-stats .Count {
-	width: 100%;
-	text-align: center;
-	padding: 50px;
-	background-color: #191919;
-	margin: 15px 0 15px 0;
-	color: #fff;
-    font-family: var(--averca);
-    font-size: 2rem;
-}
 .abkhazia-col p{
 	color: white;
 	font-family: var(--averca);
 	font-size: 1.5em;
-}
-/* Samachablo page styles */
-
-.samachablo-wrapper {
-	height: 100vh;
-	width: 100%;
-	
-}
-.samachablo-title{
-	height: 50vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.samachablo-title h1{
-	font-family: var(--averca);
-	font-size: 10vh;
-	padding-bottom: 2rem;
-	text-align: center;
-	color: red;
-}
-.samachablo-stats{
-	display:flex;
 }
 /* 
 	404
@@ -622,7 +625,7 @@ body::-webkit-scrollbar {
 .abt-title{
 	color: red;
 	font-family: var(--averca);
-	padding-top: 72px;
+	padding-top: calc(0% + 55px);
 	padding-bottom: 2rem;
     font-size: 3em;
 	align-self: center;
@@ -927,11 +930,11 @@ body::-webkit-scrollbar {
   }
 /* Programs */
 .programs-headline{
-	text-align:center;
+	padding-top: calc(0% + 20px);
+	text-align: center;
 	color: red;
 	font-family: var(--averca);
 	font-size: 3em;
-	padding-top: 72px;
     padding-bottom: 2rem;
 }
 /*  programs Grid  */
@@ -1140,7 +1143,7 @@ body::-webkit-scrollbar {
 	font-family: var(--averca);
 }
 .blog-container .blog-header .blog-title {
-	padding-top: 72px;
+	padding-top: calc(0% + 55px);
     font-size: 3em;
     color: red;
     align-self: center;
@@ -1442,19 +1445,19 @@ body::-webkit-scrollbar {
     	outline: none;
     	border: none;
 	}
+	.Count {
+		flex: 0 0 auto;
+		width: 31%;
+		margin: 15px 15px 15px 15px;
+	}
+	.Count h4 {
+		font-size: 3.5rem;
+	}
 	.abkhazia-wrapper .abkhazia-col {
 		flex: 0 0 auto;
 		width: 50%;
 		text-align: center;
 		padding: 1rem;
-	}
-	.abkhazia-stats .Count {
-		flex: 0 0 auto;
-		width: 31%;
-		margin: 15px 15px 15px 15px;
-	}
-	.abkhazia-stats .Count h4 {
-		font-size: 3.5rem;
 	}
 	.abkhazia-title h1{
 		font-size: 10vh;
@@ -1500,7 +1503,16 @@ body::-webkit-scrollbar {
 		top: 25px;
 		left: 3rem;
 	}
-	.news-container .news-header h1.news-title {
+	.news-container .news-header .news-title {
+		padding-top: calc(0% + 20px);
+	}
+	.blog-container .blog-header .blog-title {
+		padding-top: calc(0% + 20px);
+	}
+	.abt-title {
+		padding-top: calc(0% + 20px);
+	}
+	.programs-headline {
 		padding-top: calc(0% + 20px);
 	}
 }

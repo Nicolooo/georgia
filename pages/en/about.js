@@ -5,7 +5,7 @@ import Staff from '../../comp/About-page/Staff'
 import Title from '../../comp/SEO/title'
 import Footer from '../../comp/Footer/Footer'
 import Switcher from '../../comp/LangSwitcher/Switcher'
-import Title from '../../comp/SEO/title'
+// import Title from '../../comp/SEO/title'
 const About = () => {
     return (
         <>
@@ -16,8 +16,8 @@ const About = () => {
           <Switcher title="Ge" link="/ge/about"/>
           <Title title="About" />
             <div className="container-fluid">
-                <div className="container">
-                    <h1 className="abt-title" data-aos="fade-down">About Us</h1>
+                <div className="container mb-5">
+                    <h1 className="abt-title mb-5" data-aos="fade-down">About Us</h1>
                     <p className="abt-text" data-aos="fade-down">{Abt[0]}<span className="abt-red">{Abt[1]}</span></p>
                 </div>
                 <Staff />

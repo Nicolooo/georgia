@@ -31,13 +31,13 @@ const samachablo = () => {
         <>
             <Menu />
             <Switcher title="GE" link="/ge/samachablo"/>
-        <div className="samachablo-wrapper">
-        <div className="samachablo-title"> 
-        <h1>SAMACHABLO</h1>
-        </div>
+        <div className="samachablo-wrapper container">
+            <div className="samachablo-title mb-5"> 
+                <h1>SAMACHABLO</h1>
+            </div>
             
-            <div className="samachablo-stats">
-            {data.counts.map(count => <Count key={count.id} data={count}/>)}
+            <div className="samachablo-stats row">
+                {data.counts.map(count => <Count key={count.id} data={count}/>)}
             </div>
             <div className="samachablo-content">
                 

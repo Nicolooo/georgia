@@ -8,7 +8,7 @@ function News({ posts }) {
     <SEO title="Blog" />
     <Menu LANG="en" />
     <div className="blog-container container">
-      <div className="blog-header">
+      <div className="blog-header mb-5">
         <h1 className="blog-title">შლოგი</h1>
       </div>
       <div className="blog-card row">
