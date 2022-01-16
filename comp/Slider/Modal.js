@@ -11,18 +11,24 @@ const Modal = ({setIsOpen}) => {
       <div className="modal-darkBG" onClick={() => setIsOpen(false)} />
         <div className="modal-centered">
           <div className="modal" style={{backgroundImage: `url(${Arr[value].image})`}}>          
-          <div className='slider-container'>
-            {/*  Ukan  */}
-            {/*  Main heading */}
-            <h2 className="slider-title">{Arr[value].title}</h2>
-            {/*  Sub heading */} 
-            <h3>{Arr[value].text}</h3>
-            {/* short desc */}
-            <p>{Arr[value].desc}</p>       
-           {/* link call to action  */}
+            <div className='slider-container'>
+              {/*  Ukan  */}
+              {/*  Main heading */}
+              <div className="modal-content-left">
+                <h2 className="slider-title">{Arr[value].title}</h2>
+                {/*  Sub heading */} 
+                <h3>{Arr[value].text}</h3>
+                {/* short desc */}
+              </div>
+              <div className="modal-content-right">
+                <p>{Arr[value].desc}</p>
+              </div> 
+              {/* link call to action  */}
             </div>
-            <button type="button" onClick={() => value === 0 ? setValue(5) : setValue(value - 1)}><ArrowLeft /></button>
-            <button type="button" onClick={() => value === 5 ? setValue(0) : setValue(value + 1)}><ArrowRight /></button>
+            <div className="slider-arrows">
+              <button className="slider-button" type="button" onClick={() => value === 0 ? setValue(5) : setValue(value - 1)}><ArrowLeft /></button>
+              <button className="slider-button" type="button" onClick={() => value === 5 ? setValue(0) : setValue(value + 1)}><ArrowRight /></button>
+            </div>
           </div>
         </div>
      
