@@ -20,4 +20,4 @@ const Storage = {
     } 
 }
 
-export default Storage   
+export default Storage
