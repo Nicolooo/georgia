@@ -45,32 +45,32 @@ const abkhazia = () => {
             </div>
             <div className='row'>
                 <div className="abkhazia-col">
+                    <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
+                </div>
+                <div className="abkhazia-col">
                     <p>
                         {Storage.Abkhazia.first}
                     </p>
                 </div>
+            </div>
+            <div className='row'>
                 <div className="abkhazia-col">
                     <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
                 </div>
-            </div>
-            <div className='row'>
                 <div className="abkhazia-col">
                     <p>
                         {Storage.Abkhazia.second}
                     </p>
                 </div>
+            </div>
+            <div className='row'>
                 <div className="abkhazia-col">
                     <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
                 </div>
-            </div>
-            <div className='row'>
                 <div className="abkhazia-col">
                     <p>
                         {Storage.Abkhazia.third}
                     </p>
-                </div>
-                <div className="abkhazia-col">
-                        <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
                 </div>
             </div>
             <Share url="/en/abkhazia" />

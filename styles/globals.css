@@ -1165,6 +1165,27 @@ body::-webkit-scrollbar {
 	font-size: 1rem;
 }
 
+/* Blog Single CSS */
+.post-page .blog-single {
+	font-family: var(--averca);
+	color: #dadada;
+}
+.post-page .blog-single h2 {
+	font-size: 1.8rem;
+	color: #ff0000;
+	text-align: center;
+	margin-top: 3rem;
+}
+.post-page .blog-single .blog-single-info {
+	font-size: 1.2rem;
+	padding-top: 1rem;
+}
+.post-page .blog-single .post-text {
+	font-size: 1.1rem;
+    position: relative;
+    top: 50px;
+}
+
 /* News Page CSS */
 .news-container {
 	font-family: var(--averca);
@@ -1389,6 +1410,14 @@ body::-webkit-scrollbar {
 	}
 	.modal {
 		width: 70vw;
+	}
+	.post-page .blog-single h2 {
+		font-size: 3rem;
+		text-align: left;
+		margin-top: 0;
+	}
+	.post-page .blog-single .blog-single-info {
+		font-size: 1.4rem;
 	}
 }
 
