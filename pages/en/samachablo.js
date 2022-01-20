@@ -32,42 +32,42 @@ const data = {
 const samachablo = () => {
     return (
         <>
-        <Title title="Abkhazia" />
+        <Title title="Samachablo" />
             <Menu />
             <Switcher title="Ge" link="/ge/abkhazia"/>
-        <div className="abkhazia-wrapper container">
-            <div className="abkhazia-title row"> 
+        <div className="samachablo-wrapper container">
+            <div className="samachablo-title row"> 
                 <h1 className='page-header'>Samachablo</h1>
-                <p className="abkhazia-shorttext">At the end of 80-ies of the 20th century in Georgia on the background of sharp activation of national movement for independence, Kremlin (Moscow) interferes by mobilizing and manipulating with the separatists, anti-Georgian nationalists in Abkhazia thus to maintain powerful influence upon Georgia. At this time the following actions are carried out which are founding aggressive separatism in Abkhazia.</p>
+                <p className="samachablo-shorttext">At the end of 80-ies of the 20th century in Georgia on the background of sharp activation of national movement for independence, Kremlin (Moscow) interferes by mobilizing and manipulating with the separatists, anti-Georgian nationalists in Abkhazia thus to maintain powerful influence upon Georgia. At this time the following actions are carried out which are founding aggressive separatism in Abkhazia.</p>
             </div>
-            <div className="abkhazia-stats row">
+            <div className="samachablo-stats row">
                 {data.counts.map(count => <Count key={count.id} data={count}/>)}
             </div>
             <div className='row'>
-                <div className="abkhazia-col">
+                <div className="samachablo-col">
                     <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
                 </div>
-                <div className="abkhazia-col">
+                <div className="samachablo-col">
                     <p>
                         {Storage.Samachablo.first}
                     </p>
                 </div>
             </div>
             <div className='row'>
-                <div className="abkhazia-col">
+                <div className="samachablo-col">
                     <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
                 </div>
-                <div className="abkhazia-col">
+                <div className="samachablo-col">
                     <p>
                         {Storage.Samachablo.second}
                     </p>
                 </div>
             </div>
             <div className='row'>
-                <div className="abkhazia-col">
+                <div className="samachablo-col">
                     <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
                 </div>
-                <div className="abkhazia-col">
+                <div className="samachablo-col">
                     <p>
                         {Storage.Samachablo.third}
                     </p>
