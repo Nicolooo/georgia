@@ -1128,22 +1128,23 @@ body::-webkit-scrollbar {
 	transform: scale(1.05);
 }
 .heroes-wrapper .heroes-card .heroes-card-text {
-	display: block;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(629px - 380px);
 }
 .heroes-card .heroes-card-text h3 {
 	margin-bottom: 13px;
 	color: #FF0000;
 	font-size: 1.2rem;
-	overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 .heroes-card .heroes-card-text p {
 	color: #DADADA;
 	font-size: 1rem;
 	font-weight: 300;
 	text-transform: uppercase;
-	line-height: 1.7em;
+	line-height: 1.5em;
 }
 
 /* Blog Page CSS */
@@ -1320,7 +1321,6 @@ body::-webkit-scrollbar {
     position: relative;
     top: 10%;
 }
-
 /*
 	  Responsive
 */
@@ -1333,7 +1333,6 @@ body::-webkit-scrollbar {
 		font-size: 1.2rem !important;
 	}
 }
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.container, .container-md, .container-sm {
@@ -1428,8 +1427,6 @@ body::-webkit-scrollbar {
 		font-size: 1.4rem;
 	}
 }
-
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	.container, .container-lg, .container-md, .container-sm {
@@ -1526,21 +1523,18 @@ body::-webkit-scrollbar {
 		display: block;
 	}
 }
-
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 	.container, .container-lg, .container-md, .container-sm, .container-xl {
 		max-width: 1140px;
 	}
 }
-
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
 		max-width: 1320px;
 	}
 }
-
 /* Only for Phones */
 @media (max-width: 540px) {
 	.menu-holder .menu-inside .menu-nav-container {
@@ -1570,9 +1564,11 @@ body::-webkit-scrollbar {
 	.modal-centered .slider-container .modal-content-left h3 {
 		font-size: 1.5rem;
 	}
+	.heroes-wrapper .heroes-card img {
+		height: 260px;
+	}
 }
-
- @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.menu-inside .menu-nav-container img {
 		 display: none !important;
 	}
