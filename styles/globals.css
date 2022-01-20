@@ -1476,10 +1476,11 @@ body::-webkit-scrollbar {
 		font-size: 3.5rem;
 	}
 	.abkhazia-wrapper .abkhazia-col {
-		flex: 0 0 auto;
-		width: 50%;
-		text-align: center;
+		text-align: justify;
 		padding: 1rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.abkhazia-title h1{
 		font-size: 10vh;
