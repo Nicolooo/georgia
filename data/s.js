@@ -37,7 +37,7 @@ const Arr = [
     {
       id: 6,
       title:  "2008",
-      text: "yle",
+      text: "oe",
       image: "https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/2008.webp",
       desc: "in the early 1990s, the Russian Federation used the strategy prepared during the Soviet regime. The main methodology of which was to inspire and stir up ethnic strife in the autonomies established by the Soviet government in Georgia, as well as to form a local separatist elite."
     },
