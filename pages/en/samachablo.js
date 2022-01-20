@@ -37,7 +37,7 @@ const samachablo = () => {
             <Switcher title="Ge" link="/ge/abkhazia"/>
         <div className="abkhazia-wrapper container">
             <div className="abkhazia-title row"> 
-                <h1 className='page-header'>ABKHAZIA</h1>
+                <h1 className='page-header'>Samachablo</h1>
                 <p className="abkhazia-shorttext">At the end of 80-ies of the 20th century in Georgia on the background of sharp activation of national movement for independence, Kremlin (Moscow) interferes by mobilizing and manipulating with the separatists, anti-Georgian nationalists in Abkhazia thus to maintain powerful influence upon Georgia. At this time the following actions are carried out which are founding aggressive separatism in Abkhazia.</p>
             </div>
             <div className="abkhazia-stats row">
@@ -49,7 +49,7 @@ const samachablo = () => {
                 </div>
                 <div className="abkhazia-col">
                     <p>
-                        {Storage.Abkhazia.first}
+                        {Storage.Samachablo.first}
                     </p>
                 </div>
             </div>
@@ -59,7 +59,7 @@ const samachablo = () => {
                 </div>
                 <div className="abkhazia-col">
                     <p>
-                        {Storage.Abkhazia.second}
+                        {Storage.Samachablo.second}
                     </p>
                 </div>
             </div>
@@ -69,7 +69,7 @@ const samachablo = () => {
                 </div>
                 <div className="abkhazia-col">
                     <p>
-                        {Storage.Abkhazia.third}
+                        {Storage.Samachablo.third}
                     </p>
                 </div>
             </div>
