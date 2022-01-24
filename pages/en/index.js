@@ -10,6 +10,7 @@ import Title from '../../comp/SEO/title'
 import Hrid from '../../comp/Grid-Heroes/grid'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Modal from '../../comp/Slider/Modal'
+import Section from "../../comp/NewsHome/Section";
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   const text = "Georgian Liberty is a non-profit, non-governmental organization founded in September 2021 by three teenagers. Our goal is to raise awareness about conflict and occupied territories in Georgia, both locally and globally.";
@@ -28,6 +29,7 @@ export default function Home() {
       {isOpen && <Modal setIsOpen={setIsOpen} />}
       <Inv LinkF="/en/interviews" />
       <Hrid />
+      <Section ge="/en/interviews"/>
       <Switcher title="Ge" link="/ge"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>

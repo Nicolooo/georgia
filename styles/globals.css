@@ -1104,6 +1104,10 @@ body::-webkit-scrollbar {
 	padding-top: 2.5rem;
 }
 .heroes-wrapper .heroes-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	width: 100%;
 	text-align: center;
 	padding: 50px;
@@ -1111,14 +1115,14 @@ body::-webkit-scrollbar {
 	margin: 15px 15px 15px 15px;
 }
 .heroes-wrapper .heroes-card img {
-	height: 380px;
+	height: 400px;
 	max-width: 100%;
 	border: none;
 	transition: .5s;
 }
-.heroes-wrapper .heroes-card img:hover {
+/* .heroes-wrapper .heroes-card img:hover {
 	transform: scale(1.05);
-}
+} */
 .heroes-wrapper .heroes-card .heroes-card-text {
 	display: block;
 }
@@ -1189,6 +1193,21 @@ body::-webkit-scrollbar {
 /* News Page CSS */
 .news-container {
 	font-family: var(--averca);
+}
+.news-latest p{
+	font-size: 1.2rem;
+	color: #fff;
+	text-align: center;
+	padding: 2rem 0 2rem 19rem;
+	width: 50em;
+	text-align: center;
+	background-color: #303030;
+}
+.news-latest-title{
+	font-size: 3em;
+	color: #ff0000;
+	text-align: center;
+	margin-top: 3rem;
 }
 .news-container .news-header .news-title {
 	padding-top: calc(0% + 55px);
@@ -1312,9 +1331,50 @@ body::-webkit-scrollbar {
     position: relative;
     top: 10%;
 }
-
+.news-home-wrapper{
+	background-color: #1E1E1E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+.news-home-title h3{
+	font-size: 5rem;
+	color: #ff0000;
+	font-family: var(--averca);
+}
+.news-home-title{
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.news-home-content{
+	margin-top: 3em;
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.news-home-card{
+	height: 12vh;
+	width: 20vw;
+	background-color: #303030;
+	color: white;
+	border-radius: 10px;
+	margin: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: var(--averca);
+}
+.news-home-card h3 {
+	font-size: 2rem;
+}
 /*
-	  Responsive
+		Responsive
 */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {

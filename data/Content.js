@@ -10,18 +10,18 @@ const Storage = {
         "third": "Currently, the Tskhinvali region / South Ossetia is completely isolated from the outside world. Barbed wire, fences, and other barriers are being erected by the Russian military, including buildings directly built on the land belonging to the population. Such a process significantly hinders and in some cases makes it impossible to move freely, to receive first aid, to receive education in the native language, to work on agricultural plots, to have access to drinking and irrigation systems, to enter cemeteries, and to enjoy other civil and economic rights, and the Cases of arrest on charges of “illegal border crossing” are very common. All of the above exacerbates the dire humanitarian situation for both Georgian and Ossetian populations living on both sides of the dividing line. SUPPORT US"
     },
     "photos": {
-        "1801": "https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1918.webp",
-        "1918": "https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1918.webp",
-        "1921": "https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1921.webp",
-        "1989": "https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1989-1.webp",
-        "1992": "https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1992.webp",
-        "2008": "https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/2008.webp",
-        "Gant": "https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/Giorgi_Antsukhelidze.webp",
-        "Ggabiskria": "https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/Guram_gabiskiria.webp",
-        "oniani":  "https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/N1uH9PfNYoZp7C5kkdfuGHejTQJbxKcSegHNfuNFv2Q556qb81-1x-y4FrG0bW3vBaXRhH2RXACHm3iZPa0JPIqA88Kwlg0qnXiJ.webp",
-        "shartava":"https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/shartava.webp",
-        "iarauli":"https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/iarajuli.webp",
-        "adamia": "https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/E18392E18394E1839CE1839D_E18390E18393E18390E1839BE18398E18390.webp",
+        "1801": "/1801.webp",
+        "1918": "/1918.webp",
+        "1921": "/1921.webp",
+        "1989": "/1989.webp",
+        "1992": "/1992.webp",
+        "2008": "/2008.webp",
+        "Gant": "/Giorgi_Antsukhelidze.webp",
+        "Ggabiskria": "/Guram_gabiskiria.webp",
+        "oniani":  "/oniani.webp",
+        "shartava":"/shartava.webp",
+        "iarauli":"/iarajuli.webp",
+        "adamia": "/tari.webp",
     } 
 }
 
