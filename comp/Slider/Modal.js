@@ -1,4 +1,5 @@
 import React from "react"
+import Image from "next/dist/client/image"
 class Slide extends React.Component {
     constructor(props) {
       super(props)
@@ -49,17 +50,18 @@ class Slide extends React.Component {
           onMouseLeave={this.handleMouseLeave}
         >
           <div className="slide__image-wrapper">
-            <img 
+            <Image 
               className="slide__image"
               alt={headline}
               src={src}
               onLoad={this.imageLoaded}
+              layout="fill"
             />
           </div>
           
           <article className="slide__content">
             <h2 className="slide__headline">{headline}</h2>
-            <button className="slide__action btn">{button}</button>
+            <button className="slide__action Slider-btn">{button}</button>
           </article>
         </li>
       )
@@ -74,7 +76,7 @@ class Slide extends React.Component {
   const SliderControl = ({ type, title, handleClick }) => {
     return (
       <button className={`btn btn--${type}`} title={title} onClick={handleClick}>
-        <svg className="icon" viewBox="0 0 24 24">
+        <svg className="slider-icon" viewBox="0 0 24 24">
           <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
         </svg>
       </button>
@@ -136,7 +138,7 @@ class Slide extends React.Component {
           <ul className="slider__wrapper" style={wrapperTransform}>
             <h3 id={headingId} class="visuallyhidden">{heading}</h3>
             
-            {slides ? slides.map(slide => {
+            {slides && slides.map(slide => {
               return (
                 <Slide
                   key={slide.index}
@@ -145,7 +147,7 @@ class Slide extends React.Component {
                   handleSlideClick={this.handleSlideClick}
                 />
               )
-            }): null}
+            })}
           </ul>
           
           <div className="slider__controls">

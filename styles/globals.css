@@ -1650,14 +1650,8 @@ body::-webkit-scrollbar {
 	white-space: nowrap;
 	width: 1px;
   }
-  
-  .icon {
-	fill: var(--color-primary);
-	width: 100%;
-  }
-  
-  .btn {
-	background-color: var(--color-primary);
+  .Slider-btn {
+	background-color: #333;
 	border: none;
 	border-radius: 0.125rem;
 	color: white;
@@ -1666,13 +1660,13 @@ body::-webkit-scrollbar {
 	font-size: inherit;
 	padding: 1rem 2.5rem 1.125rem;
   }
-  .btn:focus {
+  .Slider-btn:focus {
 	outline-color: var(--color-focus);
 	outline-offset: 2px;
 	outline-style: solid;
 	outline-width: 3px;
   }
-  .btn:active {
+  .Slider-btn:active {
 	transform: translateY(1px);
   }
   
@@ -1693,6 +1687,10 @@ body::-webkit-scrollbar {
 	height: var(--size);
 	padding: 0;
 	width: var(--size);
+  }
+  .slider-icon{
+	fill: white !important;
+	width: 100%;
   }
   .slider__controls .btn:focus {
 	border-color: var(--color-focus);
@@ -1777,12 +1775,14 @@ body::-webkit-scrollbar {
 	top: 0%;
 	transition: transform calc(var(--base-duration) / 4) var(--base-ease);
 	width: 100%;
+	/* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ); */
   }
   
   .slide__image {
 	--d: 20;
 	height: 110%;
 	left: -5%;
+	filter: brightness(50%);
 	-o-object-fit: cover;
 	   object-fit: cover;
 	opacity: 0;
@@ -1806,6 +1806,7 @@ body::-webkit-scrollbar {
 	font-size: 8vmin;
 	font-weight: 600;
 	position: relative;
+	font-family: var(--averca);
   }
   
   .slide__content {

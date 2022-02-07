@@ -9,10 +9,46 @@ import Menu from '../../comp/Menu/Menu'
 import Title from '../../comp/SEO/title'
 import Hrid from '../../comp/Grid-Heroes/grid'
 import Switcher from '../../comp/LangSwitcher/Switcher'
-import Modal from '../../comp/Slider/Modal'
 import Section from "../../comp/NewsHome/Section"
 import Slider from "../../comp/Slider/Modal"
-import slideData from "../../data/Slides"
+const slideData = [
+  {
+    index: 0,
+    headline: '1801',
+    button: 'Learn More',
+    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1801.webp'
+  },
+  {
+    index: 1,
+    headline: '1918',
+    button: 'Learn More',
+    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1918.webp'
+  },
+  {
+    index: 2,
+    headline: '1921',
+    button: 'Learn More',
+    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/2008.webp'
+  },
+  {
+    index: 3,
+    headline: '1989',
+    button: 'Learn More',
+    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1989-1.webp'
+  },
+  {
+    index: 4,
+    headline: '1992',
+    button: 'Learn More',
+    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1992.webp'
+  },
+  {
+    index: 5,
+    headline: '2008',
+    button: 'Learn More',
+    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/2008.webp'
+  }
+]
 export default function Home() {
   const text = "Georgian Liberty is a non-profit, non-governmental organization founded in September 2021 by three teenagers. Our goal is to raise awareness about conflict and occupied territories in Georgia, both locally and globally.";
   return (
