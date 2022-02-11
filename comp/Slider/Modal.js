@@ -33,14 +33,15 @@ class Slide extends React.Component {
     }
     
     render() {
-      const { src, button, headline, index } = this.props.slide
+      const { src, button, headline, index,qve,link } = this.props.slide
       const current = this.props.current
       let classNames = 'slide'
       
       if (current === index) classNames += ' slide--current'
       else if (current - 1 === index) classNames += ' slide--previous'
       else if (current + 1 === index) classNames += ' slide--next'
-          
+      const oo = 'http://localhost:3000'+ link
+      const linka = 'https://georgianliberty.com/'+link
       return (
         <li 
           ref={this.slide}
@@ -61,7 +62,8 @@ class Slide extends React.Component {
           
           <article className="slide__content">
             <h2 className="slide__headline">{headline}</h2>
-            <button className="slide__action Slider-btn">{button}</button>
+            <p className="slide__text">{qve}</p>
+            <a href={oo}><button className="slide__action Slider-btn">{button}</button></a>
           </article>
         </li>
       )

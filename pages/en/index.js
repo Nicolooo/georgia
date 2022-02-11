@@ -9,43 +9,55 @@ import Menu from '../../comp/Menu/Menu'
 import Title from '../../comp/SEO/title'
 import Hrid from '../../comp/Grid-Heroes/grid'
 import Switcher from '../../comp/LangSwitcher/Switcher'
-import Section from "../../comp/NewsHome/Section"
+// import Section from "../../comp/NewsHome/Section"
 import Slider from "../../comp/Slider/Modal"
 const slideData = [
   {
     index: 0,
-    headline: '1801',
+    headline: 'Russian Anexation',
+    qve: "1801",
+    link: '/en/1801',
     button: 'Learn More',
     src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1801.webp'
   },
   {
     index: 1,
-    headline: '1918',
+    headline: 'Independence Day',
+    qve: '1918',
+    link: '/en/1918',
     button: 'Learn More',
     src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1918.webp'
   },
   {
     index: 2,
-    headline: '1921',
+    headline: 'Red Army insavion',
+    qve: '1921',
+    link: '/en/1921',
     button: 'Learn More',
     src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/2008.webp'
   },
   {
     index: 3,
-    headline: '1989',
+    headline: 'Tbilisi Massacre',
+    qve: '1989',
     button: 'Learn More',
+    link: '/en/1989',
     src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1989-1.webp'
   },
   {
     index: 4,
-    headline: '1992',
+    headline: 'Abkhazian War',
+    qve: '1992',
     button: 'Learn More',
+    link: '/en/abkhazia',
     src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1992.webp'
   },
   {
     index: 5,
-    headline: '2008',
+    headline: 'Russo-georgian War',
+    qve: '2008',
     button: 'Learn More',
+    link: '/en/samachablo',
     src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/2008.webp'
   }
 ]
@@ -63,7 +75,6 @@ export default function Home() {
       <Slider heading="Example Slider" slides={slideData} />
       <Inv LinkF="/en/interviews" />
       <Hrid />
-      <Section ge="/en/interviews"/>
       <Switcher title="Ge" link="/ge"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>
