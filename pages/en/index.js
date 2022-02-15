@@ -70,9 +70,9 @@ export default function Home() {
       <Switcher title="Ge" link="/ge"/>
       <Hero />  
       <Short title="About The Project" p={text} link="Learn More" hrf="/en/about"/>
-      <Headline title="OCCUPIED TERRITORIES"/>
-      <Map />
-      <Slider heading="Example Slider" slides={slideData} />
+      <Headline title="TIMELINE"/>
+      {/* <Map /> */}
+      <Slider heading="Slider" slides={slideData} />
       <Inv LinkF="/en/interviews" />
       <Hrid />
       <Switcher title="Ge" link="/ge"/>

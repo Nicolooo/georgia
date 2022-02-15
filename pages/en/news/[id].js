@@ -1,11 +1,15 @@
 import React from 'react'
 import Menu from '../../../comp/Menu/Menu'
 import SEO from '../../../comp/SEO/title'
+import Back from '../../../comp/LangSwitcher/Back'
+import Switcher from '../../../comp/LangSwitcher/Switcher'
 function Post({ post }) {
     return (
       <>
       <SEO title={post.title} />
       <Menu LANG="en"/>
+      <Back title="Back" link="ge"/>
+      <Switcher title="Ge" link="/ge/about"/>
       <div className="post-page">
           <div className="news-single">
               <h2>{post.title}</h2>

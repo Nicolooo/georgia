@@ -6,7 +6,7 @@ import Switcher from '../../../comp/LangSwitcher/Switcher'
 function News({ posts,latest }) {
   return (
     <>
-     <Switcher title="En" link="/en/news"/>
+     <Switcher title="Ge" link="/ge/news"/>
     <SEO title="News" />
     <Menu LANG="en" />
     <div className="news-container container">
@@ -21,7 +21,6 @@ function News({ posts,latest }) {
         <h3 className="news-other">Other News</h3>
         <div className="row">
       {posts.map((post) => (
-
        <Link href={`/en/news/${post.id}`} key={post.id}>
         <a className="news-card-content">
           <h2>{post.title}</h2>

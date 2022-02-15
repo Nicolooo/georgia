@@ -4,7 +4,7 @@ import SEO from '../comp/SEO/title'
 const index = () => {
   return (
     <div className="lang-wrap">
-      <SEO title="Choose Language/აირჩიეთ ენა" />
+      <SEO title="Georgian Liberty - Stand Against Illegal Occupation" />
       <h2 className="home-title">
         <span>Choose Language</span>
         <span>აირჩიე ენა</span>
