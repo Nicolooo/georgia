@@ -5,7 +5,6 @@ import Staff from '../../comp/About-page/Staff'
 import Title from '../../comp/SEO/title'
 import Footer from '../../comp/Footer/Footer'
 import Switcher from '../../comp/LangSwitcher/Switcher'
-// import Title from '../../comp/SEO/title'
 const About = () => {
     return (
         <>

@@ -659,7 +659,6 @@ body::-webkit-scrollbar {
 	color: red;
 	font-family: var(--averca);
 	padding-top: calc(0% + 55px);
-	padding-bottom: 2rem;
     font-size: 3em;
 	align-self: center;
 	text-align: center;
@@ -701,7 +700,8 @@ body::-webkit-scrollbar {
 	font-size: 3em;
 	font-weight: 900;
 	font-family: var(--averca);
-	padding-top: 2em;
+	padding-top: 3em;
+	margin-bottom: 1em;
 }
 /*  Inv */
 .inv-wrapper{
@@ -1004,7 +1004,7 @@ body::-webkit-scrollbar {
 
 .footer-wrapper {
 	background-color: #000000;
-	background-image: url("https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/ftyrtyrt-scaled.webp") !important;
+	background-image: url("/footerr.webp") !important;
 	background-attachment: fixed;
 	padding: 1rem 0 1rem 0;
 	font-family: var(--averca);
@@ -1583,7 +1583,14 @@ body::-webkit-scrollbar {
 		font-size: 1.5rem;
 	}
 	.heroes-wrapper .heroes-card img {
-		height: 260px;
+		max-height: 300px;
+		max-width: 100%;
+	}
+	.abt-text{
+		font-size: 1.2rem;
+	}
+	.abt-names{
+		font-size: 2rem;
 	}
 }
 @media screen and (max-width: 600px) {

@@ -11,9 +11,9 @@ const Staff = () => {
             </div>
             <div className="about-col">
                 <h3 className="abt-h">Special thanks To</h3>
-                <h4 className="abt-names">Nikusha Sirbiladze</h4>
-                <h4 className="abt-names">Giorgi Kakhani</h4>
-                <h4 className="abt-names">Nika Khabelashvili</h4>
+                <h4 className="abt-names">Roin Metreveli</h4>
+                <h4 className="abt-names">Levan ghambashidze</h4>
+                <h4 className="abt-names">Lasha Chantladze</h4>
             </div>
         </div>
     )

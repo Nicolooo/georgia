@@ -9,7 +9,6 @@ import Menu from '../../comp/Menu/Menu'
 import Title from '../../comp/SEO/title'
 import Hrid from '../../comp/Grid-Heroes/grid'
 import Switcher from '../../comp/LangSwitcher/Switcher'
-// import Section from "../../comp/NewsHome/Section"
 import Slider from "../../comp/Slider/Modal"
 const slideData = [
   {
@@ -18,7 +17,7 @@ const slideData = [
     qve: "1801",
     link: '/en/1801',
     button: 'Learn More',
-    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1801.webp'
+    src: '/1801.jpeg',
   },
   {
     index: 1,
@@ -26,7 +25,7 @@ const slideData = [
     qve: '1918',
     link: '/en/1918',
     button: 'Learn More',
-    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1918.webp'
+    src: '/1921.jpg'
   },
   {
     index: 2,
@@ -34,7 +33,7 @@ const slideData = [
     qve: '1921',
     link: '/en/1921',
     button: 'Learn More',
-    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/2008.webp'
+    src: '/1918.jpg'
   },
   {
     index: 3,
@@ -42,7 +41,7 @@ const slideData = [
     qve: '1989',
     button: 'Learn More',
     link: '/en/1989',
-    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1989-1.webp'
+    src: '/1989.jpg'
   },
   {
     index: 4,
@@ -50,7 +49,7 @@ const slideData = [
     qve: '1992',
     button: 'Learn More',
     link: '/en/abkhazia',
-    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/1992.webp'
+    src: '/1992.png'
   },
   {
     index: 5,
@@ -58,7 +57,7 @@ const slideData = [
     qve: '2008',
     button: 'Learn More',
     link: '/en/samachablo',
-    src: 'https://raw.githubusercontent.com/Nicolooo/Georgianlibertycontent/main/2008.webp'
+    src: '/2008.webp'
   }
 ]
 export default function Home() {
@@ -71,7 +70,6 @@ export default function Home() {
       <Hero />  
       <Short title="About The Project" p={text} link="Learn More" hrf="/en/about"/>
       <Headline title="TIMELINE"/>
-      {/* <Map /> */}
       <Slider heading="Slider" slides={slideData} />
       <Inv LinkF="/en/interviews" />
       <Hrid />

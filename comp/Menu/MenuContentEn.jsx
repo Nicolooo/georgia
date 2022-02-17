@@ -1,7 +1,7 @@
-import React, { useContext } from "react";
-import { MenuContext } from "./MenuManager";
-import { Facebook, Instagram, Youtube} from "react-feather";
-import cn from "classnames";
+import React, { useContext, useState } from "react"
+import { MenuContext } from "./MenuManager"
+import { Facebook, Instagram, Youtube} from "react-feather"
+import cn from "classnames"
 const En = [
   {
     url: "/en",
@@ -21,10 +21,13 @@ const En = [
     component: <span>News</span>,
   },
   {
+    url: "/en/conflicts",
+    component: <span>Conflicts</span>,
+  },
+  {
     url: "/en/blog",
     component: <span>Blog</span>,
   },
-  
   {
     url: "/en/abkhazia",
     component: <span>Abkhazia</span>,
@@ -39,24 +42,6 @@ const En = [
   },
   
 ];
-
-;
-
-const externalLinks = [
-  {
-    url: "https://www.facebook.com/georgianliberty",
-    component: <Facebook />,
-  },
-  {
-    url: "https://www.instagram.com/georgianliberty/",
-    component: <Instagram />,
-  },
-  {
-    url: "https://www.youtube.com/channel/UCUvGWCPrEt8djat0s5V4b_w",
-    component: <Youtube />,
-  },
-];
-
 export default function MenuContentEn() {
   const { open } = useContext(MenuContext);    
     return(
