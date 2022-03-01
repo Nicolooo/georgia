@@ -8,8 +8,8 @@ const pirveli = () => {
     return (
         <>
         <Title title="1801" />
-            <Menu />
-            <Switcher title="Ge" link="/ge/1801"/>
+        <Menu LANG="Ge" />
+            <Switcher title="en" link="/en/1801"/>
         <div className="abkhazia-wrapper container">
             <div className="abkhazia-title row"> 
                 <h1 className='page-header'>1801</h1>

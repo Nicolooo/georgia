@@ -8,7 +8,7 @@ function News({ posts,latest }) {
     <>
      <Switcher title="Ge" link="/ge/news"/>
     <SEO title="News" />
-    <Menu LANG="en" />
+    <Menu LANG="Ge" />
     <div className="news-container container">
       <div className="news-header">
         <h1 className="news-title">News</h1>

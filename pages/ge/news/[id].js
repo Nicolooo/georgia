@@ -7,7 +7,7 @@ function Post({ post }) {
     return (
       <>
       <SEO title={post.title} />
-      <Menu LANG="en"/>
+      <Menu LANG="Ge"/>
       <Back title="Back" link="ge"/>
       <Switcher title="Ge" link="/ge/about"/>
       <div className="post-page">

@@ -8,8 +8,8 @@ const measme = () => {
     return (
         <>
         <Title title="1921" />
-            <Menu />
-            <Switcher title="Ge" link="/ge/1921"/>
+        <Menu LANG="Ge" />
+            <Switcher title="en" link="/en/1921"/>
         <div className="abkhazia-wrapper container">
             <div className="abkhazia-title row"> 
                 <h1 className='page-header'>1921</h1>

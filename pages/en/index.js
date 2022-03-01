@@ -66,14 +66,13 @@ export default function Home() {
     <div>
       <Title title="Georgian Liberty"/>
       <Menu LANG='En' />
-      <Switcher title="Ge" link="/ge"/>
       <Hero />  
       <Short title="About The Project" p={text} link="Learn More" hrf="/en/about"/>
       <Headline title="TIMELINE"/>
       <Slider heading="Slider" slides={slideData} />
       <Inv LinkF="/en/interviews" />
-      <Hrid />
-      <Switcher title="Ge" link="/ge"/>
+      <Hrid LANG="En"/>
+      <Switcher title="GE" link="/ge"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>
   )

@@ -33,8 +33,8 @@ const samachablo = () => {
     return (
         <>
         <Title title="Samachablo" />
-            <Menu />
-            <Switcher title="Ge" link="/ge/abkhazia"/>
+            <Menu LANG="Ge" />
+            <Switcher title="EN" link="/en/abkhazia"/>
         <div className="samachablo-wrapper container">
             <div className="samachablo-title row"> 
                 <h1 className='page-header'>Samachablo</h1>

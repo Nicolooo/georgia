@@ -10,19 +10,19 @@ const contact = () => {
     return (
         <>
         <SEO title="Contact "/>
-        <Menu />
-        <Switcher title="Ge" link="/ge/contact"/>
+        <Menu LANG="Ge" />
+        <Switcher title="en" link="/en/contact"/>
         <div className="container-fluid">
             <div className="container">
-                <h3 className="contact-headline mb-5" data-aos="fade-up">Contact Us</h3>
+                <h3 className="contact-headline mb-5" data-aos="fade-up">კონტაქტი</h3>
             </div>
             <div className="container row">
-                <Card title="Share" body="Tell us about your experience, thoughts or recommendations."/>
-                <Card title="Support Us" body="We accept offers for financial aid in order to continue our project."/>
-                <Card title="Put a word" body="Share our project to your friends and family to increase awareness."/>
+                <Card title="გაგვიზიარეთ" body="მოგვწერეთ რეკომენდაციები რათა განვავბითაროთ პლატფორმა"/>
+                <Card title="დაგვიჭირეთ მხარი" body="ჩვენ ვიღებთ ყველა სახის დახმარებას."/>
+                <Card title="გაავრცელეთ" body="გაავრცელეთ პროექტი რათა გავაგებინოთ მეტ ხალხს!"/>
             </div>
             <div className="contact-form container">
-            <FormC message="Thank you, your message has been submitted." title="WE RESPOND TO EVERY EMAIL" />
+            <FormC message="დიდი მადლობა,თქვენი მეილი მიღებულია" title="ჩვენ ვპასუხობთ ყველა მეილს" />
             </div>
         </div>
         <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
