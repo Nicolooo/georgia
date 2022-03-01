@@ -44,7 +44,7 @@ const slideData = [
   },
   {
     index: 4,
-    headline: 'აბხაზეთის ომი',
+    headline: 'აფხაზეთის ომი',
     qve: '1992',
     button: 'Learn More',
     link: '/en/abkhazia',
