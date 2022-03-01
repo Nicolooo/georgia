@@ -1143,7 +1143,7 @@ body::-webkit-scrollbar {
 	justify-content: center;
 	width: 100%;
 	text-align: center;
-	padding: 50px;
+	padding: 30px;
 	background-color: #191919;
 	margin: 15px 15px 15px 15px;
 }

@@ -21,10 +21,6 @@ const En = [
     component: <span>News</span>,
   },
   {
-    url: "/en/conflicts",
-    component: <span>Conflicts</span>,
-  },
-  {
     url: "/en/blog",
     component: <span>Blog</span>,
   },

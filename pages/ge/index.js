@@ -67,7 +67,7 @@ export default function Home() {
       <Menu LANG='ge' />
       <Switcher title="Ge" link="/ge"/>
       <Hero />  
-      <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/en/about"/>
+      <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/ge/about"/>
       <Headline title="თაიმლაინი"/>
       <Slider heading="Slider" slides={slideData} />
       <Inv LinkF="/en/interviews" />

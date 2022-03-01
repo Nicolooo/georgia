@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Card = ({name,title,img}) => {
     return (
     <div className="heroes-card">
