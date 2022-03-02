@@ -13,7 +13,6 @@ const About = () => {
         <div className="about-wrapper">
           <Menu LANG="Ge"/>
           <Switcher title="EN" link="/en/about"/>
-          <Title title="About" />
             <div className="container-fluid">
                 <div className="container mb-5">
                     <h1 className="abt-title mb-5" data-aos="fade-down">ჩვენ შესახებ</h1>
