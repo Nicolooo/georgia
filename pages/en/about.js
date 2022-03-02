@@ -6,7 +6,7 @@ import Title from '../../comp/SEO/title'
 import Footer from '../../comp/Footer/Footer'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 const About = () => {
-    const Title = {'title': "Our Team", 'thx': "Special Thanks to"}
+    const pepo = {'title': "Our Team", 'thx': "Special Thanks to"}
     return (
         <>
         <Title title="Georgian Liberty | About Us"
@@ -20,7 +20,7 @@ const About = () => {
                     <h1 className="abt-title mb-5" data-aos="fade-down">About Us</h1>
                     <p className="abt-text" data-aos="fade-down">{Abt[0]}<span className="abt-red">{Abt[1]}</span></p>
                 </div>
-                <Staff ok={Title}/>
+                <Staff ok={pepo}/>
                 <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
             </div>
         </div>
