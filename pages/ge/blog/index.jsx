@@ -15,7 +15,7 @@ function News({ posts }) {
       <div className="blog-card row">
       {posts.map((post) => (
 
-       <Link href={`/ge/blog/${post.slug}`} as={`/ge/blog/${post.slug}`}>
+       <Link href={`/ge/blog/${post.slug}`} as={`/ge/blog/${post.slug}`} key={`/ge/blog/${post.slug}`}>
         <a className="blog-card-content">
           <h2>{post.title}</h2>
           <p>{post.date}</p>
