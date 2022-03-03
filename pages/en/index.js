@@ -94,7 +94,7 @@ export default function Home() {
       <Short title="About The Project" p={text} link="Learn More" hrf="/en/about"/>
       <Headline title="TIMELINE"/>
       <Slider heading="Slider" slides={slideData} />
-      <Inv LinkF="/en/interviews" />
+      <Inv title="Interviews" ll="View More"/>
       <Hrid LANG="En"/>
       <Stats title="Statistics" tt={tt}/>
       <Switcher title="GE" link="/ge"/>

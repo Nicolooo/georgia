@@ -19,7 +19,7 @@ const Ge = () =>{
 const En = () =>{
         return(
             <div className="heroes-wrapper container-fluid">
-            <h2 className='heroes-header'>სახელმწიფო გმირები</h2>
+            <h2 className='heroes-header'>ეროვნული გმირები</h2>
             <div className="container row">
                 <Card name="გურამ გაბისკირია" title="სოხუმის მერი" img={Storage.photos.Ggabiskria}/>
                 <Card name="გიორგი ანწუხელიძე" title="საქართველოს შეიარაღებული ძალების უმცროსი სერჟანტი" img={Storage.photos.Gant}/>

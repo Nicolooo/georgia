@@ -45,7 +45,7 @@ const slideData = [
   },
   {
     index: 4,
-    headline: 'აფხაზეთის ომი',
+    headline: 'აბხაზეთის ომი',
     qve: '1992',
     button: 'Learn More',
     link: '/en/abkhazia',
@@ -93,7 +93,7 @@ export default function Home() {
       <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/ge/about"/>
       <Headline title="თაიმლაინი"/>
       <Slider heading="Slider" slides={slideData} />
-      <Inv LinkF="/ge/interviews" title="ინტერვიუები"/>
+      <Inv title="ინტერვიუები" ll="იხილეთ მეტი"/>
       <Hrid LANG="Ge" />
       <Stats title="სტატისტიკა" tt={tt}/>
       <Switcher title="EN" link="/en"/>

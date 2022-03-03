@@ -716,27 +716,12 @@ body::-webkit-scrollbar {
 	font-size: 3em;
 	color: red;
 }
-.inv-video{
-	position: relative;
-	top: 5%;
-	left: 0;
-	height: 50%;
-}
-.inv-video .ratio {
-	aspect-ratio: 50%;
-}
-.inv-video iframe {
-	max-width: 1175px;
-    width: 100%;
-    height: 100%;
-	border: none;
-}
 .inv-link{
 	color: white;
 	font-family: var(--averca);
 	background-color: red;
 	padding: 16px;
-	margin-top: 6rem;
+	margin-top: 2rem;
 	display: inline-block;
 }
 /*  Thanks  */
@@ -1389,9 +1374,9 @@ body::-webkit-scrollbar {
 	.inv-wrapper h2{
 		font-size: 5em;
 	}
-	.inv-link {
-		margin-top: 8rem;
-	}
+	/* .inv-link { */
+		/* margin-top: 8rem; */
+	/* } */
 	.heroes-wrapper h2 {
 		color: #FF0000;
 		text-align: center;
