@@ -1543,6 +1543,12 @@ body::-webkit-scrollbar {
 }
 /* Only for Phones */
 @media (max-width: 540px) {
+	.ll{
+		height: 100vh;
+	}
+	.stats-title{
+		font-size: 1.5em;
+	}
 	.menu-holder .menu-inside .menu-nav-container {
 		left: 25%;
 		top: 20%;
@@ -1837,6 +1843,7 @@ body::-webkit-scrollbar {
   }
   .ll{
 	  height: 70vh;
+	  width: 100%;
 	  display: flex;
 	  justify-content: center;
 	  flex-direction: column;
