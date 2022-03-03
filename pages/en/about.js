@@ -19,7 +19,7 @@ const About = () => {
                     <h1 className="abt-title mb-5" data-aos="fade-down">About Us</h1>
                     <p className="abt-text" data-aos="fade-down">{Abt[0]}<span className="abt-red">{Abt[1]}</span></p>
                 </div>
-                <Staff ok={pepo}/>
+                <Staff ok="En"/>
                 <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
             </div>
         </div>
