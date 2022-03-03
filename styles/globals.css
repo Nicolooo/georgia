@@ -1004,7 +1004,6 @@ body::-webkit-scrollbar {
 
 .footer-wrapper {
 	background-color: #000000;
-	background-image: url("/footerr.webp") !important;
 	background-attachment: fixed;
 	padding: 1rem 0 1rem 0;
 	font-family: var(--averca);

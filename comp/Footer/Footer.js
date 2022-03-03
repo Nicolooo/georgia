@@ -7,7 +7,7 @@ const top = () => {
 }
 const Footer = ({main,copyright}) => {
     return (
-        <div className="footer-wrapper container-fluid">
+        <div className="footer-wrapper container-fluid" style={{backgroundImage: 'url(/footerr.webp)'}}>
             <h2 className="footer-headline">{main}</h2>
             <div className="footer-details">
                 <div className="footer-col">
