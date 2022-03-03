@@ -8,8 +8,8 @@ const merve = () => {
     return (
         <>
         <Title title="1989" />
-            <Menu />
-            <Switcher title="Ge" link="/ge/1989"/>
+        <Menu LANG="Ge" />
+            <Switcher title="En" link="/en/1989"/>
         <div className="abkhazia-wrapper container">
             <div className="abkhazia-title row"> 
                 <h1 className='page-header'>1989</h1>

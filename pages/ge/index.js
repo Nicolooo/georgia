@@ -44,7 +44,7 @@ const slideData = [
   },
   {
     index: 4,
-    headline: 'აბხაზეთის ომი',
+    headline: 'აფხაზეთის ომი',
     qve: '1992',
     button: 'Learn More',
     link: '/en/abkhazia',
@@ -64,15 +64,14 @@ export default function Home() {
   return (
     <div>
       <Title title="Georgian Liberty"/>
-      <Menu LANG='ge' />
-      <Switcher title="Ge" link="/ge"/>
+      <Menu LANG='Ge' />
       <Hero />  
-      <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/en/about"/>
+      <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/ge/about"/>
       <Headline title="თაიმლაინი"/>
       <Slider heading="Slider" slides={slideData} />
-      <Inv LinkF="/en/interviews" />
-      <Hrid />
-      <Switcher title="Ge" link="/ge"/>
+      <Inv LinkF="/en/interviews" title="ინტერვიუები"/>
+      <Hrid LANG="Ge" />
+      <Switcher title="EN" link="/en"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>
   )

@@ -33,8 +33,8 @@ const abkhazia = () => {
     return (
         <>
         <Title title="Abkhazia" />
-            <Menu />
-            <Switcher title="Ge" link="/ge/abkhazia"/>
+        <Menu LANG="Ge" />
+            <Switcher title="EN" link="/en/abkhazia"/>
         <div className="abkhazia-wrapper container">
             <div className="abkhazia-title row"> 
                 <h1 className='page-header'>ABKHAZIA</h1>

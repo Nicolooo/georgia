@@ -8,8 +8,8 @@ const Meore = () => {
     return (
         <>
         <Title title="1918" />
-            <Menu />
-            <Switcher title="Ge" link="/ge/1918"/>
+        <Menu LANG="Ge" />
+            <Switcher title="en" link="/en/1918"/>
         <div className="abkhazia-wrapper container">
             <div className="abkhazia-title row"> 
                 <h1 className='page-header'>1918</h1>
