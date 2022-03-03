@@ -36,7 +36,7 @@ const BlogPost = ({post,blocks})=> {
       <SEO title={post.title} />
       <Menu LANG="en"/>
       <Switcher title="Ge" link={`/ge/blog/${post.slug}`}/>
-      <Back link="en/blog" title="Back"/>
+      <Back link="ge/blog" title="Back"/>
       <div className="post-page container">
           <div className="blog-single">
               <h2>{post.title}</h2>

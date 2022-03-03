@@ -10,7 +10,7 @@ function News({ posts }) {
     <Menu LANG="en" />
     <div className="blog-container container">
       <div className="blog-header mb-5">
-        <h1 className="blog-title">ბლოგი</h1>
+        <h1 className="blog-title">Blog</h1>
       </div>
       <div className="blog-card row">
       {posts.map((post) => (
