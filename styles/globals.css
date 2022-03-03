@@ -1003,7 +1003,7 @@ body::-webkit-scrollbar {
 }
 
 .footer-wrapper {
-	background-color: #000000;
+	background-color: #e4e4e4;
 	background-attachment: fixed;
 	padding: 1rem 0 1rem 0;
 	font-family: var(--averca);
@@ -1826,4 +1826,18 @@ body::-webkit-scrollbar {
 	color: white;
 	font-size: 1.5em;
 	font-family: var(--averca);
+  }
+  .stats-title{
+	text-align: center;
+	padding: 1rem;
+	font-size: 4em;
+	color: white;
+	font-family: var(--averca);
+
+  }
+  .ll{
+	  height: 70vh;
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
   }

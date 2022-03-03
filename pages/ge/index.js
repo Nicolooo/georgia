@@ -9,6 +9,7 @@ import Title from '../../comp/SEO/title'
 import Hrid from '../../comp/Grid-Heroes/grid'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Slider from "../../comp/Slider/Modal"
+import Stats from "../../comp/stats/stats"
 const slideData = [
   {
     index: 0,
@@ -59,6 +60,29 @@ const slideData = [
     src: '/2008.webp'
   }
 ]
+const tt = {
+  "counts": [
+      {
+          "id": "001",
+          "label": " ლტოლვილი",
+          "number": "120.000",
+          "duration": "2"
+      },
+      {
+          "id": "002",
+          "label": "გარდაცვლილი",
+          "number": "1.000",
+          "duration": "2"
+      },
+      {
+          "id": "003",
+          "label": "დაჭრილი",
+          "number": "4.000",
+          "duration": "2"
+      },
+     
+  ]
+}
 export default function Home() {
   const text = "„Georgian Liberty“ არის არაკომერციული, არასამთავრობო ორგანიზცია, რომელიც 2021 წლის სექტემბერში სამმა მოზარდმა დააარსა. ჩვენი მიზანია ცნობადობის ამაღლება კონფლიქტურ და ოკუპირებულ ტერიტორიებთან დაკავშირებით, როგორც ლოკალურ, ასევე გლობალურ მასშტაბზე. ";
   return (
@@ -71,6 +95,7 @@ export default function Home() {
       <Slider heading="Slider" slides={slideData} />
       <Inv LinkF="/ge/interviews" title="ინტერვიუები"/>
       <Hrid LANG="Ge" />
+      <Stats title="სტატისტიკა" tt={tt}/>
       <Switcher title="EN" link="/en"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>

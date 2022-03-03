@@ -10,6 +10,7 @@ import Title from '../../comp/SEO/title'
 import Hrid from '../../comp/Grid-Heroes/grid'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Slider from "../../comp/Slider/Modal"
+import Stats from "../../comp/stats/stats"
 const slideData = [
   {
     index: 0,
@@ -60,6 +61,29 @@ const slideData = [
     src: '/2008.webp'
   }
 ]
+const tt = {
+  "counts": [
+      {
+          "id": "001",
+          "label": " DISPLACED",
+          "number": "120.000",
+          "duration": "2"
+      },
+      {
+          "id": "002",
+          "label": "DEAD",
+          "number": "1.000",
+          "duration": "2"
+      },
+      {
+          "id": "003",
+          "label": "WOUNDED",
+          "number": "4.000",
+          "duration": "2"
+      },
+     
+  ]
+}
 export default function Home() {
   const text = "Georgian Liberty is a non-profit, non-governmental organization founded in September 2021 by three teenagers. Our goal is to raise awareness about conflict and occupied territories in Georgia, both locally and globally.";
   return (
@@ -72,6 +96,7 @@ export default function Home() {
       <Slider heading="Slider" slides={slideData} />
       <Inv LinkF="/en/interviews" />
       <Hrid LANG="En"/>
+      <Stats title="Statistics" tt={tt}/>
       <Switcher title="GE" link="/ge"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>
