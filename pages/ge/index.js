@@ -69,7 +69,7 @@ export default function Home() {
       <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/ge/about"/>
       <Headline title="თაიმლაინი"/>
       <Slider heading="Slider" slides={slideData} />
-      <Inv LinkF="/en/interviews" title="ინტერვიუები"/>
+      <Inv LinkF="/ge/interviews" title="ინტერვიუები"/>
       <Hrid LANG="Ge" />
       <Switcher title="EN" link="/en"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
