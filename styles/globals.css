@@ -1544,10 +1544,10 @@ body::-webkit-scrollbar {
 /* Only for Phones */
 @media (max-width: 540px) {
 	.ll{
-		height: 100vh;
+		height: 150vh!important;
 	}
-	.stats-title{
-		font-size: 1.5em;
+	.stats-title h3{
+		font-size: 1em;
 	}
 	.menu-holder .menu-inside .menu-nav-container {
 		left: 25%;
