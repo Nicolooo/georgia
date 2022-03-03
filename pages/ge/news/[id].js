@@ -14,7 +14,7 @@ function Post({ post }) {
           <div className="news-single">
               <h2>{post.title}</h2>
               <div className="news-single-info">
-              <h3>Date:{post.date}</h3>
+              <h3>თარიღი:{post.date}</h3>
               </div>
               <p>{post.content}</p>
           </div>

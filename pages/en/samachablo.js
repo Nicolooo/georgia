@@ -34,7 +34,7 @@ const samachablo = () => {
         <>
         <Title title="Samachablo" />
             <Menu />
-            <Switcher title="Ge" link="/ge/abkhazia"/>
+            <Switcher title="Ge" link="/ge/samachablo"/>
         <div className="samachablo-wrapper container">
             <div className="samachablo-title row"> 
                 <h1 className='page-header'>Samachablo</h1>

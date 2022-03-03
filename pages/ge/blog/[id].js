@@ -10,9 +10,9 @@ function Post({ post }) {
           <div className="blog-single">
               <h2>{post.title}</h2>
               <div className="blog-single-info">
-              <h3>Author: {post.author}</h3>
-              <h3>Date: {post.date}</h3>
-              <h3>Reading time: {post.rtime}(mins)</h3>
+              <h3>ავტორი: {post.author}</h3>
+              <h3>თარიღი: {post.date}</h3>
+              <h3>საკითხავი დრო: {post.rtime}(წუთი)</h3>
               </div>
               <p className="post-text">{post.content}</p>
           </div>

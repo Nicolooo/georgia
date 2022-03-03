@@ -11,7 +11,7 @@ const J = () => {
         <Menu LANG="Ge" />
         <Switcher title="en" link="/en/career"/>
         <div className="career-cont">
-            <h2 className="career-title">Careers At Georgian Liberty</h2>
+            <h2 className="career-title">კარიერები</h2>
                 <div className="career-ikonka"><Coffee/></div>
         </div>
         </>

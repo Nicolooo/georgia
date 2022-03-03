@@ -11,14 +11,14 @@ function News({ posts,latest }) {
     <Menu LANG="Ge" />
     <div className="news-container container">
       <div className="news-header">
-        <h1 className="news-title">News</h1>
+        <h1 className="news-title">ნიუსი</h1>
         <div className="news-latest">
               <h2 className="news-latest-title">{latest[0].title}</h2>
               <p>{latest[0].content}</p>
         </div>
       </div>
       <div className="news-card">
-        <h3 className="news-other">Other News</h3>
+        <h3 className="news-other">სხვა სიახლეები</h3>
         <div className="row">
       {posts.map((post) => (
        <Link href={`/en/news/${post.id}`} key={post.id}>
