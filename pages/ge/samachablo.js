@@ -10,19 +10,19 @@ const data = {
     "counts": [
         {
             "id": "001",
-            "label": " DISPLACED",
+            "label": " ლტოლვილი",
             "number": "120.000",
             "duration": "2"
         },
         {
             "id": "002",
-            "label": "DEAD",
+            "label": "გარდაცვლილი",
             "number": "1.000",
             "duration": "2"
         },
         {
             "id": "003",
-            "label": "WOUNDED",
+            "label": "დაჭრილი",
             "number": "4.000",
             "duration": "2"
         },

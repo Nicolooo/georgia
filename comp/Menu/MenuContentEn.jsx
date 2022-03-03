@@ -12,10 +12,10 @@ const En = [
     component: <span>About us</span>,
    
   },
-  {
-    url: "/en/programs",
-    component: <span>Programs</span>,
-  },
+  // {
+  //   url: "/en/programs",
+  //   component: <span>Programs</span>,
+  // },
   // {
   //   url: "/en/news",
   //   component: <span>News</span>,
