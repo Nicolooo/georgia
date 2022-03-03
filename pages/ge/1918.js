@@ -14,7 +14,7 @@ const Meore = () => {
             <div className="abkhazia-title row"> 
                 <h1 className='page-header'>1918</h1>
                 <p className="timeline-shorts">
-                    {Storage[1918].text}                    
+                    {Storage[1918].ge}                    
                 </p>
             </div>
             <Share url="/en/1918" />

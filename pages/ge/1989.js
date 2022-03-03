@@ -14,7 +14,7 @@ const merve = () => {
             <div className="abkhazia-title row"> 
                 <h1 className='page-header'>1989</h1>
                 <p className="timeline-shorts">
-                    {Storage[1989].text}                    
+                    {Storage[1989].ge}                    
                 </p>
             </div>
             <Share url="/en/1989" />

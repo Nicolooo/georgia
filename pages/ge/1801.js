@@ -14,7 +14,7 @@ const pirveli = () => {
             <div className="abkhazia-title row"> 
                 <h1 className='page-header'>1801</h1>
                 <p className="timeline-shorts">
-                    {Storage[1801].text}                    
+                    {Storage[1801].ge}                    
                 </p>
             </div>
             <Share url="/en/1801" />

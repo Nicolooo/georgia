@@ -14,7 +14,7 @@ const measme = () => {
             <div className="abkhazia-title row"> 
                 <h1 className='page-header'>1921</h1>
                 <p className="timeline-shorts">
-                    {Storage[1921].text}                    
+                    {Storage[1921].ge}                    
                 </p>
             </div>
             <Share url="/en/1921" />
