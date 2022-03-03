@@ -38,7 +38,7 @@ const samachablo = () => {
         <div className="samachablo-wrapper container">
             <div className="samachablo-title row"> 
                 <h1 className='page-header'>Samachablo</h1>
-                <p className="samachablo-shorttext">At the end of 80-ies of the 20th century in Georgia on the background of sharp activation of national movement for independence, Kremlin (Moscow) interferes by mobilizing and manipulating with the separatists, anti-Georgian nationalists in Abkhazia thus to maintain powerful influence upon Georgia. At this time the following actions are carried out which are founding aggressive separatism in Abkhazia.</p>
+                <p className="samachablo-shorttext"></p>
             </div>
             <div className="samachablo-stats row">
                 {data.counts.map(count => <Count key={count.id} data={count}/>)}
@@ -73,7 +73,7 @@ const samachablo = () => {
                     </p>
                 </div>
             </div>
-            <Share url="/en/abkhazia" />
+            <Share url="/en/samachablo" />
         </div>
     </>
     )
