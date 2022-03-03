@@ -63,7 +63,7 @@ class Slide extends React.Component {
           <article className="slide__content">
             <h2 className="slide__headline">{headline}</h2>
             <p className="slide__text">{qve}</p>
-            <a href={oo}><button className="slide__action Slider-btn">{button}</button></a>
+            <a href={linka}><button className="slide__action Slider-btn">{button}</button></a>
           </article>
         </li>
       )
