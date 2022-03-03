@@ -90,10 +90,10 @@ export default function Home() {
     <div>
       <Title title="Georgian Liberty"/>
       <Menu LANG='En' />
-      <Hero />  
-      <Short title="About The Project" p={text} link="Learn More" hrf="/en/about"/>
+      <Hero />
       <Headline title="TIMELINE"/>
       <Slider heading="Slider" slides={slideData} />
+      <Short title="About The Project" p={text} link="Learn More" hrf="/en/about"/>
       <Inv title="Interviews" ll="View More"/>
       <Hrid LANG="En"/>
       <Stats title="Statistics" tt={tt}/>

@@ -1,6 +1,6 @@
 import React from 'react'
 const Back = ({title,link}) => {
-  const lia = 'https://georgianliberty/'+ link + '/news';
+  const lia = 'https://georgianliberty.com/'+ link;
   return (
       <>
     <a className="News-goback" href={lia}>

@@ -991,6 +991,7 @@ body::-webkit-scrollbar {
 	background-color: #e4e4e4;
 	background-attachment: fixed;
 	padding: 1rem 0 1rem 0;
+	width: 100vw;
 	font-family: var(--averca);
 }
 
@@ -1186,6 +1187,9 @@ body::-webkit-scrollbar {
 
 /* Blog Single CSS */
 .post-page .blog-single {
+	padding: 2rem 0 2rem 0;
+	margin-top: 5rem;
+	height: 100%;
 	font-family: var(--averca);
 	color: #dadada;
 }
@@ -1659,6 +1663,7 @@ body::-webkit-scrollbar {
 	margin: 0 auto;
 	position: relative;
 	width: var(--slide-size);
+	margin-bottom: 100px;
   }
   
   .slider__wrapper {
@@ -1667,7 +1672,7 @@ body::-webkit-scrollbar {
 	position: absolute;
 	transition: transform var(--base-duration) cubic-bezier(0.25, 1, 0.35, 1);
   }
-  
+
   .slide {
 	align-items: center;
 	color: white;
@@ -1827,9 +1832,14 @@ body::-webkit-scrollbar {
 
   }
   .ll{
-	  height: 70vh;
+	  height: 100vh;
 	  width: 100%;
 	  display: flex;
 	  justify-content: center;
 	  flex-direction: column;
   }
+
+.post-text img{
+	width: 100%;
+	height: auto;
+}

@@ -15,48 +15,48 @@ const slideData = [
     index: 0,
     headline: 'რუსული ანექსაცია',
     qve: "1801",
-    link: '/en/1801',
-    button: 'Learn More',
+    link: '/ge/1801',
+    button: 'იხილეთ მეტი',
     src: '/1801.jpeg',
   },
   {
     index: 1,
     headline: 'დამოუკიდებლობის აღდგენა',
     qve: '1918',
-    link: '/en/1918',
-    button: 'Learn More',
+    link: '/ge/1918',
+    button: 'იხილეთ მეტი',
     src: '/1921.jpg'
   },
   {
     index: 2,
     headline: 'წითელი არმიის შემოსვლა',
     qve: '1921',
-    link: '/en/1921',
-    button: 'Learn More',
+    link: '/ge/1921',
+    button: 'იხილეთ მეტი',
     src: '/1918.jpg'
   },
   {
     index: 3,
     headline: '9 აპრილი',
     qve: '1989',
-    button: 'Learn More',
-    link: '/en/1989',
+    button: 'იხილეთ მეტი',
+    link: '/ge/1989',
     src: '/1989.jpg'
   },
   {
     index: 4,
     headline: 'აბხაზეთის ომი',
     qve: '1992',
-    button: 'Learn More',
-    link: '/en/abkhazia',
+    button: 'იხილეთ მეტი',
+    link: '/ge/abkhazia',
     src: '/1992.png'
   },
   {
     index: 5,
     headline: 'ქართულ-რუსული ომი',
     qve: '2008',
-    button: 'Learn More',
-    link: '/en/samachablo',
+    button: 'იხილეთ მეტი',
+    link: '/ge/samachablo',
     src: '/2008.webp'
   }
 ]
@@ -90,9 +90,9 @@ export default function Home() {
       <Title title="Georgian Liberty"/>
       <Menu LANG='Ge' />
       <Hero />  
-      <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/ge/about"/>
       <Headline title="თაიმლაინი"/>
       <Slider heading="Slider" slides={slideData} />
+      <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/ge/about"/>
       <Inv title="ინტერვიუები" ll="იხილეთ მეტი"/>
       <Hrid LANG="Ge" />
       <Stats title="სტატისტიკა" tt={tt}/>
