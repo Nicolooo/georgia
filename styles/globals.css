@@ -1535,6 +1535,10 @@ body::-webkit-scrollbar {
 	.ll{
 		height: 150vh!important;
 	}
+	.video{
+		width: 100%;
+		height: 100%;
+	}
 	.stats-title h3{
 		font-size: 1em;
 	}
