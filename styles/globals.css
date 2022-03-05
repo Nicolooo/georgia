@@ -1828,6 +1828,7 @@ body::-webkit-scrollbar {
 	font-family: var(--averca);
   }
   .stats-title{
+	background: #000000;
 	text-align: center;
 	padding: 1rem;
 	font-size: 4em;
@@ -1836,11 +1837,12 @@ body::-webkit-scrollbar {
 
   }
   .ll{
-	  height: 100vh;
-	  width: 100%;
-	  display: flex;
-	  justify-content: center;
-	  flex-direction: column;
+	background: #000000;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
   }
 
 .post-text img{
