@@ -6,9 +6,8 @@ const Inv = ({title,ll}) => {
         <div className="inv-wrapper container-fluid">
             <h2>{title}</h2>
             <div className="inv-video ratio">
-              <Image src="/1801.jpeg" alt="wepe" className="interview-image" width={650} height={480}/>
+            <iframe width="1060" height="515" src="https://www.youtube.com/embed/R3zIJ01-Vt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <Link href="https://www.youtube.com/channel/UCUvGWCPrEt8djat0s5V4b_w"><a className="inv-link btn">{ll}</a></Link>
         </div>
     )
 }
