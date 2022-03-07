@@ -2,12 +2,12 @@ import React from 'react'
 import Link from 'next/link'
 import SEO from '../../../comp/SEO/title'
 import Menu from '../../../comp/Menu/Menu'
-const NOTION_BLOG_ID = process.env.NOTION_BLOG_ID || "5f54f91c90e14df19e21041e93245eeb";
+const NOTION_BLOG_ID = process.env.NOTION_BLOG_ID || "ffbe62d24a444b0cba4be88149661198";
 function News({ posts }) {
   return (
     <>
     <SEO title="Blog" />
-    <Menu LANG="en" />
+    <Menu LANG="En"/>
     <div className="blog-container container">
       <div className="blog-header mb-5">
         <h1 className="blog-title">ბლოგი</h1>
