@@ -10,7 +10,7 @@ import Title from '../../comp/SEO/title'
 import Hrid from '../../comp/Grid-Heroes/grid'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Slider from "../../comp/Slider/Modal"
-import Stats from "../../comp/stats/stats"
+import Homea from "../../comp/stats/home"
 const slideData = [
   {
     index: 0,
@@ -96,7 +96,7 @@ export default function Home() {
       <Short title="About The Project" p={text} link="Learn More" hrf="/en/about"/>
       <Inv title="Interviews" ll="View More"/>
       <Hrid LANG="En"/>
-      <Stats title="Statistics" tt={tt}/>
+      <Homea title="Statistics" tt={tt}/>
       <Switcher title="GE" link="/ge"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>

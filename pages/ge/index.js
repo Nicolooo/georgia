@@ -9,7 +9,7 @@ import Title from '../../comp/SEO/title'
 import Hrid from '../../comp/Grid-Heroes/grid'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Slider from "../../comp/Slider/Modal"
-import Stats from "../../comp/stats/stats"
+import Homea from "../../comp/stats/Home"
 const slideData = [
   {
     index: 0,
@@ -95,7 +95,7 @@ export default function Home() {
       <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/ge/about"/>
       <Inv title="ინტერვიუები" ll="იხილეთ მეტი"/>
       <Hrid LANG="Ge" />
-      <Stats title="სტატისტიკა" tt={tt}/>
+      <Homea title="სტატისტიკა" tt={tt}/>
       <Switcher title="EN" link="/en"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>
