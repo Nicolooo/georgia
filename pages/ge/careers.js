@@ -12,7 +12,7 @@ const J = () => {
         <Switcher title="en" link="/en/career"/>
         <div className="career-cont">
             <h2 className="career-title">კარიერები</h2>
-                <div className="career-ikonka"><Coffee/></div>
+            <div className="career-ikonka"><Coffee/></div>
         </div>
         </>
     )
