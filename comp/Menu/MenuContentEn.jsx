@@ -12,18 +12,6 @@ const En = [
     component: <span>About us</span>,
    
   },
-  // {
-  //   url: "/en/programs",
-  //   component: <span>Programs</span>,
-  // },
-  // {
-  //   url: "/en/news",
-  //   component: <span>News</span>,
-  // },
-  // {
-  //   url: "/en/blog",
-  //   component: <span>Blog</span>,
-  // },
   {
     url: "/en/abkhazia",
     component: <span>Abkhazia</span>,

@@ -10,24 +10,10 @@ const  Ge = [
     url: "/ge/about/",
     component: <span>ჩვენ შესახებ</span>,
 
-  },
-  // {
-  //   url: "/ge/programs",
-  //   component: <span>პროგრამები</span>,
-  // },
-  // {
-  //   url: "/ge/news",
-  //   component: <span>სიახლეები</span>,
-  // },
-
-  // {
-  //   url: "/ge/blog",
-  //   component: <span>ბლოგი</span>,
-  // },
-  
+  },  
   {
     url: "/ge/abkhazia",
-    component: <span>აფხაზეთი</span>,
+    component: <span>აბხაზეთი</span>,
   },
   {
     url: "/ge/samachablo",
