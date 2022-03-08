@@ -11,7 +11,7 @@ const contact = () => {
         <SEO title="Contact "/>
         <Menu LANG="Ge" />
         <Switcher title="en" link="/en/contact"/>
-        <div className="container-fluid">
+        <div className="container-fluid contactpage">
             <div className="container">
                 <h3 className="contact-headline mb-5" data-aos="fade-up">კონტაქტი</h3>
             </div>

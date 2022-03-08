@@ -11,7 +11,7 @@ const contact = () => {
         <SEO title="Contact "/>
         <Menu />
         <Switcher title="Ge" link="/ge/contact"/>
-        <div className="container-fluid">
+        <div className="container-fluid contactpage">
             <div className="container">
                 <h3 className="contact-headline mb-5" data-aos="fade-up">Contact Us</h3>
             </div>

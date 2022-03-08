@@ -766,6 +766,9 @@ a {
 	align-self: center;
 	text-align: center;
 }
+.contactpage{
+	height: 100vh;
+}
 /* cards */
 .contact-cards{
 	display: flex;
@@ -793,7 +796,7 @@ a {
     flex-wrap: wrap;
 }
 .contact-form-wrap{
-	height: 10vh;
+	height: 20vh;
 	flex-wrap: wrap;
     width:80%;
     margin: 0 auto;
@@ -1329,6 +1332,9 @@ a {
 		height: 120vh!important;
 		width: 100vw;
 	}
+	.contactpage{
+		height: 110vh!important;
+	}
 	/* Stack columns on top of each other */
 	.Countb{
 		display: flex;
@@ -1584,6 +1590,9 @@ a {
 	.inv-wrapper{
 		height: 100vh;
 	}
+	.contactpage{
+		height: 120vh;
+	}
 	/* Stack columns on top of each other */
 	.Countb{
 		display: flex;
@@ -1594,9 +1603,10 @@ a {
 		padding: 5px;	
 	}
 	.Countb h3{
-		font-size: 1em;
+		font-size: 0.2em;
 		text-align: center;
 	}
+	/* Red */
 	.Countb h4{
 		font-size: 0.5em;
 		text-align: center;
