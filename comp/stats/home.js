@@ -1,5 +1,5 @@
 import React from 'react'
-import Count from './/count'
+import Count from './count'
 const Stats = ({title,tt}) => {
   return (
     <div className="ll">

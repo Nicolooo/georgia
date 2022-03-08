@@ -9,7 +9,7 @@ import Title from '../../comp/SEO/title'
 import Hrid from '../../comp/Grid-Heroes/grid'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Slider from "../../comp/Slider/Modal"
-import Homea from "../../comp/stats/Home"
+import Homea from "../../comp/stats/home"
 const slideData = [
   {
     index: 0,
