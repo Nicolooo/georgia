@@ -1129,9 +1129,9 @@ a {
 	justify-content: center;
 	width: 100%;
 	text-align: center;
-	padding: 30px;
+	padding: 35px;
 	background-color: #191919;
-	margin: 15px 15px 15px 15px;
+	margin: 15px 15px 25px 15px;
 }
 .heroes-wrapper .heroes-card img {
 	max-height: 200px;
@@ -1322,7 +1322,7 @@ a {
 	}
 }
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
+@media (max-width: 912px) {
 	.mega{
 		display: flex;
 		flex-direction: column;
@@ -1336,7 +1336,7 @@ a {
 		flex: 0 0 auto;
 		width: 100%;
 		text-align: center;
-		padding: 5px;	
+		padding: 15px;
 	}
 	.Countb h3{
 		font-size: 2em;
@@ -1352,7 +1352,7 @@ a {
 		flex: 0 0 auto;
 		width: 100%;
 		text-align: center;
-		padding: 5px;	
+		padding: 10px;	
 	}
 }
 
@@ -1580,6 +1580,9 @@ a {
 		flex-direction: column;
 		height: 150vh!important;
 		width: 100vw;
+	}
+	.inv-wrapper{
+		height: 100vh;
 	}
 	/* Stack columns on top of each other */
 	.Countb{
@@ -1929,6 +1932,7 @@ a {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	align-items: center;
   }
 .post-text img{
 	width: 100%;
@@ -1941,15 +1945,17 @@ a {
 	padding: 50px;
 	background-color: #000000;
 	margin: 15px 0 15px 0;
+	margin-left: 15px;
 	color: #fff;
     font-family: var(--averca);
     font-size: 2rem;
 	flex: 0 0 auto;
 	width: 31%;
-	margin: 15px 15px 15px 15px;
+	margin: 0.333333333333em;
 }
 .Countb h4{
 	font-size: 5rem;
+	padding-right: 14px;
 }
 .Countb h3{
 	font-family: var(--averca);
