@@ -45,7 +45,7 @@ const slideData = [
   },
   {
     index: 4,
-    headline: 'აბხაზეთის ომი',
+    headline: 'აფხაზეთის ომი',
     qve: '1992',
     button: 'იხილეთ მეტი',
     link: '/ge/abkhazia',
@@ -53,7 +53,7 @@ const slideData = [
   },
   {
     index: 5,
-    headline: 'ქართულ-რუსული ომი',
+    headline: 'რუსეთ-საქართველოს ომი',
     qve: '2008',
     button: 'იხილეთ მეტი',
     link: '/ge/samachablo',
