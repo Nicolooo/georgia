@@ -92,7 +92,7 @@ export default function Home() {
       <Hero />  
       <Headline title="თაიმლაინი"/>
       <Slider heading="Slider" slides={slideData} />
-      <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/ge/about"/>
+      <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/ge"/>
       <Inv title="ინტერვიუები" ll="იხილეთ მეტი"/>
       <Hrid LANG="Ge" />
       <Homea title="სტატისტიკა" tt={tt}/>

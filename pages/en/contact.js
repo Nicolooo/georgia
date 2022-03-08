@@ -6,7 +6,6 @@ import FormC from '../../comp/Contact/Form'
 import Footer from '../../comp/Footer/Footer'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 const contact = () => {
-    //  To do: Responsive + add ylinji for info
     return (
         <>
         <SEO title="Contact "/>

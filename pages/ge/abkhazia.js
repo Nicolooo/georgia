@@ -37,7 +37,7 @@ const abkhazia = () => {
             <Switcher title="EN" link="/en/abkhazia"/>
         <div className="abkhazia-wrapper container">
             <div className="abkhazia-title row"> 
-                <h1 className='page-header'>აბხაზეთი</h1>
+                <h1 className='page-header'>აფხაზეთი</h1>
                 <p className="abkhazia-shorttext">{Storage.abkGeo.first}</p>
             </div>
             <div className="abkhazia-stats row">

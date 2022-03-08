@@ -30,7 +30,7 @@ const slideData = [
   },
   {
     index: 2,
-    headline: 'Red Army insavion',
+    headline: 'Red Army Insavion',
     qve: '1921',
     link: '/en/1921',
     button: 'Learn More',
@@ -54,7 +54,7 @@ const slideData = [
   },
   {
     index: 5,
-    headline: 'Russo-georgian War',
+    headline: 'Russo-Georgian War',
     qve: '2008',
     button: 'Learn More',
     link: '/en/samachablo',
@@ -93,7 +93,7 @@ export default function Home() {
       <Hero />
       <Headline title="TIMELINE"/>
       <Slider heading="Slider" slides={slideData} />
-      <Short title="About The Project" p={text} link="Learn More" hrf="/en/about"/>
+      <Short title="About The Project" p={text} link="Learn More" hrf="/en"/>
       <Inv title="Interviews" ll="View More"/>
       <Hrid LANG="En"/>
       <Homea title="Statistics" tt={tt}/>
