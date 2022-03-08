@@ -1348,11 +1348,11 @@ a {
 		padding: 15px;
 	}
 	.Countb h3{
-		font-size: 2em;
+		font-size: 2em!important;
 		text-align: center;
 	}
 	.Countb h4{
-		font-size: 1em;
+		font-size: 1em!important;
 		text-align: center;
 	}
 	.rowa{
