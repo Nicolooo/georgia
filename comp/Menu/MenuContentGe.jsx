@@ -15,18 +15,19 @@ const  Ge = [
   //   url: "/ge/programs",
   //   component: <span>პროგრამები</span>,
   // },
-  // {
-  //   url: "/ge/news",
-  //   component: <span>სიახლეები</span>,
-  // },
   {
-    url: "/ge/blog",
-    component: <span>ბლოგი</span>,
+    url: "/ge/news",
+    component: <span>სიახლეები</span>,
   },
+
+  // {
+  //   url: "/ge/blog",
+  //   component: <span>ბლოგი</span>,
+  // },
   
   {
     url: "/ge/abkhazia",
-    component: <span>აბხაზეთი</span>,
+    component: <span>აფხაზეთი</span>,
   },
   {
     url: "/ge/samachablo",
