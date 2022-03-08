@@ -648,13 +648,16 @@ a {
 /*  About Us */
 .about-wrapper{
 	background-color: #1E1E1E;
+	height: 100vh;
 }
 .abt-text{
 	color: white;
 	font-family: var(--averca);
 	font-size: 1em;
 }
-
+.about-wr{
+	height: 90vh;
+}
 .abt-title{
 	color: red;
 	font-family: var(--averca);
@@ -1520,6 +1523,7 @@ a {
 		text-align: justify;
 		padding: 1rem;
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
@@ -1543,6 +1547,10 @@ a {
 	}
 	.samachablo-title h1{
 		font-size: 10vh;
+	}
+	.reference{
+		font-style: italic;
+		font-size: 1.5em;
 	}
 	.blog-container .blog-card .blog-card-content {
 		flex: 0 0 auto;

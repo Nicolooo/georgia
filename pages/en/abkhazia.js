@@ -5,7 +5,7 @@ import Switcher from '../../comp/LangSwitcher/Switcher'
 import Storage from '../../data/Content'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
-
+import Image from 'next/image'
 const data = {
     "counts": [
         {
@@ -45,7 +45,8 @@ const abkhazia = () => {
             </div>
             <div className='row'>
                 <div className="abkhazia-col">
-                    <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
+                    <Image className='img-resp' src="/abkhazia/abkhazia-1.webp" alt="as" height="700" width="1000" />
+                    <p className="reference">Pepo</p>
                 </div>
                 <div className="abkhazia-col">
                     <p>
@@ -55,7 +56,8 @@ const abkhazia = () => {
             </div>
             <div className='row'>
                 <div className="abkhazia-col">
-                    <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
+                <Image className='img-resp' src="/abkhazia/abkhazia-3.webp" alt="as" height="550" width="600" />
+                <p className="reference">Pepo</p>
                 </div>
                 <div className="abkhazia-col">
                     <p>
@@ -65,7 +67,8 @@ const abkhazia = () => {
             </div>
             <div className='row'>
                 <div className="abkhazia-col">
-                    <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
+                <Image className='img-resp' src="/abkhazia/abkhazia-4.webp" alt="as" height="550" width="600" />
+                <p className="reference">Pepo</p>
                 </div>
                 <div className="abkhazia-col">
                     <p>
@@ -73,7 +76,7 @@ const abkhazia = () => {
                     </p>
                 </div>
             </div>
-            <Share url="/en/abkhazia" />
+            <Share url="/en/abkhazia" title="Share"/>
         </div>
         </>
     )
