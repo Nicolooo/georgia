@@ -46,7 +46,7 @@ const abkhazia = () => {
             <div className='row'>
                 <div className="abkhazia-col">
                     <Image className='img-resp' src="/abkhazia/abkhazia-1.webp" alt="as" height="700" width="1000" />
-                    <p className="reference">Pepo</p>
+                    <p className="reference">*</p>
                 </div>
                 <div className="abkhazia-col">
                     <p>
@@ -57,7 +57,7 @@ const abkhazia = () => {
             <div className='row'>
                 <div className="abkhazia-col">
                 <Image className='img-resp' src="/abkhazia/abkhazia-3.webp" alt="as" height="550" width="600" />
-                <p className="reference">Pepo</p>
+                <p className="reference">*</p>
                 </div>
                 <div className="abkhazia-col">
                     <p>
@@ -68,7 +68,7 @@ const abkhazia = () => {
             <div className='row'>
                 <div className="abkhazia-col">
                 <Image className='img-resp' src="/abkhazia/abkhazia-4.webp" alt="as" height="550" width="600" />
-                <p className="reference">Pepo</p>
+                <p className="reference">*</p>
                 </div>
                 <div className="abkhazia-col">
                     <p>
