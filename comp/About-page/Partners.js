@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-const Partners = ({she,look}) => {
+const Partners = ({look}) => {
   return (
     <div>
         <h3 className="part-title">{look}</h3>
@@ -12,7 +12,7 @@ const Partners = ({she,look}) => {
                     <Image src="/partners/youth.webp" height="200" width="200" />
                 </div>    
                 <div className="part-col">
-                    <Image src={"/partners/lib-"+she+".webp"} height="100" width="300" />
+                    <Image src={"/partners/logo-fb-en.png"} height="200" width="400" />
                 </div>    
         </div>
     </div>

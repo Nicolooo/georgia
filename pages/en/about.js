@@ -21,7 +21,7 @@ const About = () => {
                     <p className="abt-text" data-aos="fade-down">{Abt[0]}<span className="abt-red">{Abt[1]}</span></p>
                 </div>
                 <Staff ok="En"/>
-                <Partners she="en" look="Partners"/>
+                <Partners look="Partners"/>
                 <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
             </div>
         </div>
