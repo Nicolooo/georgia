@@ -12,7 +12,7 @@ const Partners = ({she,look}) => {
                     <Image src="/partners/youth.webp" height="200" width="200" />
                 </div>    
                 <div className="part-col">
-                    <Image src={"/partners/lib-"+she+".webp"} height="100" width="300" />
+                    <Image src={"/partners/lib-"+she+".webp"} height="90" width="200" />
                 </div>    
         </div>
     </div>
