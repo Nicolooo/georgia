@@ -2,10 +2,8 @@ import React from 'react'
 import Count from './count'
 const Stats = ({tt}) => {
   return (
-    <div className="mega">
-    <div className="stats rowa">
+    <div className="stats-wrapper">
         {tt.counts.map(count => <Count key={count.id} data={count}/>)}
-    </div>
     </div>
   )
 }

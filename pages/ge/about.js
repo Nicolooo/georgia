@@ -5,6 +5,7 @@ import Staff from '../../comp/About-page/Staff'
 import Title from '../../comp/SEO/title'
 import Footer from '../../comp/Footer/Footer'
 import Switcher from '../../comp/LangSwitcher/Switcher'
+import Partners from '../../comp/About-page/Partners'
 const About = () => {
     const pepo = {'title': "Our Team", 'thx': "Special Thanks to"}
     return (
@@ -15,11 +16,12 @@ const About = () => {
           <Menu LANG="Ge"/>
           <Switcher title="EN" link="/en/about"/>
             <div className="container-fluid">
-                <div className="container mb-5">
+                <div className="container mb-5 about-wr">
                     <h1 className="abt-title mb-5" data-aos="fade-down">ჩვენ შესახებ</h1>
                     <p className="abt-text" data-aos="fade-down">{Abt[2]}<span className="abt-red">{Abt[3]}</span></p>
                 </div>
                 <Staff ok="Ge"/>
+                <Partners she="ge" look="პარტნიორები"/>
                 <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
             </div>
         </div>

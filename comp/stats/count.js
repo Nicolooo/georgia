@@ -16,13 +16,13 @@ const Count = props => {
   }, [number, duration]);
 
   return (
-    <div className="Countb">
-      <h4>
+    <div className="count-col">
+      <p>
              {count}
-      </h4>
-      <h3 id='count'>
+      </p>
+      <h2 id='count'>
       {label}
-      </h3>
+      </h2>
     </div>
   );
 }

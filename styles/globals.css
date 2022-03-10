@@ -656,7 +656,7 @@ a {
 	font-size: 1em;
 }
 .about-wr{
-	height: 90vh;
+	height: 80vh;
 }
 .abt-title{
 	color: red;
@@ -708,6 +708,8 @@ a {
 }
 /*  Inv */
 .inv-wrapper{
+	/* display: flex;
+	flex-direction: column; */
 	height: 100vh;
     margin-top: 12rem;
     background-color: #1E1E1E;
@@ -719,14 +721,6 @@ a {
 	font-size: 3em;
 	color: red;
 	padding-bottom: 20px;
-}
-.inv-link{
-	color: white;
-	font-family: var(--averca);
-	background-color: red;
-	padding: 16px;
-	margin-top: 2rem;
-	display: inline-block;
 }
 /*  Thanks  */
 .about-col {
@@ -1135,7 +1129,7 @@ a {
 	justify-content: center;
 	width: 100%;
 	text-align: center;
-	padding: 35px;
+	padding: 50px;
 	background-color: #191919;
 	margin: 15px 15px 25px 15px;
 }
@@ -1329,31 +1323,8 @@ a {
 }
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 912px) {
-	.mega{
-		display: flex;
-		flex-direction: column;
-		height: 120vh!important;
-		width: 100vw;
-	}
 	.contactpage{
 		height: 110vh!important;
-	}
-	/* Stack columns on top of each other */
-	.Countb{
-		display: flex;
-		flex-direction: column;
-		flex: 0 0 auto;
-		width: 100%;
-		text-align: center;
-		padding: 15px;
-	}
-	.Countb h3{
-		font-size: 2em;
-		text-align: center;
-	}
-	.Countb h4{
-		font-size: 1em;
-		text-align: center;
 	}
 	.rowa{
 		display: flex;
@@ -1364,16 +1335,7 @@ a {
 		padding: 10px;	
 	}
 }
-
-
-
 @media (min-width: 768px) {
-	.mega{
-		display: flex;
-		flex-direction: column;
-		height: 150vh!important;
-		width: 100vw;
-	}
 	.container, .container-md, .container-sm {
 		max-width: 720px;
 	}
@@ -1589,12 +1551,6 @@ a {
 }
 /* Only for Phones */
 @media (max-width: 540px) {
-	.mega{
-		display: flex;
-		flex-direction: column;
-		height: 150vh!important;
-		width: 100vw;
-	}
 	.inv-wrapper{
 		height: 100vh;
 	}
@@ -1602,23 +1558,6 @@ a {
 		height: 120vh;
 	}
 	/* Stack columns on top of each other */
-	.Countb{
-		display: flex;
-		flex-direction: column;
-		flex: 0 0 auto;
-		width: 100%;
-		text-align: center;
-		padding: 5px;	
-	}
-	.Countb h3{
-		font-size: 1em!important;
-		text-align: center;
-	}
-	/* Red */
-	.Countb h4{
-		font-size: 1em!important;
-		text-align: center;
-	}
 	.rowa{
 		display: flex;
 		flex-direction: column;
@@ -1762,7 +1701,7 @@ a {
 	margin: 0 auto;
 	position: relative;
 	width: var(--slide-size);
-	margin-bottom: 100px;
+	margin-bottom: 200px;
   }
   
   .slider__wrapper {
@@ -1943,40 +1882,97 @@ a {
 	justify-content: center;
 	flex-direction: column;
   }
-  .mega{
-	background: #000000;
-	height: 100vh;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-  }
+
 .post-text img{
 	width: 100%;
 	height: auto;
 }
 /* Counts Home */
-.Countb {
-	width: 100%;
-	text-align: center;
-	padding: 50px;
-	background-color: #000000;
-	margin: 15px 0 15px 0;
-	margin-left: 15px;
+.stats-wrapper {
+	width: 100vw;
+	height: 100vh;
+	background: #000;
 	color: #fff;
-    font-family: var(--averca);
-    font-size: 2rem;
-	flex: 0 0 auto;
-	width: 31%;
-	margin: 0.333333333333em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.Countb h4{
-	font-size: 5rem;
-	padding-right: 14px;
+.count-col{
+	width: 33.3vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-.Countb h3{
+/* White text */
+.count-col p{
+	color: white;
+	font-size: 4em;
 	font-family: var(--averca);
-	color:red;
-	font-size: 3rem;
+  }
+  /* Red Headline */
+.count-col h2{
+	font-family: var(--averca);
+	color: red;
+	font-size: 3em;
 }
+@media (max-width: 600px) {
+	.count-col{
+	  width: 50vw;
+	  margin-bottom: 50px;
+	}
+	.stats-wrapper{
+	  flex-direction: column;
+	}
+  }
+
+
+  /*  More button Intervius */
+  .inv-more{
+	margin-top: 2em;
+	color: red;
+	font-family: var(--averca);
+	font-size: 2.4vh;
+	padding-top: 2rem;
+	text-decoration: underline;
+  }
+
+
+  /*  Partners */
+  .part-wrapper {
+	display: flex;
+	width: 100wv;
+	height: 50vh;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+  }
+  .part-col{
+	width: 33.3vw;
+	margin:40px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  @media (max-width: 700px) {
+	  .about-wr{
+		height: 150vh;
+	}
+	.part-wrapper{
+	  flex-direction: column;
+	  height: 100vh;
+	}
+	.part-col{
+	  width: 50vw;
+	}
+	/* .img img{
+	  max-height: 200px;
+	} */
+  }
+  .part-title{
+	font-family: var(--averca);
+	color: red;
+	font-size: 4em;
+	text-align: center;
+  }

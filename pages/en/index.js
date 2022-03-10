@@ -94,7 +94,7 @@ export default function Home() {
       <Headline title="TIMELINE"/>
       <Slider heading="Slider" slides={slideData} />
       <Short title="About The Project" p={text} link="Learn More" hrf="/en"/>
-      <Inv title="Interviews" ll="View More"/>
+      <Inv title="Interviews" view="View More"/>
       <Hrid LANG="En"/>
       <Homea title="Statistics" tt={tt}/>
       <Switcher title="GE" link="/ge"/>
