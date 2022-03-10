@@ -1117,12 +1117,13 @@ a {
 	padding: 1rem 0 1rem 0;
 	font-family: var(--averca);
 }
-/* .heroes-wrapper h2 {
+.heroes-wrapper h2 {
 	color: #FF0000;
 	text-align: center;
 	font-size: 2em;
 	padding-top: 2.5rem;
-} */
+	padding-bottom: 2.5rem;
+}
 .heroes-wrapper .heroes-card {
 	display: flex;
 	flex-direction: column;
@@ -1407,6 +1408,7 @@ a {
 		text-align: center;
 		font-size: 5em;
 		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
 	}
 	.heroes-card .heroes-card-text h3 {
 		font-size: 1.7rem;
