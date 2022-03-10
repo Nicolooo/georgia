@@ -13,7 +13,7 @@ import Homea from "../../comp/stats/home"
 const slideData = [
   {
     index: 0,
-    headline: 'რუსული ანექსაცია',
+    headline: 'საქართველოს ანექსია',
     qve: "1801",
     link: '/ge/1801',
     button: 'იხილეთ მეტი',
@@ -71,7 +71,7 @@ const tt = {
       {
           "id": "002",
           "label": "გარდაცვლილი",
-          "number": "5.000+",
+          "number": "500+",
           "duration": "2"
       },
       {

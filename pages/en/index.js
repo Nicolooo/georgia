@@ -72,14 +72,14 @@ const tt = {
       {
           "id": "002",
           "label": "DEAD",
-          "number": "5.000+",
-          "duration": "2"
+          "number": "500+",
+          "duration": "1"
       },
       {
           "id": "003",
           "label": "WOUNDED",
           "number": "10..000+",
-          "duration": "2"
+          "duration": "1"
       },
      
   ]
