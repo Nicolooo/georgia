@@ -1557,6 +1557,9 @@ a {
 }
 /* Only for Phones */
 @media (max-width: 540px) {
+	.about-wr{
+		height: 150vh!important;
+	}
 	.inv-wrapper{
 		height: 100vh;
 	}
