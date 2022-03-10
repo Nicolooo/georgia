@@ -2,7 +2,8 @@ import React from 'react'
 
 const Ge = () =>{
     return(
-        <div className="container row">
+        <div className="team-wr">
+        <div className="container rowa">
         <div className="about-col">
             <h3 className="abt-h">ჩვენი გუნდი</h3>
             <h4 className="abt-names">ნიკოლოზ სირბილაძე</h4>
@@ -16,11 +17,13 @@ const Ge = () =>{
             <h4 className="abt-names">ლაშა ჩანტლაძე</h4>
         </div>
     </div>
+    </div>
     )
 }
 const En = () => {
     return (
-        <div className="container row">
+        <div className="team-wr">
+        <div className="container rowa">
         <div className="about-col">
             <h3 className="abt-h">Our Team</h3>
             <h4 className="abt-names">Nikusha Sirbiladze</h4>
@@ -33,6 +36,7 @@ const En = () => {
             <h4 className="abt-names">Levan Ghambashidze</h4>
             <h4 className="abt-names">Lasha Chantladze</h4>
         </div>
+    </div>
     </div>
     )
 }

@@ -18,7 +18,16 @@ const About = () => {
             <div className="container-fluid">
                 <div className="container mb-5 about-wr">
                     <h1 className="abt-title mb-5" data-aos="fade-down">ჩვენ შესახებ</h1>
-                    <p className="abt-text" data-aos="fade-down">{Abt[2]}<span className="abt-red">{Abt[3]}</span></p>
+                    <p className="abt-text" data-aos="fade-down">
+                        {Abt[4]}
+                        <div className="jigari"></div>
+                        {Abt[5]}
+                        <div className="jigari"></div>
+                        {Abt[6]}
+                        <span className="abt-red">
+                            {Abt[7]}
+                        </span>
+                    </p>
                 </div>
                 <Staff ok="Ge"/>
                 <Partners she="ge" look="პარტნიორები"/>

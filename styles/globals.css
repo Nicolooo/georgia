@@ -60,8 +60,8 @@ a {
 /* Container classes for responsive */
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     width: 100%;
-    padding-right: .75rem;
-    padding-left: .75rem;
+    /* padding-right: .75rem; */
+    /* padding-left: .75rem; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -648,7 +648,8 @@ a {
 /*  About Us */
 .about-wrapper{
 	background-color: #1E1E1E;
-	height: 100vh;
+	height: 90vh;
+	padding-top: 2em;
 }
 .abt-text{
 	color: white;
@@ -1116,12 +1117,12 @@ a {
 	padding: 1rem 0 1rem 0;
 	font-family: var(--averca);
 }
-.heroes-wrapper h2 {
+/* .heroes-wrapper h2 {
 	color: #FF0000;
 	text-align: center;
 	font-size: 2em;
 	padding-top: 2.5rem;
-}
+} */
 .heroes-wrapper .heroes-card {
 	display: flex;
 	flex-direction: column;
@@ -1138,18 +1139,21 @@ a {
 	max-width: 170px;
 	border: none;
 	transition: .5s;
+	margin-top: 50px;
 }
 .heroes-wrapper .heroes-card .heroes-card-text {
 	display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: calc(329px - 180px);
+    height: calc(400px - 200px);
 }
 .heroes-card .heroes-card-text h3 {
 	margin-bottom: 13px;
 	color: #FF0000;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
+	font-family: var(--averca);
+	text-transform: uppercase;
 }
 .heroes-card .heroes-card-text p {
 	color: #DADADA;
@@ -1405,10 +1409,10 @@ a {
 		padding-top: 2.5rem;
 	}
 	.heroes-card .heroes-card-text h3 {
-		font-size: 1.8rem;
+		font-size: 1.7rem;
 	}
 	.heroes-card .heroes-card-text p {
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 	.blog-container .blog-header .blog-title {
 		font-size: 6em;
@@ -1860,9 +1864,11 @@ a {
   }
 
 .rowa{
+	padding-top: 9em;
 	display: flex;
     flex-wrap: wrap;
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+	background: #111111;
 }
   .timeline-shorts{
 	text-align: justify;
@@ -1948,17 +1954,21 @@ a {
 
 
   /*  Partners */
+  .nn{
+	  width: 100vw!important;
+	  background-color: #111111;
+  }
   .part-wrapper {
 	display: flex;
 	width: 100vw;
-	height: 50vh;
+	height: 40vh;
 	align-content: center;
 	justify-content: center;
 	align-items: center;
   }
   .part-col{
 	width: 33.3vw;
-	margin:40px; 
+	margin: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1980,8 +1990,22 @@ a {
 	} */
   }
   .part-title{
+	padding-top: 2rem;
 	font-family: var(--averca);
 	color: red;
 	font-size: 4em;
 	text-align: center;
+  }
+  /*  team wr */
+  .team-wr{
+	  background-color: #111111;
+  }
+  /*  text Spacer */
+  .jigari{
+	  padding-top: 2rem;
+  }
+  .shorttext{
+	color: white;
+    font-family: var(--averca);
+    font-size: 1.5em;
   }

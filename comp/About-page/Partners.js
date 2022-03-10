@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Partners = ({look}) => {
   return (
-    <div>
+    <div className="nn">
         <h3 className="part-title">{look}</h3>
         <div className="part-wrapper">
                 <div className="part-col">

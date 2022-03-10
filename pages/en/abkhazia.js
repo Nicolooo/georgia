@@ -23,7 +23,7 @@ const data = {
         {
             "id": "003",
             "label": "WOUNDED",
-            "number": "10.000",
+            "number": "10..000",
             "duration": "2"
         },
        
@@ -56,7 +56,7 @@ const abkhazia = () => {
             </div>
             <div className='row'>
                 <div className="abkhazia-col">
-                <Image className='img-resp' src="/abkhazia/abkhazia-3.webp" alt="as" height="550" width="600" />
+                <Image className='img-resp' src="/abkhazia/abkhazia-3.webp" alt="as" height="650" width="600" />
                 <p className="reference">*</p>
                 </div>
                 <div className="abkhazia-col">
