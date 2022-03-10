@@ -78,7 +78,7 @@ const tt = {
       {
           "id": "003",
           "label": "WOUNDED",
-          "number": "10.000+",
+          "number": "10..000+",
           "duration": "2"
       },
      

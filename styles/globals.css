@@ -1324,7 +1324,7 @@ a {
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 912px) {
 	.contactpage{
-		height: 110vh!important;
+		height: 120vh!important;
 	}
 	.rowa{
 		display: flex;
@@ -1338,6 +1338,9 @@ a {
 @media (min-width: 768px) {
 	.container, .container-md, .container-sm {
 		max-width: 720px;
+	}
+	.contactpage{
+		height: 120vh!important;
 	}
 	.contact-headline {
 		font-size: 6em;
@@ -1432,6 +1435,9 @@ a {
 @media (min-width: 992px) {
 	.container, .container-lg, .container-md, .container-sm {
 		max-width: 960px;
+	}
+	.about-wr{
+		height: 100vh!important;
 	}
 	.contact-card{
 		flex: 0 0 auto;
@@ -1551,11 +1557,14 @@ a {
 }
 /* Only for Phones */
 @media (max-width: 540px) {
+	.about-wr{
+		height: 150vh!important;
+	}
 	.inv-wrapper{
 		height: 100vh;
 	}
 	.contactpage{
-		height: 150vh;
+		height: 150vh!important;
 	}
 	/* Stack columns on top of each other */
 	.rowa{
@@ -1941,7 +1950,7 @@ a {
   /*  Partners */
   .part-wrapper {
 	display: flex;
-	width: 100wv;
+	width: 100vw;
 	height: 50vh;
 	align-content: center;
 	justify-content: center;
@@ -1956,8 +1965,8 @@ a {
   }
 
   @media (max-width: 700px) {
-	  .about-wr{
-		height: 150vh;
+	.about-wr{
+		height: 150vh!important;
 	}
 	.part-wrapper{
 	  flex-direction: column;

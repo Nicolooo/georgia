@@ -77,7 +77,7 @@ const tt = {
       {
           "id": "003",
           "label": "დაჭრილი",
-          "number": "10.000+",
+          "number": "10..000+",
           "duration": "2"
       },
      
