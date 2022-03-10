@@ -624,6 +624,7 @@ a {
 	color: white;
 	font-family: var(--averca);
 	font-size: 1.5em;
+	padding: 0.7em;
 }
 /* 
 	404
@@ -655,6 +656,7 @@ a {
 	color: white;
 	font-family: var(--averca);
 	font-size: 1em;
+	padding: 20px;
 }
 .about-wr{
 	height: 80vh;
@@ -1563,9 +1565,6 @@ a {
 }
 /* Only for Phones */
 @media (max-width: 540px) {
-	.about-wr{
-		height: 150vh!important;
-	}
 	.inv-wrapper{
 		height: 100vh;
 	}
@@ -1977,8 +1976,11 @@ a {
   }
 
   @media (max-width: 700px) {
+	.abkhazia-col p{
+		padding: 0.7em;
+	} 
 	.about-wr{
-		height: 150vh!important;
+		height: 200vh!important;
 	}
 	.part-wrapper{
 	  flex-direction: column;
