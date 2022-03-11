@@ -4,12 +4,13 @@ import SEO from '../../../comp/SEO/title'
 import Back from '../../../comp/LangSwitcher/Back'
 import Switcher from '../../../comp/LangSwitcher/Switcher'
 function Post({ post }) {
+  const linka = `/ge/news/${post.id}` 
     return (
       <>
       <SEO title={post.title} />
       <Menu LANG="en"/>
       <Back title="Back" link="ge"/>
-      <Switcher title="Ge" link="/ge/about"/>
+      <Switcher title="Ge" link={linka}/>
       <div className="post-page">
           <div className="news-single">
               <h2>{post.title}</h2>
@@ -23,7 +24,7 @@ function Post({ post }) {
       )
   }
   export async function getStaticPaths() {
-        const res = await fetch('https://georgian-liberty.herokuapp.com/news')
+        const res = await fetch('https://georgian-liberty.herokuapp.com/en')
         const posts = await res.json()
         const paths = posts.map((post) => ({
         params: {id: post.id.toString()},
