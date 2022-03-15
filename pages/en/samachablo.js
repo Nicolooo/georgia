@@ -17,13 +17,13 @@ const data = {
         {
             "id": "002",
             "label": "DEAD",
-            "number": "1.000",
+            "number": "180+",
             "duration": "2"
         },
         {
             "id": "003",
             "label": "WOUNDED",
-            "number": "4.000",
+            "number": "1.000+",
             "duration": "2"
         },
        

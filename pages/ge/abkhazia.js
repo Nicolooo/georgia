@@ -11,19 +11,19 @@ const data = {
         {
             "id": "001",
             "label": "ლტოლვილი",
-            "number": "250.000",
+            "number": "250.000+",
             "duration": "2"
         },
         {
             "id": "002",
             "label": "გარდაცვლილი",
-            "number": "4.000",
+            "number": "10.000+",
             "duration": "2"
         },
         {
             "id": "003",
             "label": "დაჭრილი",
-            "number": "10..000",
+            "number": "8..000+",
             "duration": "2"
         },
        
