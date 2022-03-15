@@ -1333,6 +1333,9 @@ a {
 	.contactpage{
 		height: 120vh!important;
 	}
+	.about-wr{
+		height: 150vh!important;
+	}
 	.rowa{
 		display: flex;
 		flex-direction: column;
