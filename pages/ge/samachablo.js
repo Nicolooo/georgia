@@ -17,13 +17,13 @@ const data = {
         {
             "id": "002",
             "label": "გარდაცვლილი",
-            "number": "1.000",
+            "number": "180",
             "duration": "2"
         },
         {
             "id": "003",
             "label": "დაჭრილი",
-            "number": "4.000",
+            "number": "1.000",
             "duration": "2"
         },
        
