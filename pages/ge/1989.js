@@ -17,7 +17,7 @@ const merve = () => {
                     {Storage[1989].ge}                    
                 </p>
             </div>
-            <Share url="/en/1989" />
+            <Share url="/en/1989" title="გააზიარეთ" />
         </div>
         </>
     )

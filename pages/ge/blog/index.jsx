@@ -2,8 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import SEO from '../../../comp/SEO/title'
 import Menu from '../../../comp/Menu/Menu'
-const NOTION_BLOG_ID = process.env.NOTION_BLOG_ID || "ffbe62d24a444b0cba4be88149661198";
-function News({ posts }) {
+function News() {
   return (
     <>
     <SEO title="Blog" />
@@ -13,7 +12,7 @@ function News({ posts }) {
         <h1 className="blog-title">ბლოგი</h1>
       </div>
       <div className="blog-card row">
-      {posts.map((post) => (
+      {/* {posts.map((post) => (
 
        <Link href={`/ge/blog/${post.slug}`} as={`/ge/blog/${post.slug}`} key={`/ge/blog/${post.slug}`}>
         <a className="blog-card-content">
@@ -22,7 +21,7 @@ function News({ posts }) {
           <p>{post.slug}</p>
         </a>
         </Link>
-      ))}
+      ))} */}
       </div>
     </div>
       </>
@@ -30,17 +29,17 @@ function News({ posts }) {
 }
 export default News
 
-export const getAllPosts = async () => {
-  return await fetch(
-    `https://notion-api.splitbee.io/v1/table/${NOTION_BLOG_ID}`
-  ).then((res) => res.json());
-};
+// export const getAllPosts = async () => {
+//   return await fetch(
+//     `https://notion-api.splitbee.io/v1/table/${NOTION_BLOG_ID}`
+//   ).then((res) => res.json());
+// };
 
-export async function getStaticProps() {
-  const posts = await getAllPosts();
-  return {
-    props: {
-      posts,
-    },
-  };
-}
+// export async function getStaticProps() {
+//   const posts = await getAllPosts();
+//   return {
+//     props: {
+//       posts,
+//     },
+//   };
+// }
