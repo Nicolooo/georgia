@@ -157,6 +157,7 @@ a {
 	font-weight: 400;
 	max-width: 50rem;
 	margin: 0 auto;
+	padding-bottom: 2rem;
 }
 .News-conmt{
 	display: flex;
@@ -187,11 +188,8 @@ a {
 	justify-content: center;
 	min-height: 100vh;
 }
-.news-single-info{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
+.news-single{
+	padding: 7rem;
 }
 /* Language */
 .lang-wrap{
