@@ -17,7 +17,7 @@ const measme = () => {
                     {Storage[1921].text}                    
                 </p>
             </div>
-            <Share url="/en/1921" />
+            <Share url="/en/1921" title="Share the Article" />
         </div>
         </>
     )

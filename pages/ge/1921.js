@@ -17,7 +17,7 @@ const measme = () => {
                     {Storage[1921].ge}                    
                 </p>
             </div>
-            <Share url="/en/1921" />
+            <Share url="/en/1921" title="გააზიარეთ" />
         </div>
         </>
     )

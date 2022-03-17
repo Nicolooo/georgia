@@ -17,7 +17,7 @@ const Meore = () => {
                     {Storage[1918].ge}                    
                 </p>
             </div>
-            <Share url="/en/1918" />
+            <Share url="/en/1918" title="გააზიარეთ" />
         </div>
         </>
     )

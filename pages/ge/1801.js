@@ -17,7 +17,7 @@ const pirveli = () => {
                     {Storage[1801].ge}                    
                 </p>
             </div>
-            <Share url="/en/1801" />
+            <Share url="/en/1801" title="გააზიარეთ" />
         </div>
         </>
     )

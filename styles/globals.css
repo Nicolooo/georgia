@@ -572,6 +572,7 @@ a {
 	font-family: var(--averca);
 	font-size: 1.5em;
 	width: 50em;
+	text-align: justify;
 }
 .abkhazia-title {
 	text-align: center;
@@ -1446,7 +1447,7 @@ a {
 		max-width: 960px;
 	}
 	.about-wr{
-		height: 100vh!important;
+		height: 130vh!important;
 	}
 	.contact-card{
 		flex: 0 0 auto;
@@ -2013,4 +2014,14 @@ a {
 	color: white;
     font-family: var(--averca);
     font-size: 1.5em;
+  }
+
+
+
+  /* 1280 px */
+	@media only screen and (min-width: 800px) and (max-width: 1280px)  {
+	.video{
+		width: 900px;
+		height: 450px;
+	}
   }

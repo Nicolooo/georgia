@@ -6,7 +6,7 @@ import Back from '../../../comp/LangSwitcher/Back'
 import Switcher from '../../../comp/LangSwitcher/Switcher'
 import Image from 'next/image'
 function Post({ post }) {
-  const linka = '/ge/news/' + post.slug
+  const linka = '/en/news/' + post.slug
     return (
       <>
       <SEO title={post.title} />

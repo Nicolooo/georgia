@@ -40,8 +40,7 @@ class Slide extends React.Component {
       if (current === index) classNames += ' slide--current'
       else if (current - 1 === index) classNames += ' slide--previous'
       else if (current + 1 === index) classNames += ' slide--next'
-      const oo = 'http://localhost:3000'+ link
-      const linka = 'https://georgianliberty.com/'+link
+      const linka = 'https://georgianliberty.com'+link
       return (
         <li 
           ref={this.slide}
