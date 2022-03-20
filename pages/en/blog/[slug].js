@@ -5,35 +5,35 @@ import { getAllPosts, Post } from "./index";
 import React from 'react'
 import Menu from '../../../comp/Menu/Menu'
 import SEO from '../../../comp/SEO/title'
-export async function getStaticPaths() {
-    const table = await getAllPosts();
-    return {
-      paths: table.map((row) => `/en/blog/${row.slug}`),
-      fallback: true,
-    };
-  }
+// export async function getStaticPaths() {
+//     const table = await getAllPosts();
+//     return {
+//       paths: table.map((row) => `/en/blog/${row.slug}`),
+//       fallback: true,
+//     };
+//   }
   
-export async function getStaticProps({
-  params: { slug },
-}) {
-  const posts = await getAllPosts();
-  const post = posts.find((t) => t.slug === slug);
-  const blocks = await fetch(
-    `https://notion-api.splitbee.io/v1/page/${post.id}`
-  ).then((res) => res.json());
+// export async function getStaticProps({
+//   params: { slug },
+// }) {
+//   const posts = await getAllPosts();
+//   const post = posts.find((t) => t.slug === slug);
+//   const blocks = await fetch(
+//     `https://notion-api.splitbee.io/v1/page/${post.id}`
+//   ).then((res) => res.json());
 
-  return {
-    props: {
-      blocks,
-      post,
-    },
-  };
-}
+//   return {
+//     props: {
+//       blocks,
+//       post,
+//     },
+//   };
+// }
 const BlogPost = ({post,blocks})=> {
   if (!post) return null;
   return (
     <div className="content">
-      <SEO title={post.title} />
+      {/* <SEO title={post.title} />
       <Menu LANG="en"/>
       <Switcher title="Ge" link={`/ge/blog/${post.slug}`}/>
       <Back link="en/blog" title="Back"/>
@@ -46,7 +46,7 @@ const BlogPost = ({post,blocks})=> {
               </div>
               <p className="post-text"><NotionRenderer blockMap={blocks} /></p>
           </div>
-        </div>
+        </div> */}
     </div>
   );
 };
