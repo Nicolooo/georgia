@@ -571,8 +571,6 @@ a {
 	color: white;
 	font-family: var(--averca);
 	font-size: 1.5em;
-	width: 50em;
-	text-align: justify;
 }
 .abkhazia-title {
 	text-align: center;
@@ -712,7 +710,7 @@ a {
 .inv-wrapper{
 	/* display: flex;
 	flex-direction: column; */
-	height: 100vh;
+	height: 120vh;
     margin-top: 12rem;
     background-color: #1E1E1E;
     color: white;
@@ -1570,6 +1568,9 @@ a {
 	.inv-wrapper{
 		height: 100vh;
 	}
+	.abkhazia-shorttext{
+		padding: 0.7em;
+	}
 	.contactpage{
 		height: 150vh!important;
 	}
@@ -1942,17 +1943,24 @@ a {
 	.stats-wrapper{
 	  flex-direction: column;
 	}
+	.Slider-btn{
+		padding: 0.7rem 1.2rem 0.725rem;
+	}
+	.heroes-wrapper .heroes-card img {
+		width: 20em;
+		height: 18em;
+	}
   }
 
 
   /*  More button Intervius */
   .inv-more{
-	margin-top: 2em;
-	color: red;
+	background: red;
+	color: white;
+	display: inline-block;
+	margin: 20px;
 	font-family: var(--averca);
-	font-size: 2.4vh;
-	padding-top: 2rem;
-	text-decoration: underline;
+	padding: 20px 50px 20px 50px;
   }
 
 

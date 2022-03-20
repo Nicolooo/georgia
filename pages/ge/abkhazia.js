@@ -43,7 +43,7 @@ const abkhazia = () => {
             <div className="abkhazia-stats row">
                 {data.counts.map(count => <Count key={count.id} data={count}/>)}
             </div>
-            <div className='row'>
+            {/* <div className='row'>
                 <div className="abkhazia-col">
                     <Image className='img-resp' src="/abkhazia/abkhazia-1.webp" alt="as" height="700" width="1000" />
                     <p className="reference">*</p>
@@ -53,7 +53,7 @@ const abkhazia = () => {
                         {Storage.abkGeo.first}
                     </p>
                 </div>
-            </div>
+            </div> */}
             <div className='row'>
                 <div className="abkhazia-col">
                 <Image className='img-resp' src="/abkhazia/abkhazia-3.webp" alt="as" height="650" width="600" />
