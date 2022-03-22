@@ -8,7 +8,7 @@ function News({ posts }) {
   
   return (
     <>
-    <Switcher title="Ge" link="/ge/news"/>
+    <Switcher title="Ge" link="/en/news"/>
     <SEO title="News" />
     <Menu LANG="En" />
     <div className="news-container container">

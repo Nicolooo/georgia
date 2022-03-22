@@ -5,7 +5,8 @@ import Switcher from '../../comp/LangSwitcher/Switcher'
 import Storage from '../../data/Content'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
-
+import Image from 'next/image'
+import Link from 'next/link'
 const data = {
     "counts": [
         {
@@ -52,7 +53,9 @@ const samachablo = () => {
             </div>
             <div className='row'>
                 <div className="samachablo-col">
-                    <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
+                   <Image src="/samachablo/2.webp" alt="Samachablo" width={700} height={500}/>
+                   <Link href="https://www.atlanticcouncil.org/blogs/ukrainealert/the-2008-russo-georgian-war-putins-green-light/"><p className="reference">Source</p></Link>
+                
                 </div>
                 <div className="samachablo-col">
                     <p>
@@ -62,7 +65,8 @@ const samachablo = () => {
             </div>
             <div className='row'>
                 <div className="samachablo-col">
-                    <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
+                   <Image src="/samachablo/1.webp" height={400} width={600}/>
+                   <Link href="https://www.atlanticcouncil.org/blogs/ukrainealert/the-2008-russo-georgian-war-putins-green-light/"><p className="reference">Source</p></Link>
                 </div>
                 <div className="samachablo-col">
                     <p>

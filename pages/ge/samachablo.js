@@ -5,7 +5,8 @@ import Switcher from '../../comp/LangSwitcher/Switcher'
 import Storage from '../../data/Content'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
-
+import Link from 'next/link'
+import Image from 'next/image'
 const data = {
     "counts": [
         {
@@ -46,7 +47,9 @@ const samachablo = () => {
             <div className='row'>
                 <p className="shorttext">1992 წლის ბოლოდან ცხინვალის რეგიონში/სამხრეთ ოსეთში მუშაობა დაიწყო ეუთო-ს მისიამ საქართველოში. კონფლიქტის შედეგად დაიღუპა ათასამდე, ხოლო უგზოუკვლოდ დაიკარგა ასამდე ადამიანი. დაახლოებით 70-80 ათასამდე ადამიანი გააძევეს საცხოვრებელი სახლებიდან. რეგიონი ფაქტობრივად დაცარიელდა. დღეის მდგომარეობით, ცხინვალის რეგიონის/სამხრეთ ოსეთის მოსახლეობა 15-20 ათასს შეადგენს. შექმნილ ვითარებაში რუსეთმა მოახერხა თავის მიერვე ინსპირირებულ კონფლიქტში შუამავლისა და მშვიდობისმყოფლის როლი ეკისრა. 1992 წლის 24 ივნისს რუსეთის შუამდგომლობით გაფორმებული (სოჭის) ხელშეკრულებით რეგიონში განლაგდა შერეული სამშვიდობო ძალები (რუსული, ქართული და ოსური შემადგენლობით) და შეიქმნა შერეული საკონტროლო კომისია.</p>
                 <div className="samachablo-col">
-                    <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
+                    <Image src="/samachablo/3.webp" alt="Samachablo" width={700} height={500}/>
+                   <Link href="https://www.atlanticcouncil.org/blogs/ukrainealert/the-2008-russo-georgian-war-putins-green-light/"><p className="reference">Source</p></Link>
+                
                 </div>
                 <div className="samachablo-col">
                     <p>
@@ -56,7 +59,8 @@ const samachablo = () => {
             </div>
             <div className='row'>
                 <div className="samachablo-col">
-                    <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
+                    <Image src="/samachablo/2.webp" alt="Samachablo" width={700} height={500}/>
+                    <Link href="https://www.atlanticcouncil.org/blogs/ukrainealert/the-2008-russo-georgian-war-putins-green-light/"><p className="reference">Source</p></Link>
                 </div>
                 <div className="samachablo-col">
                     <p>
@@ -66,7 +70,8 @@ const samachablo = () => {
             </div>
             <div className='row'>
                 <div className="samachablo-col">
-                    <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
+                   <Image src="/samachablo/1.webp" height={400} width={600}/>
+                   <Link href="https://www.atlanticcouncil.org/blogs/ukrainealert/the-2008-russo-georgian-war-putins-green-light/"><p className="reference">Source</p></Link>
                 </div>
                 <div className="samachablo-col">
                     <p>
