@@ -8,7 +8,7 @@ function News({ posts }) {
     <>
     <SEO title="Blog" />
     <Menu LANG="Ge" />
-    <div className="blog-container container">
+    {/* <div className="blog-container container">
       <div className="blog-header mb-5">
         <h1 className="blog-title">Blog</h1>
       </div>
@@ -22,25 +22,25 @@ function News({ posts }) {
           <p>{post.slug}</p>
         </a>
         </Link>
-      ))}
-      </div>
-    </div>
+      ))} */}
+      {/* </div>
+    </div> */}
       </>
   )
 }
 export default News
 
-export const getAllPosts = async () => {
-  return await fetch(
-    `https://notion-api.splitbee.io/v1/table/${NOTION_BLOG_ID}`
-  ).then((res) => res.json());
-};
+// export const getAllPosts = async () => {
+//   return await fetch(
+//     `https://notion-api.splitbee.io/v1/table/${NOTION_BLOG_ID}`
+//   ).then((res) => res.json());
+// };
 
-export async function getStaticProps() {
-  const posts = await getAllPosts();
-  return {
-    props: {
-      posts,
-    },
-  };
-}
+// export async function getStaticProps() {
+//   const posts = await getAllPosts();
+//   return {
+//     props: {
+//       posts,
+//     },
+//   };
+// }

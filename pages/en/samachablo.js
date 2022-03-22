@@ -39,7 +39,7 @@ const samachablo = () => {
         <div className="samachablo-wrapper container">
             <div className="samachablo-title row"> 
                 <h1 className='page-header'>Samachablo</h1>
-                <p className="samachablo-shorttext">In the early 1990s, the Russian Federation used the strategy prepared during the Soviet regime. The main methodology of which was to inspire and stir up ethnic strife in the autonomies established by the Soviet government in Georgia, as well as to form a local separatist elite. The OSCE Mission to Georgia started working in the Tskhinvali region / South Ossetia in late 1992</p>
+                <p className="abkhazia-shorttext">In the early 1990s, the Russian Federation used the strategy prepared during the Soviet regime. The main methodology of which was to inspire and stir up ethnic strife in the autonomies established by the Soviet government in Georgia, as well as to form a local separatist elite. The OSCE Mission to Georgia started working in the Tskhinvali region / South Ossetia in late 1992</p>
             </div>
             <div className="samachablo-stats row">
                 {data.counts.map(count => <Count key={count.id} data={count}/>)}
