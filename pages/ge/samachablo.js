@@ -50,7 +50,7 @@ const samachablo = () => {
                 </div>
                 <div className="samachablo-col">
                     <Image src="/samachablo/3.webp" alt="Samachablo" width={700} height={500}/>
-                   <Link href="https://www.atlanticcouncil.org/blogs/ukrainealert/the-2008-russo-georgian-war-putins-green-light/"><p className="reference">Source</p></Link>
+                   <Link href="https://www.atlanticcouncil.org/blogs/ukrainealert/the-2008-russo-georgian-war-putins-green-light/"><p className="reference">წყარო</p></Link>
                 
                 </div>
                 <div className="samachablo-col">
@@ -62,7 +62,7 @@ const samachablo = () => {
             <div className='row'>
                 <div className="samachablo-col">
                     <Image src="/samachablo/2.webp" alt="Samachablo" width={700} height={500}/>
-                    <Link href="https://www.atlanticcouncil.org/blogs/ukrainealert/the-2008-russo-georgian-war-putins-green-light/"><p className="reference">Source</p></Link>
+                    <Link href="https://www.atlanticcouncil.org/blogs/ukrainealert/the-2008-russo-georgian-war-putins-green-light/"><p className="reference">წყარო</p></Link>
                 </div>
                 <div className="samachablo-col">
                     <p>
@@ -73,7 +73,7 @@ const samachablo = () => {
             <div className='row'>
                 <div className="samachablo-col">
                    <Image src="/samachablo/1.webp" height={400} width={600}/>
-                   <Link href="https://www.atlanticcouncil.org/blogs/ukrainealert/the-2008-russo-georgian-war-putins-green-light/"><p className="reference">Source</p></Link>
+                   <Link href="https://www.atlanticcouncil.org/blogs/ukrainealert/the-2008-russo-georgian-war-putins-green-light/"><p className="reference">წყარო</p></Link>
                 </div>
                 <div className="samachablo-col">
                     <p>
