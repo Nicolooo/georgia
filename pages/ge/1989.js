@@ -7,7 +7,7 @@ import Title from '../../comp/SEO/title'
 const merve = () => {
     return (
         <>
-        <Title title="1989" />
+        <Title title="Georgian Liberty I 9 აპრილის ტრაგედია" meta="1980-იანი წლები მეორე ნახევარი საკმაოდ ტურბულენტური იყო საბჭოთა კავშირისთვის." />
         <Menu LANG="Ge" />
             <Switcher title="En" link="/en/1989"/>
         <div className="abkhazia-wrapper container">

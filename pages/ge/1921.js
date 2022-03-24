@@ -7,7 +7,7 @@ import Title from '../../comp/SEO/title'
 const measme = () => {
     return (
         <>
-        <Title title="1921" />
+        <Title title="Georgian Liberty I წითელი არმიის შემოჭრა" meta="საქართველოს დემოკრატიული რესპუბლიკა დამოუკიდებლობის წლებში ძალიან მძიმე გამოწვევების წინაშე აღმოჩნდა."/>
         <Menu LANG="Ge" />
             <Switcher title="en" link="/en/1921"/>
         <div className="abkhazia-wrapper container">

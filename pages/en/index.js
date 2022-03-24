@@ -14,7 +14,7 @@ import Homea from "../../comp/stats/home"
 const slideData = [
   {
     index: 0,
-    headline: 'Russian Anexation',
+    headline: 'Russian Annexation',
     qve: "1801",
     link: '/en/1801',
     button: 'Learn More',
@@ -30,7 +30,7 @@ const slideData = [
   },
   {
     index: 2,
-    headline: 'Red Army Insavion',
+    headline: 'Red Army Invasion',
     qve: '1921',
     link: '/en/1921',
     button: 'Learn More',

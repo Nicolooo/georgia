@@ -7,7 +7,7 @@ import Title from '../../comp/SEO/title'
 const measme = () => {
     return (
         <>
-        <Title title="1921" />
+        <Title title="Georgian Liberty | Red Army Invasion" meta="The Democratic Republic of Georgia faced very difficult challenges during the years of independence." />
             <Menu />
             <Switcher title="Ge" link="/ge/1921"/>
         <div className="abkhazia-wrapper container">

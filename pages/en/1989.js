@@ -7,7 +7,7 @@ import Title from '../../comp/SEO/title'
 const merve = () => {
     return (
         <>
-        <Title title="1989" />
+        <Title title="Georgian Liberty | Tbilisi Massacre" meta="The second half of the 1980s was quite turbulent for the Soviet Union. The events that happened on the April of 9th of the 1989 were inevitable." />
             <Menu />
             <Switcher title="Ge" link="/ge/1989"/>
         <div className="abkhazia-wrapper container">

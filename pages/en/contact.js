@@ -8,7 +8,7 @@ import Switcher from '../../comp/LangSwitcher/Switcher'
 const contact = () => {
     return (
         <>
-        <SEO title="Contact "/>
+        <SEO title="Georgian Liberty | Contact Us" meta="Contact people behind the project, ask questions, report problems and give us suggestions."/>
         <Menu />
         <Switcher title="Ge" link="/ge/contact"/>
         <div className="container-fluid contactpage">

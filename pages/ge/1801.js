@@ -6,7 +6,7 @@ import Title from '../../comp/SEO/title'
 const pirveli = () => {
     return (
         <>
-        <Title title="1801" />
+        <Title title="Georgian Liberty I რუსული ანექსაცია" meta="რუსული ანექსაცია არის სიმბოლური მოვლენა, რომელიც აღნიშნავს კონფლიქტის დაწყებას საქართველოსა და რუსეთს შორის 1801 წელს." />
         <Menu LANG="Ge" />
             <Switcher title="en" link="/en/1801"/>
         <div className="abkhazia-wrapper container">

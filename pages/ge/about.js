@@ -10,8 +10,8 @@ const About = () => {
     const pepo = {'title': "Our Team", 'thx': "Special Thanks to"}
     return (
         <>
-        <Title title="Georgian Liberty | About Us"
-         meta="Find out more about our movement and share your thoughts about our initiative of taking action against illegal occupation." />
+        <Title title="Georgian Liberty I ჩვენ შესახებ"
+         meta="გაიგეთ მეტი ჩვენი მოძრაობის შესახებ და გაგვიზიარეთ თქვენი აზრი ჩვენი ინიციატივისა და პროექტის შესახებ." />
         <div className="about-wrapper">
           <Menu LANG="Ge"/>
           <Switcher title="EN" link="/en/about"/>

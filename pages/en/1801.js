@@ -7,7 +7,7 @@ import Title from '../../comp/SEO/title'
 const pirveli = () => {
     return (
         <>
-        <Title title="1801" />
+        <Title title="Georgian Liberty | Russian Annexation" meta="Russian Annexation is an event that symbolizes the start of the conflict between two nations in the year of 1801. " />
             <Menu />
             <Switcher title="Ge" link="/ge/1801"/>
         <div className="abkhazia-wrapper container">

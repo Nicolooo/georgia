@@ -33,7 +33,7 @@ const data = {
 const samachablo = () => {
     return (
         <>
-        <Title title="Samachablo" />
+        <Title title="Georgian Liberty | Russo-Georgian War"  meta="in the early 1990s, the Russian Federation used the strategy prepared during the Soviet regime."/>
             <Menu />
             <Switcher title="Ge" link="/ge/samachablo"/>
         <div className="samachablo-wrapper container">

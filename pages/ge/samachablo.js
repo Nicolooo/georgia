@@ -33,7 +33,7 @@ const data = {
 const samachablo = () => {
     return (
         <>
-            <Title title="სამაჩაბლო" />
+            <Title title="Georgian Liberty I ცხინვალის დაცემა" meta="1990-იანი წლების დასაწყისში რუსეთის ფედერაციამ გამოიყენა საბჭოთა რეჟიმის დროს მომზადებული სტრატეგია." />
             <Menu LANG="Ge" />
             <Switcher title="EN" link="/en/samachablo"/>
         <div className="samachablo-wrapper container">

@@ -7,7 +7,7 @@ import Title from '../../comp/SEO/title'
 const Meore = () => {
     return (
         <>
-        <Title title="1918" />
+        <Title title="Georgian Liberty | Independence Day" meta="The collapse of the Russian Empire meant there would be changes for the neighboring countries including Georgia" />
             <Menu />
             <Switcher title="Ge" link="/ge/1918"/>
         <div className="abkhazia-wrapper container">

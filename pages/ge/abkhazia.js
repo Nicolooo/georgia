@@ -32,7 +32,7 @@ const data = {
 const abkhazia = () => {
     return (
         <>
-        <Title title="Abkhazia" />
+        <Title title="Georgian Liberty I აფხაზეთის ომი" meta="მე-20 საუკუნის 80-იანი წლის ბოლოს საქართველოში ეროვნულ-განმანთავისუფლებელი მოძრაობის მკვეთრად გააქტიურების ფონზე, კრემლი ახდენს აფხაზეთში არსებული სეპარატისტული, ანტიქართული და ნაციონალისტური ძალების მობილიზებასა და მათით მანიპულირებას, რათა შეინარჩუნოს მძლავრი ზეგავლენა საქართველოზე."/>
         <Menu LANG="Ge" />
             <Switcher title="EN" link="/en/abkhazia"/>
         <div className="abkhazia-wrapper container">

@@ -32,7 +32,7 @@ const data = {
 const abkhazia = () => {
     return (
         <>
-        <Title title="Abkhazia" />
+        <Title title="Georgian Liberty | Abkhazian War" meta="At the end of 1980s Georgia was on the background of sharp activation of national movement for independence."/>
             <Menu />
         <Switcher title="Ge" link="/ge/abkhazia"/>
         <div className="abkhazia-wrapper container">
