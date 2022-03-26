@@ -8,7 +8,7 @@ const Inv = ({title,view}) => {
             <div className="inv-video ratio">
             <iframe width="1060" height="615" src="https://www.youtube.com/embed/R3zIJ01-Vt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="video"></iframe>
             </div>
-            <Link href="#"><a className="inv-more">{view}</a></Link>
+            <Link href="https://www.youtube.com/channel/UCUvGWCPrEt8djat0s5V4b_w"><a className="inv-more">{view}</a></Link>
         </div>
     )
 }
