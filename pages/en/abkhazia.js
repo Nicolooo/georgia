@@ -30,6 +30,12 @@ const data = {
        
     ]
 }
+const linkz = {
+    first_title: "2008",
+    first_link: "/en/samachablo",
+    second_title: "1989",
+    second_link: "/en/1989",
+}
 const abkhazia = () => {
     return (
         <>
@@ -77,7 +83,7 @@ const abkhazia = () => {
                     </p>
                 </div>
             </div>
-            <Next first="samachablo" second="1989" />
+            <Next options={linkz}/>
             <Share url="/en/abkhazia" title="Share"/>
         </div>
         </>

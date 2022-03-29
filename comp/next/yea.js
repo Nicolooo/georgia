@@ -3,15 +3,14 @@ import React from 'react'
 import { ArrowRight } from 'react-feather'
 import { ArrowLeft } from 'react-feather'
 import Link from 'next/link' 
-const Next = ({first,second}) => {
+const Next = ({options}) => {
     // Change url
-    const link = "/en/"
   return (
     <div className="next-wrapper">
         <div className="next right">
             <div className="next-text">
-                <h5>{first}</h5>
-                <Link href={link+first}>
+                <h5>{options.first_title}</h5>
+                <Link href={options.first_link}>
                         <div className="next-icon">
                         <ArrowRight />
                         </div>
@@ -20,8 +19,8 @@ const Next = ({first,second}) => {
             </div>
             <div className="next left">
                 <div className="next-text">
-                    <h5>{second}</h5>
-                    <Link href={link+second}>
+                    <h5>{options.second_title}</h5>
+                    <Link href={options.second_link}>
                         <div className="next-icon">
                         <ArrowLeft />
                         </div>

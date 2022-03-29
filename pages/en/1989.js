@@ -1,11 +1,16 @@
 import React from 'react'
 import Menu from '../../comp/Menu/Menu'
 import Switcher from '../../comp/LangSwitcher/Switcher'
-import Storage from '../../data/Content'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
 import Next from '../../comp/next/yea'
 const merve = () => {
+    const linkz = {
+        first_title: "1992",
+        first_link: "/en/abkhazia",
+        second_title: "1921",
+        second_link: "/en/1921",
+    }
     return (
         <>
         <Title title="Georgian Liberty | Tbilisi Massacre" meta="The second half of the 1980s was quite turbulent for the Soviet Union. The events that happened on the April of 9th of the 1989 were inevitable." />
@@ -22,7 +27,7 @@ const merve = () => {
                 Poison gas was also used during the dispersion of the protest. 19 people died after the raid, 16 of whom were women. More than 2,000 people were poisoned by gas. The tragedy of April 9 turned out to be crucial for the consolidation of the Georgian nation. After the tragedy, the Soviet authorities were unable to rehabilitate it and its fate was decided. One year later, on October 28, 1990, the Supreme Council “Round Table – Free Georgia” led by Zviad Gamsakhurdia won a majority of votes (54%) in the Supreme Council elections. On November 14, the council elected Zviad Gamsakhurdia as a chairman at the first session. Another year later, on March 31, 1991, a referendum was held throughout Georgia to restore Georgia’s independence. The majority of the population supported the restoration of independence for the country, on the basis of which, on April 9, 1991, at 12:30 pm, the Supreme Council of Georgia adopted the Act on the Restoration of State Independence of Georgia.
                 </p>
             </div>
-            <Next first="abkhazia" second="1921" />
+            <Next options={linkz} />
             <Share url="/en/1989" title="Share the Article" />
         </div>
         </>
