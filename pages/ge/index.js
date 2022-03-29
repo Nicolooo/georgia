@@ -65,19 +65,19 @@ const tt = {
       {
           "id": "001",
           "label": " ლტოლვილი",
-          "number": "440.000+",
+          "number": "440K+",
           "duration": "2"
       },
       {
           "id": "002",
           "label": "გარდაცვლილი",
-          "number": "500+",
+          "number": "5..K+",
           "duration": "2"
       },
       {
           "id": "003",
           "label": "დაჭრილი",
-          "number": "10..000+",
+          "number": "1..0K+",
           "duration": "2"
       },
      

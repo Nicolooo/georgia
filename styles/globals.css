@@ -229,9 +229,7 @@ a {
     font-size: 1.5em;
     font-family: var(--averca);
     text-transform: uppercase;
-    background: #1E1E1E;
-    /* padding: 8px; */
-	/* padding-bottom: 1em; */
+    background: transparent;
 	padding-top: 0.5em;
 	padding-left: 0.3rem;
 	padding-bottom: 0.3rem;
@@ -248,7 +246,6 @@ a {
 	 top: 55px;
 	 z-index: 101;
 	 will-change: transform;
-	 background-color: #1E1E1E!important;
 	 transition: transform 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
  .menu-button-wrap .menu-button {
@@ -256,8 +253,7 @@ a {
 	 width: 48px;
 	 height: 48px;
 	 border: none;
-	 /* background: 0 0; */
-	 background: #1E1E1E;
+	 background: 0 0;
 	 will-change: transform;
 	 transition: transform 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -667,9 +663,9 @@ a {
 	font-size: 1em;
 	padding: 20px;
 }
-.about-wr{
-	height: 80vh;
-}
+/* .about-wr{
+	height: 150vh;
+} */
 .abt-title{
 	color: red;
 	font-family: var(--averca);
@@ -1343,7 +1339,7 @@ a {
 		height: 120vh!important;
 	}
 	.about-wr{
-		height: 150vh!important;
+		height: 90vh!important;
 	}
 	.rowa{
 		display: flex;
@@ -1457,7 +1453,7 @@ a {
 		max-width: 960px;
 	}
 	.about-wr{
-		height: 130vh!important;
+		height: 100vh!important;
 	}
 	.contact-card{
 		flex: 0 0 auto;
@@ -1632,6 +1628,7 @@ a {
 	.switcher {
 		top: 20px;
 		left: 3rem;
+		background: #1E1E1E;
 	}
 	.reference{
 		text-align: center!important;
@@ -2008,7 +2005,7 @@ a {
 		padding: 0.7em;
 	} 
 	.about-wr{
-		height: 200vh!important;
+		height: 150vh!important;
 	}
 	.part-wrapper{
 	  flex-direction: column;
@@ -2020,6 +2017,9 @@ a {
 	/* .img img{
 	  max-height: 200px;
 	} */
+	.menu-button-wrap .menu-button{
+		background-color: #1E1E1E;
+	}
   }
   .part-title{
 	padding-top: 2rem;
@@ -2100,7 +2100,7 @@ a {
 
   /*  Heroes Pages */
   .pg-heroes-wrapper{
-	  padding: 10px;
+	padding: 10px;
 	height: 100vh;
 	color: white;
 	background: #1E1E1E;

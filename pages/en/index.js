@@ -4,7 +4,6 @@ import Footer from '../../comp/Footer/Footer'
 import Headline from '../../comp/Headline/Headline'
 import Hero from '../../comp/Hero/Hero'
 import Inv from '../../comp/Inv/Inv'
-import Map from '../../comp/Map/Map'
 import Menu from '../../comp/Menu/Menu'
 import Title from '../../comp/SEO/title'
 import Hrid from '../../comp/Grid-Heroes/grid'
@@ -66,19 +65,19 @@ const tt = {
       {
           "id": "001",
           "label": " DISPLACED",
-          "number": "440.000+",
+          "number": "440K+",
           "duration": "1"
       },
       {
           "id": "002",
           "label": "DEAD",
-          "number": "500+",
+          "number": "5..K+",
           "duration": "1"
       },
       {
           "id": "003",
           "label": "WOUNDED",
-          "number": "10..000+",
+          "number": "1..0K+",
           "duration": "1"
       },
      
