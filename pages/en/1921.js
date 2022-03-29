@@ -4,6 +4,7 @@ import Switcher from '../../comp/LangSwitcher/Switcher'
 import Storage from '../../data/Content'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
+import Next from '../../comp/next/yea'
 const measme = () => {
     return (
         <>
@@ -23,6 +24,7 @@ const measme = () => {
                 Despite the defeat, the government of the Republic of Georgia managed to leave the country on March 17, 1921, without agreeing to surrender to Soviet Russia. A delegation headed by Grigol Lortkipanidze remained in Georgia to negotiate a ceasefire. As a result of the work of this delegation, an agreement on the cessation of hostilities was signed on March 17-18, 1921. Russia has finally conquered Georgia.                 
                 </p>
             </div>
+            <Next first="1989" second="1918" />
             <Share url="/en/1921" title="Share the Article" />
         </div>
         </>

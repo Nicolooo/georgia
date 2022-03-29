@@ -4,6 +4,7 @@ import Switcher from '../../comp/LangSwitcher/Switcher'
 import Storage from '../../data/Content'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
+import Next from '../../comp/next/yea'
 const pirveli = () => {
     return (
         <>

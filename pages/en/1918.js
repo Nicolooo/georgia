@@ -4,6 +4,7 @@ import Switcher from '../../comp/LangSwitcher/Switcher'
 import Storage from '../../data/Content'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
+import Next from '../../comp/next/yea'
 const Meore = () => {
     return (
         <>
@@ -21,6 +22,7 @@ const Meore = () => {
                 On the same day, at 4:50 a.m. on May 26, 1918, a sitting of the Georgian National Council chaired by Noe Jordania opened at the former Palace of the Caucasus Crown Prince in Tbilisi. He addressed the audience, after which he read the “Act of Independence of Georgia.” From that moment on, Georgia declared its independence and plan to take its place in the Commonwealth of Independent States as a full-fledged, sovereign democratic republic.              
                 </p>
             </div>
+            <Next first="1921" second="1801" />
             <Share url="/en/1918" title="Share the Article" />
         </div>
         </>

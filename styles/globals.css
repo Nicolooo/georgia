@@ -1575,6 +1575,23 @@ a {
 }
 /* Only for Phones */
 @media (max-width: 540px) {
+	.next-wrapper{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row-reverse;
+	}
+	.right, .left{
+		position: static!important;
+	}
+	.right{
+		margin-left: 130px;
+		margin-bottom: 10px;
+	}
+	.left{
+		margin-right: 130px;
+		margin-bottom: 10px;
+	}
 	.inv-wrapper{
 		height: 100vh;
 	}
@@ -2117,3 +2134,40 @@ a {
   .pg-heroes-content {
 	  padding: 2rem;
   }
+
+
+  /*  Next Arrows */
+
+.right{
+	position: fixed;
+	right: 57px;
+	top: 40em;
+	z-index: 99;
+ }
+ .left{
+   	position: fixed;
+	left: 57px;
+	top: 40em;
+	z-index: 99;
+ }
+ .next-text{
+	 color: white;
+	 font-family: var(--averca);
+	 font-size: 2em;
+ }
+ .next-icon {
+	font-size: 2rem;
+	width: 50px;
+	height: 50px;
+	background-color: #1E1E1E;
+	padding: 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition-duration: .3s;
+	cursor: pointer;
+ }
+ .next-icon svg{
+	width: 50px;
+	height: 50px;
+ }

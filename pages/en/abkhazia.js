@@ -6,6 +6,7 @@ import Storage from '../../data/Content'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
 import Image from 'next/image'
+import Next from '../../comp/next/yea'
 const data = {
     "counts": [
         {
@@ -76,6 +77,7 @@ const abkhazia = () => {
                     </p>
                 </div>
             </div>
+            <Next first="samachablo" second="1989" />
             <Share url="/en/abkhazia" title="Share"/>
         </div>
         </>
