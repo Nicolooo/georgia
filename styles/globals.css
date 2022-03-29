@@ -2095,3 +2095,25 @@ a {
 		height: 300px;
 	}
   }
+
+
+
+  /*  Heroes Pages */
+  .pg-heroes-wrapper{
+	  padding: 10px;
+	height: 100vh;
+	color: white;
+	background: #1E1E1E;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  }
+  .pg-heroes-title {
+	  color: red;
+	  font-family: var(--averca);
+	  font-size: 4em;
+  }
+  .pg-heroes-content {
+	  padding: 2rem;
+  }
