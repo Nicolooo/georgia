@@ -6,7 +6,7 @@ const Video = ({link,title,desc})=>{
     return(
         <>
         <div className='inter-video'>
-            <iframe width="760" height="415" src={link} title={title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="video-inter"></iframe>
+            <iframe width="760" height="415" src={link} title={title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className="video-inter"></iframe>
             <h3>{title}</h3>
             <p>{desc}</p>
         </div>
