@@ -1585,11 +1585,11 @@ a {
 		position: static!important;
 	}
 	.right{
-		margin-left: 130px;
+		margin-left: 80px;
 		margin-bottom: 10px;
 	}
 	.left{
-		margin-right: 130px;
+		margin-right: 80px;
 		margin-bottom: 10px;
 	}
 	.inv-wrapper{

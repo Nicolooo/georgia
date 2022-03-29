@@ -5,7 +5,7 @@ import { ArrowLeft } from 'react-feather'
 import Link from 'next/link' 
 const Next = ({first,second}) => {
     // Change url
-    const link = "http://localhost:3000/en/"
+    const link = "/en/"
   return (
     <div className="next-wrapper">
         <div className="next right">
