@@ -89,7 +89,8 @@ export default function Home() {
   return (
     <div>
       <Title title="Georgian Liberty"/>
-      <Menu LANG='En' />
+        <Switcher title="GE" link="/ge"/>
+        <Menu LANG='En' />
       <Hero />
       <Headline title="TIMELINE"/>
       <Slider heading="Slider" slides={slideData} />
@@ -97,7 +98,6 @@ export default function Home() {
       <Inv title="Interviews" view="View More"/>
       <Hrid LANG="En"/>
       <Homea title="Statistics" tt={tt}/>
-      <Switcher title="GE" link="/ge"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>
   )
