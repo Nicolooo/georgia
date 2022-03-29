@@ -1968,6 +1968,9 @@ a {
 	font-size: 3em;
 }
 @media (max-width: 600px) {
+	.slide__text{
+		font-size: 5vmin;
+	}
 	.count-col{
 	  width: 50vw;
 	  margin-bottom: 50px;
