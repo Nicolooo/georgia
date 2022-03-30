@@ -3,6 +3,8 @@ import Menu from '../../comp/Menu/Menu'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
+import { ArrowRight } from 'react-feather'
+import Link from 'next/link'
 const pirveli = () => {
     return (
         <>
@@ -23,6 +25,18 @@ const pirveli = () => {
                 თუმცა ვერც თავად-აზნაურობას და ვერც გლეხობას არ აღმოაჩნდა საკმარისი ძალა, რომ რუსეთის იმპერიას წინ აღდგომოდნენ.
                 არაერთი ამბოხებისა თუ შეთქმულების მიუხედავად იმპერიამ მაინც შეძლო საქართველოს სახელმწიფოზე სრული კონტროლის დამყარება. ქართლ-კახეთის სამეფოს ანექსიით დაიწყო რუსეთის მიერ საქართველოს ისტორიული ტერიტორიების დაპყრობის პროცესი, რომელიც რუსეთის იმპერიის დაშლამდე გაგრძელდა.
                 </p>
+            </div>
+            <div className="next-wrapper">
+            <div className="next right">
+            <div className="next-text">
+                <h5>1918</h5>
+                <Link href="/ge/1918">
+                        <div className="next-icon">
+                        <ArrowRight />
+                        </div>
+                    </Link>
+                </div>
+            </div>
             </div>
             <Share url="/en/1801" title="გააზიარეთ" />
         </div>

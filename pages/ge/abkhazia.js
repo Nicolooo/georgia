@@ -6,6 +6,7 @@ import Storage from '../../data/Content'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
 import Image from 'next/image'
+import Next from '../../comp/next/yea'
 const data = {
     "counts": [
         {
@@ -28,6 +29,12 @@ const data = {
         },
        
     ]
+}
+const linkz = {
+    first_title: "2008",
+    first_link: "/ge/samachablo",
+    second_title: "1989",
+    second_link: "/ge/1989",
 }
 const abkhazia = () => {
     return (
@@ -86,6 +93,7 @@ const abkhazia = () => {
                     </p>
                 </div>
             </div>
+            <Next options={linkz}/>
             <Share url="/en/abkhazia" title="გააზიარეთ" />
         </div>
         </>

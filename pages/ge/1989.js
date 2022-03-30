@@ -1,10 +1,16 @@
 import React from 'react'
 import Menu from '../../comp/Menu/Menu'
 import Switcher from '../../comp/LangSwitcher/Switcher'
-import Storage from '../../data/Content'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
+import Next from '../../comp/next/yea'
 const merve = () => {
+    const linkz = {
+        first_title: "1992",
+        first_link: "/ge/abkhazia",
+        second_title: "1921",
+        second_link: "/ge/1921",
+    }
     return (
         <>
         <Title title="Georgian Liberty I 9 აპრილის ტრაგედია" meta="1980-იანი წლები მეორე ნახევარი საკმაოდ ტურბულენტური იყო საბჭოთა კავშირისთვის." />
@@ -23,6 +29,7 @@ const merve = () => {
                 14 ნოემბერს საბჭომ პირველ სესიაზე თავმჯდომარედ აირჩია ზვიად გამსახურდია. კიდევ ერთი წლის შემდეგ, 1991 წლის 31 მარტს საქართველოს მთელს ტერიტორიაზე ჩატარდა რეფერენდუმი საქართველოს დამოუკიდებლობის აღდგენის თაობაზე. მოსახლეობის უმრავლესობამ მხარი დაუჭირა ქვეყნისთვის დამოუკიდებლობის აღდგენას, რის საფუძველზეც, 1991 წლის 9 აპრილს 12 საათსა და 30 წუთზე საქართელოს უზენაესმა საბჭომ მიიღო საქართველოს სახელმწიფოებრივი დამოუკიდებლობის აღდგენის აქტი.                   
                 </p>
             </div>
+            <Next options={linkz} />
             <Share url="/en/1989" title="გააზიარეთ" />
         </div>
         </>

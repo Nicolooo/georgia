@@ -1,10 +1,16 @@
 import React from 'react'
 import Menu from '../../comp/Menu/Menu'
 import Switcher from '../../comp/LangSwitcher/Switcher'
-import Storage from '../../data/Content'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
+import Next from '../../comp/next/yea'
 const measme = () => {
+    const linkz = {
+        first_title: "1989",
+        first_link: "/ge/1918",
+        second_title: "1989",
+        second_link: "/ge/1918",
+    }
     return (
         <>
         <Title title="Georgian Liberty I წითელი არმიის შემოჭრა" meta="საქართველოს დემოკრატიული რესპუბლიკა დამოუკიდებლობის წლებში ძალიან მძიმე გამოწვევების წინაშე აღმოჩნდა."/>
@@ -23,6 +29,7 @@ const measme = () => {
                 ცეცხლის შეწყვეტის საკითხზე მოლაპარაკებებისთვის საქართველოში დარჩა დელეგაცია, გრიგოლ ლორთქიფანიძის მეთაურობით. აღნიშნულმა დელეგაციის მუშაობის შედეგად 1921 წლის 17-18 მარტს ხელმოწერილი იქნა შეთანხმება საომარი მოქმედებების შეწყვეტის შესახებ. რუსეთმა საქართველო საბოლოოდ დაიპყრო.
                 </p>
             </div>
+            <Next options={linkz}/>
             <Share url="/en/1921" title="გააზიარეთ" />
         </div>
         </>

@@ -2,7 +2,7 @@ import React from 'react'
 import Menu from '../../comp/Menu/Menu'
 import Count from '../../comp/Abk/counter'
 import Switcher from '../../comp/LangSwitcher/Switcher'
-import Storage from '../../data/Content'
+import Next from '../../comp/next/yea'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
 import Link from 'next/link'
@@ -29,6 +29,12 @@ const data = {
         },
        
     ]
+}
+const linkz = {
+    first_title: "1801",
+    first_link: "/ge/1801",
+    second_title: "1992",
+    second_link: "/ge/abkhazia",
 }
 const samachablo = () => {
     return (
@@ -81,6 +87,7 @@ const samachablo = () => {
                     </p>
                 </div>
             </div>
+            <Next options={linkz} />
             <Share url="/ge/samachablo" title="გააზიარეთ" />
         </div>
     </>

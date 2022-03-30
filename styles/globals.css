@@ -2140,8 +2140,12 @@ a {
 
 
   /*  Next Arrows */
-
+.next{
+	background-color: #1E1E1E;
+	padding: 1rem;
+}
 .right{
+	background-color: #1E1E1E;
 	position: fixed;
 	right: 57px;
 	top: 40em;

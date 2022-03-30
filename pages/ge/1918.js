@@ -3,7 +3,14 @@ import Menu from '../../comp/Menu/Menu'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
+import Next from '../../comp/next/yea'
 const Meore = () => {
+    const linkz = {
+        first_title: "1921",
+        first_link: "/ge/1921",
+        second_title: "1801",
+        second_link: "/ge/1801",
+    }
     return (
         <>
         <Title title="Georgian Liberty I დამოუკიდებლობის დღე" meta="რუსეთის იმპერიის დაშლა ნიშნავდა ცვლილებებს მეზობელ ქვეყნებში, მათ შორის საქართველოსთვის." />
@@ -22,6 +29,7 @@ const Meore = () => {
                 მან სიტყვით მიმართა დამსწრე საზოგადოებას, რის შემდეგაც წაიკითხა “საქართველოს დამოუკიდებლობის აქტი.” ამ მომენტიდან საქართველო აცხადებდა მის დამოუკიდებლობას და განზრახვას, ადგილი დაეკავებინა დამოუკიდებელ ქვეყანათა თანამეგობრობაში, როგორც სრულუფლებიან, სუვერენულ დემოკრატიულ რესპუბლიკას.                  
                 </p>
             </div>
+            <Next options={linkz}/>
             <Share url="/ge/1918" title="გააზიარეთ" />
         </div>
         </>

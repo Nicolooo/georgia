@@ -8,9 +8,9 @@ import Next from '../../comp/next/yea'
 const measme = () => {
     const linkz = {
         first_title: "1989",
-        first_link: "/en/1918",
-        second_title: "1989",
-        second_link: "/en/1918",
+        first_link: "/en/1989",
+        second_title: "1801",
+        second_link: "/en/1801",
     }
     return (
         <>
