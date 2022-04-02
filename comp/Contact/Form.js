@@ -105,7 +105,7 @@ const FormC = ({message,title}) => {
       {status.info.error && (
         <div className="error">Error: {status.info.msg}</div>
       )}
-      {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
+      {!status.info.error && status.info.msg && <p className="jim">{status.info.msg}</p>}
     </section>
   );
 };
