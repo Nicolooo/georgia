@@ -10,6 +10,8 @@ import Hrid from '../../comp/Grid-Heroes/grid'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Slider from "../../comp/Slider/Modal"
 import Homea from "../../comp/stats/home"
+import useOnScreen from '../../helpers/view'
+import { useRef } from 'react'
 const slideData = [
   {
     index: 0,
@@ -84,6 +86,8 @@ const tt = {
   ]
 }
 export default function Home() {
+  const ref = useRef()
+  const isVisible = useOnScreen(ref)
   const text = "Georgian Liberty is a non-profit, non-governmental organization founded in September 2021 by three teenagers. Our goal is to raise awareness about conflict and occupied territories in Georgia, both locally and globally.";
   return (
     <div>
@@ -96,7 +100,7 @@ export default function Home() {
       <Short title="About The Project" p={text} link="Learn More" hrf="/en"/>
       <Inv title="Interviews" view="View More"/>
       <Hrid LANG="En"/>
-      <Homea title="Statistics" tt={tt}/>
+      <div ref={ref}>{isVisible && <Homea title="Statistics" tt={tt}/>}</div>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>
   )

@@ -10,6 +10,8 @@ import Hrid from '../../comp/Grid-Heroes/grid'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Slider from "../../comp/Slider/Modal"
 import Homea from "../../comp/stats/home"
+import useOnScreen from '../../helpers/view'
+import { useRef } from 'react'
 const slideData = [
   {
     index: 0,
@@ -84,6 +86,8 @@ const tt = {
   ]
 }
 export default function Home() {
+  const ref = useRef()
+  const isVisible = useOnScreen(ref)
   const text = "„Georgian Liberty“ არის არაკომერციული, არასამთავრობო ორგანიზცია, რომელიც 2021 წლის სექტემბერში სამმა მოზარდმა დააარსა. ჩვენი მიზანია ცნობადობის ამაღლება კონფლიქტურ და ოკუპირებულ ტერიტორიებთან დაკავშირებით, როგორც ლოკალურ, ასევე გლობალურ მასშტაბზე. ";
   return (
     <div>
@@ -95,7 +99,7 @@ export default function Home() {
       <Short title="პროექტის შესახებ" p={text} link="იხილეთ მეტი" hrf="/ge"/>
       <Inv title="ინტერვიუები" view="იხილეთ მეტი"/>
       <Hrid LANG="Ge" />
-      <Homea title="სტატისტიკა" tt={tt}/>
+      <div ref={ref}>{isVisible && <Homea title="სტატისტიკა" tt={tt}/>}</div>
       <Switcher title="EN" link="/en"/>
       <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
     </div>

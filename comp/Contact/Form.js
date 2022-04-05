@@ -81,7 +81,7 @@ const FormC = ({message,title}) => {
           onChange={handleOnChange}
           required
           value={inputs.email}
-          placeholder="EMAIl"
+          placeholder="EMAIL"
           className="form-input"
         />
          <textarea
