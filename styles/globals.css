@@ -1336,7 +1336,7 @@ a {
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 912px) {
 	.contactpage{
-		height: 120vh!important;
+		height: 150vh!important;
 	}
 	.about-wr{
 		height: 90vh!important;
@@ -1410,9 +1410,6 @@ a {
 	.inv-wrapper h2{
 		font-size: 5em;
 	}
-	/* .inv-link { */
-		/* margin-top: 8rem; */
-	/* } */
 	.heroes-wrapper h2 {
 		color: #FF0000;
 		text-align: center;
@@ -2115,8 +2112,11 @@ a {
 		height: 300px;
 	}
   }
-
-
+  @media screen and (max-width: 900px) {
+		.contactpage{
+			height: 150vh!important;
+		}
+}
 
   /*  Heroes Pages */
   .pg-heroes-wrapper{
