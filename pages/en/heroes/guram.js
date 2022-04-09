@@ -15,10 +15,10 @@ const gabiskiria = () => {
         <h1 className="pg-person-name">Guram Gabiskiria (1947 - 1993)</h1>
         <div className="pg-person-bio">
             <div className="pg-person-img">
-                <Image src="/Guram_Gabiskiria.webp" height={3000} width={2330} alt="hero image"/>
+                <Image src="/Guram_gabiskiria.webp" height={3000} width={2330} alt="hero image"/>
             </div>
             <div className="pg-person-img-p">
-                <Image src="/Guram_Gabiskiria.webp" height={250} width={200} alt="hero image"/>
+                <Image src="/Guram_gabiskiria.webp" height={250} width={200} alt="hero image"/>
             </div>
             <div className="pg-person-story">
                 <p className="pg-story-text">
