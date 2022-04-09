@@ -9,7 +9,7 @@ const gabiskiria = () => {
     <>
     <Switcher title="Ge" link="/ge/guram"/>
     <Menu />
-    <Title title="Georgian Liberty | Guram Gabiskiria" meta="Russian Annexation is an event that symbolizes the start of the conflict between two nations in the year of 1801. " />
+    <Title title="Georgian Liberty | Guram Gabiskiria" meta="Zhiuli Shartava was born on March 7, 1944 in Senaki. He studied at the second high school of Senaki. In 1966 he graduated from the Faculty of Automation and Computer Engineering of the Georgian Polytechnic Institute. " />
     <div className="pg-container">
     <div className="pg-bio-container">
         <h1 className="pg-person-name">Guram Gabiskiria (1947 - 1993)</h1>

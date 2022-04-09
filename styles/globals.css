@@ -2126,6 +2126,7 @@ a {
 			height: 200vh!important;
 		}
 		.pg-bio-container{
+			align-items: center!important;
 			width: 100%!important;
 			height: 100%!important;
 		}
@@ -2138,7 +2139,7 @@ a {
 		}
 		.pg-person-name{
 			font-size: 1.5em!important;
-			margin-left: 18px;
+			/* margin-left: 18px; */
 		}
 		.pg-person-img{
 			display: none!important;
