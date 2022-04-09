@@ -20,13 +20,13 @@ function News({ posts }) {
             {posts.map((post) => (
               <Link href={`/en/news/${post.slug}`} key={post.slug}>
                 <a className="news_card">
-                  <div class="news_img">
+                  <div className="news_img">
                     <img src="/1801.jpEg" width="100%" alt="news image" />
-                    <span class="news_location">უცხოეთი</span>
+                    <span className="news_location">უცხოეთი</span>
                   </div>
-                  <div class="news_date">
-                    <i class="fa-solid fa-clock icon"></i>
-                    <span class="news_date_text">1 საათის წინ</span>
+                  <div className="news_date">
+                    <i className="fa-solid fa-clock icon"></i>
+                    <span className="news_date_text">1 საათის წინ</span>
                   </div>
                   <h2 className="news_text">{post.title}</h2>
                   <p className="news_date">{post.date}</p>
