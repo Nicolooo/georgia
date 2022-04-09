@@ -10,20 +10,18 @@ const shartava = () => {
     <Switcher title="Ge" link="/ge/shartava"/>
     <Menu />
     <Title title="Georgian Liberty | Zhiuli Shartava" meta="Russian Annexation is an event that symbolizes the start of the conflict between two nations in the year of 1801. " />
-    <div class="pg-container">
-    <div class="pg-bio-container">
-        <h1 class="pg-person-name">Zhiuli Shartava (1944 - 1993)</h1>
-        <div class="pg-person-bio">
-            <div class="pg-person-img">
+    <div className="pg-container">
+    <div className="pg-bio-container">
+        <h1 className="pg-person-name">Zhiuli Shartava (1944 - 1993)</h1>
+        <div className="pg-person-bio">
+            <div className="pg-person-img">
                 <Image src="/Zhiuli_Shartava.webp" height={3000} width={2330} alt="hero image"/>
-                {/* <span class="pg-photo-story-text">Source</span> */}
             </div>
-            <div class="pg-person-img-p">
+            <div className="pg-person-img-p">
                 <Image src="/Zhiuli_Shartava.webp" height={250} width={200} alt="hero image"/>
-                {/* <span class="pg-photo-story-text">Source</span> */}
             </div>
-            <div class="pg-person-story">
-                <p class="pg-story-text">
+            <div className="pg-person-story">
+                <p className="pg-story-text">
                 Zhiuli Shartava was born on March 7, 1944 in Senaki. He studied at the second high school of Senaki. In 1966 he graduated from the Faculty of Automation and Computer Engineering of the Georgian Polytechnic Institute. In 1973 he studied for a postgraduate degree in technical cybernetics. He held positions in the communist party in Tbilisi and Rustavi.Was a member of the Supreme Council of the Georgian SSR. In 1989 he graduated from the Diplomatic Academy of the Ministry of Foreign Affairs of the USSR. Candidate of Technical Sciences.
                 <div className="jigari"></div>
                 In 1992, Zhiuli Shartava was elected a member of the Parliament of the Republic of Georgia, from the Rustavi majoritarian constituency. During the Abkhaz war, in June 1993, Shartava was appointed Chairman of the Council of Ministers of the Autonomous Republic of Abkhazia and the Defense Council of Abkhazia. On September 27, 1993, the day of the fall of Sokhumi, Major General Shartava was directly in charge of guarding the Government House, during which the separatists, along with their comrades, captured and shot them.
