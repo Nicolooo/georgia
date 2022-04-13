@@ -64,7 +64,7 @@ const abkhazia = () => {
             <div className='row'>
                 <div className="abkhazia-col">
                 <Image className='img-resp' src="/abkhazia/abkhazia-3.webp" alt="as" height="650" width="600" />
-                <p className="reference">*</p>
+                {/* <p className="reference">*</p> */}
                 </div>
                 <div className="abkhazia-col">
                     <p>
@@ -75,7 +75,7 @@ const abkhazia = () => {
             <div className='row'>
                 <div className="abkhazia-col">
                     <Image className='img-resp' src="/abkhazia/abkhazia-4.webp" alt="as" height="550" width="600" />
-                    <p className="reference">*</p>
+                    {/* <p className="reference">*</p> */}
                 </div>
                 <div className="abkhazia-col">
                     <p>
@@ -85,7 +85,7 @@ const abkhazia = () => {
             </div>
             <div className='row'>
                 <div className="abkhazia-col">
-                    <img className='img-resp' src="https://i2.wp.com/www.georgianliberty.support/wp-content/uploads/2021/08/1992.webp?resize=1024%2C745&ssl=1" alt="as"/>
+                <Image className='img-resp' src="/abkhazia/abkhazia-1.webp" alt="as" height="700" width="1000" />
                 </div>
                 <div className="abkhazia-col">
                     <p>
