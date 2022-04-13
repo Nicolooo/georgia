@@ -39,7 +39,7 @@ function News({ posts }) {
     </>
   );
 }
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const url =
     "https://api-eu-central-1.graphcms.com/v2/cl0ttpxnm045e01xt6bqihsko/master";
   const graphQLClient = new GraphQLClient(url, {
