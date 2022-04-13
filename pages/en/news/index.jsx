@@ -3,7 +3,6 @@ import { gql, GraphQLClient } from "graphql-request"; // GQL
 import Link from "next/link";
 import SEO from "../../../comp/SEO/title";
 import Menu from "../../../comp/Menu/Menu";
-import Image from "next/image";
 import Switcher from "../../../comp/LangSwitcher/Switcher";
 function News({ posts }) {
   return (
