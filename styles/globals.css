@@ -1572,6 +1572,24 @@ a {
 }
 /* Only for Phones */
 @media (max-width: 540px) {
+	/* kk */
+	.cite-wrapper{
+		width: 60vw;
+		height: 40vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.cite-textarea{
+		width: 15em!important;
+		height: 10em!important;
+		font-size: 1.5em;
+		font-family: var(--averca);
+		color: white;
+		text-align: center;
+		padding: 10px;
+	}
 	.next-wrapper{
 		display: flex;
 		justify-content: center;
@@ -1579,6 +1597,7 @@ a {
 		flex-direction: row-reverse;
 	}
 	.right, .left{
+		z-index: 0!important;
 		position: static!important;
 	}
 	.right{
@@ -2107,6 +2126,9 @@ a {
 	  font-size: 1.5em;
   }
   @media screen and (max-width: 800px) {
+	  /* .cite-wrapper{
+		  height: 150vh!important;
+	  } */
 	.inter-wrapper{
 	  flex-direction: column;
 	}
@@ -2232,13 +2254,13 @@ a {
 	position: fixed;
 	right: 57px;
 	top: 40em;
-	z-index: 99;
+	z-index: 9;
  }
  .left{
    	position: fixed;
 	left: 57px;
 	top: 40em;
-	z-index: 99;
+	z-index: 9;
  }
  .next-text{
 	 color: white;
@@ -2318,4 +2340,80 @@ a {
 	.pg-container{
 		height: 100vh!important;
 	}
+	.cite-wrapper{
+		height: 20vh!important;
+	}
+}
+
+/* Cite */
+.cite-wrapper{
+	z-index: 99;
+	background-color: #1E1E1E;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cite-wrapper form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+}
+.cite-h2{
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 10px;
+	font-family: var(--averca);
+}
+.cite-h3{
+	font-size: 1em;
+	font-weight: bold;
+	color: white;
+	font-family: var(--averca);
+	margin-left: 10px;
+}
+.cite-button{
+	background-color: red;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 7px;
+	margin-top: 10px;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+	transition-duration: .3s;
+}
+.cite-textarea{
+	width: 30em;
+	height: 70px;
+	border: solid white 1px;
+	border-radius: 2px;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: var(--averca);
+	resize: none;
+	background-color: #1E1E1E;
+}
+.cite-copy{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.cite-b{
+	background-color: red;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 7px;
+	margin-top: 10px;
+	border-radius: 3px;
+	border: none;
+	cursor: pointer;
+	transition-duration: .3s;
 }

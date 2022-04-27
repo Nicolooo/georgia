@@ -4,6 +4,7 @@ import Switcher from '../../comp/LangSwitcher/Switcher'
 import Share from '../../comp/SEO/share'
 import Title from '../../comp/SEO/title'
 import Next from '../../comp/next/yea'
+import Cite from '../../comp/SEO/cite'
 const measme = () => {
     const linkz = {
         first_title: "1989",
