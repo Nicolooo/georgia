@@ -28,7 +28,7 @@ const Meore = () => {
                 </p>
             </div>
             <Next options={linkz}/>
-            <Share url="/en/1918" title="Share the Article" />
+            <Share url="/en/1918" title="Share the Article" cite1="Cite" cite2="1918” Georgian Liberty | 1918, September 27, 2021.  https://www.georgianliberty.com/en/1918,           '"/>
         </div>
         </>
     )

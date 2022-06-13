@@ -81,7 +81,7 @@ const samachablo = () => {
                 </div>
             </div>
             <Next options={linkz} />
-            <Share url="/en/samachablo" title="Share" />
+            <Share url="/en/samachablo" title="Share" cite1="Cite" cite2="2008.” Georgian Liberty | Samachablo, September 27, 2021.  https://www.georgianliberty.com/en/samachablo,           '"/>
         </div>
     </>
     )

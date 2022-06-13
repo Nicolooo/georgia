@@ -31,7 +31,7 @@ const measme = () => {
                 </p>
             </div>
             <Next options={linkz} />
-            <Share url="/en/1921" title="Share the Article" />
+            <Share url="/en/1921" title="Share the Article" cite1="Cite" cite2="1921.” Georgian Liberty | 1921, September 27, 2021.  https://www.georgianliberty.com/en/1921,           '" />
         </div>
         </>
     )

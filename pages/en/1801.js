@@ -35,7 +35,7 @@ const pirveli = () => {
                 </div>
             </div>
             </div>
-            <Share url="/en/1801" title="Share the Article" />
+            <Share url="/en/1801" title="Share the Article" cite1="Cite" cite2="1801.” Georgian Liberty | 1801, September 27, 2021.  https://www.georgianliberty.com/en/1801,           '"/>
         </div>
         </>
     )

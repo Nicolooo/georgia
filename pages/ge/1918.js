@@ -30,7 +30,7 @@ const Meore = () => {
                 </p>
             </div>
             <Next options={linkz}/>
-            <Share url="/ge/1918" title="გააზიარეთ" />
+            <Share url="/ge/1918" title="გააზიარეთ" cite="ციტირება" cite2="1918.” ჯორჯიან ლიბერთი | 1918, September 27, 2021.  https://www.georgianliberty.com/ge/1918,           '"/>
         </div>
         </>
     )

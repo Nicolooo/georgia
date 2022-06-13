@@ -88,7 +88,7 @@ const samachablo = () => {
                 </div>
             </div>
             <Next options={linkz} />
-            <Share url="/ge/samachablo" title="გააზიარეთ" />
+            <Share url="/ge/samachablo" title="გააზიარეთ" cite1="ციტირება" cite2="2008.” ჯორჯიან ლიბერთი | Samachablo, September 27, 2021.  https://www.georgianliberty.com/en/samachablo,           '" />
         </div>
     </>
     )

@@ -94,7 +94,7 @@ const abkhazia = () => {
                 </div>
             </div>
             <Next options={linkz}/>
-            <Share url="/en/abkhazia" title="გააზიარეთ" />
+            <Share url="/en/abkhazia" title="გააზიარეთ" cite="ციტირება" cite2="1992.” ჯორჯიან ლიბერთი | Abkhazia, September 27, 2021.  https://www.georgianliberty.com/ge/abkhazia,           '" />
         </div>
         </>
     )

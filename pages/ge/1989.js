@@ -30,7 +30,7 @@ const merve = () => {
                 </p>
             </div>
             <Next options={linkz} />
-            <Share url="/en/1989" title="გააზიარეთ" />
+            <Share url="/en/1989" title="გააზიარეთ" cite="ციტირება" cite2="1989.” ჯორჯიან ლიბერთი | 1989, September 27, 2021.  https://www.georgianliberty.com/ge/1989,           '"/>
         </div>
         </>
     )

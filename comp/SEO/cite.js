@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 
-const Cite = () => {
+const Cite = ({cite2}) => {
     
   const [copySuccess, setCopySuccess] = useState('');
   const textAreaRef = useRef(null);
@@ -19,7 +19,7 @@ const Cite = () => {
         <textarea
           ref={textAreaRef}
           className="cite-textarea"
-          value='“1801.” Georgian Liberty | Russian Annexation, September 27, 2021.  https://www.georgianliberty.com/en/1801,           '
+          value={cite2}
         />
       </form>
       <div className="cite-copy">
