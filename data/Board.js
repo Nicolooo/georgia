@@ -1,14 +1,14 @@
 const Board = {
         "photos": {
-            "kuchava": '/Board/kuchava.png',
-            "rukhadze": '/Board/rukhadze.png',
-            'chantladze': '/Board/chantl.png',
-            'taliashvili': '/Board/taliashvili.png',
-            'janelidze': '/Board/janelidze.png',
-            'gigiadze': '/Board/gigiadze.png',
-            'bilanishvili': '/Board/bilanishvili.png',
-            'kldi': '/Board/kldi.png',
-            'kipiani': '/Board/kipiani.png',
+            "kuchava": '/b/kuchava.png',
+            "rukhadze": '/b/rukhadze.png',
+            'chantladze': '/b/chantl.png',
+            'taliashvili': '/b/taliashvili.png',
+            'janelidze': '/b/janelidze.png',
+            'gigiadze': '/b/gigiadze.png',
+            'bilanishvili': '/b/bilanishvili.png',
+            'kldi': '/b/kldi.png',
+            'kipiani': '/b/kipiani.png',
     } 
 }
 
