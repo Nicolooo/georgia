@@ -6,15 +6,15 @@ const Ge = () =>{
         <div className="heroes-wrapper container-fluid">
         <h2 className='heroes-header'>BOARD MEMBERS</h2>
         <div className="container row">
-            <Card name="KAKHA KUCHAVA" title="MAYOR OF SOKHUMI" img={Board.photos.kuchava}/>
-            <Card name="VIKTOR KIPIANI" title="JUNIOR SERGEANT OF THE GEORGIAN ARMED FORCE" img={Board.photos.kipiani}/>
-            <Card name="MIKHEIL JANELIDZE" title="Head of the Council of Ministers of the Autonomous Republic of Abkhazia" img={Board.photos.janelidze}/>
-            <Card name="GIORGI BILANISHVILI" title="JUNIOR SERGEANT OF THE GEORGIAN ARMED FORCE" img={Board.photos.bilanishvili}/>
-            <Card name="TIKA RUKHADZE" title="MAJOR GENERAL OF THE GEORGIAN ARMED FORCES" img={Board.photos.rukhadze}/>
-            <Card name="ZURAB IARAJULI" title="SENIOR LEUTENANT OF THE GEORGIAN AIR FORCE" img={Board.photos.taliashvili}/>
-            <Card name="GIGI GIGIADZE" title="JUNIOR SERGEANT OF THE GEORGIAN ARMED FORCE" img={Board.photos.gigiadze}/>
-            <Card name="LASHA CHANTLADZE" title="MAJOR GENERAL OF THE GEORGIAN ARMED FORCES" img={Board.photos.chantladze}/>
-            <Card name="DAVID KLDIASHVILI" title="SENIOR LEUTENANT OF THE GEORGIAN AIR FORCE" img={Board.photos.kldi}/>
+            <Card name="KAKHA KUCHAVA" title="Former Chairperson of the Parliament of Georgia" img={Board.photos.kuchava}/>
+            <Card name="VIKTOR KIPIANI" title="Chairman of `Geocase`" img={Board.photos.kipiani}/>
+            <Card name="MIKHEIL JANELIDZE" title="Former Minister of Foreign Affairs of Georgia" img={Board.photos.janelidze}/>
+            <Card name="GIORGI BILANISHVILI" title="Researcher of Rondeli Foundation" img={Board.photos.bilanishvili}/>
+            <Card name="TIKA RUKHADZE" title="Director of the National Palace" img={Board.photos.rukhadze}/>
+            <Card name="ZURAB IARAJULI" title="First Deputy Chairperson of the Education and Science Committee of Parliament of Georgia" img={Board.photos.taliashvili}/>
+            <Card name="GIGI GIGIADZE" title="Senior Researcher of Economic Policy Research Centre" img={Board.photos.gigiadze}/>
+            <Card name="LASHA CHANTLADZE" title="Ph.D in History" img={Board.photos.chantladze}/>
+            <Card name="DAVID KLDIASHVILI" title="Lawyer" img={Board.photos.kldi}/>
         </div>
     </div>
     )
