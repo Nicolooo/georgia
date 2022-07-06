@@ -32,7 +32,7 @@ const gabiskiria = () => {
         </div>
     </div>
 </div>
-<Share url="/en/heroes/guram" title="Share the Article" />
+<Share url="/en/heroes/guram" title="Share the Article" cite2="Guram Gabiskiria” Georgian Liberty | Guram Gabiskiria, September 27, 2021.  https://www.georgianliberty.com/en/heroes/guram,    " />
 </>
   )
 }
