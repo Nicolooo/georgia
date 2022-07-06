@@ -6,7 +6,6 @@ import Title from '../../comp/SEO/title'
 import Footer from '../../comp/Footer/Footer'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Partners from '../../comp/About-page/Partners'
-import Hrid from '../../comp/Board/grid'
 const About = () => {
     const pepo = {'title': "Our Team", 'thx': "Special Thanks to"}
     return (
