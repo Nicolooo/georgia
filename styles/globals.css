@@ -2023,7 +2023,7 @@ a {
   .part-wrapper {
 	display: flex;
 	width: 100vw;
-	height: 40vh;
+	height: 60vh;
 	align-content: center;
 	justify-content: center;
 	align-items: center;
@@ -2048,7 +2048,7 @@ a {
 	}
 	.part-wrapper{
 	  flex-direction: column;
-	  height: 100vh;
+	  height: 130vh;
 	}
 	.part-col{
 	  width: 50vw;
