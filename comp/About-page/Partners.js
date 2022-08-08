@@ -13,7 +13,10 @@ const Partners = ({look}) => {
                 </div>    
                 <div className="part-col">
                     <Image src={"/partners/logo-fb-en.png"} height="200" width="400" />
-                </div>    
+                </div>
+                <div className="part-col">
+                    <Image src={"/partners/opoo.png"} height="450" width="400" />
+                </div>        
         </div>
     </div>
   )

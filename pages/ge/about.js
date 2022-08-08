@@ -6,6 +6,7 @@ import Title from '../../comp/SEO/title'
 import Footer from '../../comp/Footer/Footer'
 import Switcher from '../../comp/LangSwitcher/Switcher'
 import Partners from '../../comp/About-page/Partners'
+import Hrid from '../../comp/Board/Grid'
 const About = () => {
     const pepo = {'title': "Our Team", 'thx': "Special Thanks to"}
     return (
@@ -30,6 +31,7 @@ const About = () => {
                     </p>
                 </div>
                 <Staff ok="Ge"/>
+                <Hrid LANG="Ge"/>
                 <Partners she="ge" look="პარტნიორები"/>
                 <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
             </div>
