@@ -30,7 +30,7 @@ const About = () => {
                         </span>
                     </p>
                 </div>
-                <Staff ok="En"/>
+                {/* <Staff ok="En"/> */}
                 <Hrid LANG="En"/>
                 <Partners look="Partners"/>
                 <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>

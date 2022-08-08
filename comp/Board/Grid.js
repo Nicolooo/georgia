@@ -24,7 +24,7 @@ const Ge = () =>{
 const En = () =>{
         return(
     <div className="heroes-wrapper container-fluid">
-        <h2 className='heroes-header'>ეროვნული გმირები</h2>
+        <h2 className='heroes-header'>ბორდის წევრები</h2>
             <div className="container row">
                 <Card name="გიორგი კახიანი" title="საქართველოს პარლამენტის ყოფილი თავმჯდომარე" img={Board.photos.gk}/>
                 <Card name="ნიკოლოზ სირბილაძე" title="ჯორჯიან ლიბერთის თანადამფუძნებელი" img={Board.photos.ns}/>
