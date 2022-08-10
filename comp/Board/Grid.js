@@ -16,7 +16,7 @@ const Ge = () => {
                 <Card name="GIGI GIGIADZE" title="Senior Researcher of Economic Policy Research Centre" img={Board.photos.gigiadze} />
                 <Card name="LASHA CHANTLADZE" title="Ph.D in History" img={Board.photos.chantladze} />
                 <Card name="DAVID KLDIASHVILI" title="Lawyer" img={Board.photos.kldi} />
-                <Card name="NIKOLOZ KHABELASHVILI" title="" img={Board.photos.xb} />
+                <Card name="NIKOLOZ KHABELASHVILI" title="Co-Founder of Georgian Liberty" img={Board.photos.xb} />
             </div>
         </div>
     )
@@ -27,7 +27,7 @@ const En = () => {
             <h2 className='heroes-header'>ბორდის წევრები</h2>
             <div className="container row">
                 <Card name="გიორგი კახიანი" title="თავმჯდომარე, “ჯორჯიან ლიბერთის” თანადამფუძნებელი." img={Board.photos.gk} />
-                <Card name="ნიკოლოზ სირბილაძე" title="ჯორჯიან ლიბერთის თანადამფუძნებელი" img={Board.photos.ns} />
+                <Card name="ნიკოლოზ სირბილაძე" title="“ჯორჯიან ლიბერთის” თანადამფუძნებელი." img={Board.photos.ns} />
                 <Card name="კახა კუჭავა" title="საქართველოს პარლამენტის ყოფილი თავმჯდომარე" img={Board.photos.kuchava} />
                 <Card name="ვიქტორ ყიფიანი" title=" `ჯეოქეისის` თავმდჯომარე" img={Board.photos.kipiani} />
                 <Card name="მიხეილ ჯანელიძე" title="საქართველოს ყოფილი საგარეო საქმეთა მინისტრი" img={Board.photos.janelidze} />
@@ -36,7 +36,7 @@ const En = () => {
                 <Card name="გიგი გიგიაძე" title="ეკონომიკური პოლიტიკის კვლევის ცენტრის უფროსი მკვლევარი" img={Board.photos.gigiadze} />
                 <Card name="ლაშა ჩანტლაძე" title="ისტორიის მეცნიერებათა დოქტორი" img={Board.photos.chantladze} />
                 <Card name="დავით კლდიაშვილი" title="იურისტი" img={Board.photos.kldi} />
-                <Card name="ნიკოლოზ ხაბელაშვილი" title="" img={Board.photos.xb} />
+                <Card name="ნიკოლოზ ხაბელაშვილი" title="“ჯორჯიან ლიბერთის” თანადამფუძნებელი." img={Board.photos.xb} />
             </div>
         </div>
     )

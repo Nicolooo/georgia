@@ -1332,6 +1332,7 @@ a {
 	.font-size-3 {
 		font-size: 1.2rem !important;
 	}
+
 }
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 912px) {
@@ -1573,6 +1574,9 @@ a {
 /* Only for Phones */
 @media (max-width: 540px) {
 	/* kk */
+	.about-wrapper{
+		height: 120vh!important;
+	}
 	.cite-wrapper{
 		width: 60vw;
 		height: 40vh;
