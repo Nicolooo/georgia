@@ -1574,9 +1574,6 @@ a {
 /* Only for Phones */
 @media (max-width: 540px) {
 	/* kk */
-	.about-wrapper{
-		height: 120vh!important;
-	}
 	.cite-wrapper{
 		width: 60vw;
 		height: 40vh;
@@ -2048,7 +2045,7 @@ a {
 		padding: 0.7em;
 	} 
 	.about-wr{
-		height: 150vh!important;
+		height: 180vh!important;
 	}
 	.part-wrapper{
 	  flex-direction: column;
