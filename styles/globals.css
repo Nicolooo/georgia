@@ -2045,7 +2045,10 @@ a {
 		padding: 0.7em;
 	} 
 	.about-wr{
-		height: 220vh!important;
+		height: 200vh!important;
+	}
+	.abtge{
+		height: 50vh!important;
 	}
 	.part-wrapper{
 	  flex-direction: column;

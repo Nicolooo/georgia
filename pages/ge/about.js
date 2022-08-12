@@ -17,7 +17,7 @@ const About = () => {
           <Menu LANG="Ge"/>
           <Switcher title="EN" link="/en/about"/>
             <div className="container-fluid">
-                <div className="container mb-5 about-wr">
+                <div className="container mb-5 about-wr abtge">
                     <h1 className="abt-title mb-5" data-aos="fade-down">ჩვენ შესახებ</h1>
                     <p className="abt-text" data-aos="fade-down">
                         {Abt[4]}
