@@ -9,9 +9,9 @@ const Board = {
             'bilanishvili': '/b/bilanishvili.png',
             'kldi': '/b/kldi.png',
             'kipiani': '/b/kipiani.png',
-            'gk': '/b/gkakhiani.png',
+            'gk': '/b/giorgikakhiani.jpg',
             'xb': '/b/xb.png',
-            'ns': '/b/ns.png'
+            'ns': '/b/nikolozsirbiladze.jpg'
         } 
 }
 
