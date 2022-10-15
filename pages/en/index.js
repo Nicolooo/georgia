@@ -101,7 +101,7 @@ export default function Home() {
       <Inv title="Interviews" view="View More"/>
       <Hrid LANG="En"/>
       <div ref={ref}>{isVisible && <Homea title="Statistics" tt={tt}/>}</div>
-      <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
+      <Footer main="Stand Against Illegal occupation" copyright="Copyright 2022 © Georgian Liberty"/>
     </div>
   )
 }
