@@ -16,7 +16,6 @@ const Ge = () => {
                 <Card name="GIGI GIGIADZE" title="Senior Researcher of Economic Policy Research Centre" img={Board.photos.gigiadze} />
                 <Card name="LASHA CHANTLADZE" title="Ph.D in History" img={Board.photos.chantladze} />
                 <Card name="DAVID KLDIASHVILI" title="Lawyer" img={Board.photos.kldi} />
-                <Card name="NIKOLOZ KHABELASHVILI" title="Board Member of Georgian Liberty" img={Board.photos.xb} />
             </div>
         </div>
     )
@@ -36,7 +35,6 @@ const En = () => {
                 <Card name="გიგი გიგიაძე" title="ეკონომიკური პოლიტიკის კვლევის ცენტრის უფროსი მკვლევარი" img={Board.photos.gigiadze} />
                 <Card name="ლაშა ჩანტლაძე" title="ისტორიის მეცნიერებათა დოქტორი" img={Board.photos.chantladze} />
                 <Card name="დავით კლდიაშვილი" title="იურისტი" img={Board.photos.kldi} />
-                <Card name="ნიკოლოზ ხაბელაშვილი" title="“ჯორჯიან ლიბერთის” წევრი" img={Board.photos.xb} />
             </div>
         </div>
     )
