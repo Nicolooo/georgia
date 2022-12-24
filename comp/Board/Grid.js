@@ -13,7 +13,6 @@ const Ge = () => {
                 <Card name="MIKHEIL JANELIDZE" title="Former Minister of Foreign Affairs of Georgia" img={Board.photos.janelidze} />
                 <Card name="GIORGI BILANISHVILI" title="Researcher of Rondeli Foundation" img={Board.photos.bilanishvili} />
                 <Card name="TIKA RUKHADZE" title="Director of the National Palace" img={Board.photos.rukhadze} />
-                <Card name="GIGI GIGIADZE" title="Senior Researcher of Economic Policy Research Centre" img={Board.photos.gigiadze} />
                 <Card name="LASHA CHANTLADZE" title="Ph.D in History" img={Board.photos.chantladze} />
                 <Card name="DAVID KLDIASHVILI" title="Lawyer" img={Board.photos.kldi} />
             </div>
@@ -32,7 +31,6 @@ const En = () => {
                 <Card name="მიხეილ ჯანელიძე" title="საქართველოს ყოფილი საგარეო საქმეთა მინისტრი" img={Board.photos.janelidze} />
                 <Card name="გიორგი ბილანიშვილი" title="რონდელის ფონდის მკვლევარი" img={Board.photos.bilanishvili} />
                 <Card name="თიკა რუხაძე" title="ეროვნული სასახლის დირექტორი" img={Board.photos.rukhadze} />
-                <Card name="გიგი გიგიაძე" title="ეკონომიკური პოლიტიკის კვლევის ცენტრის უფროსი მკვლევარი" img={Board.photos.gigiadze} />
                 <Card name="ლაშა ჩანტლაძე" title="ისტორიის მეცნიერებათა დოქტორი" img={Board.photos.chantladze} />
                 <Card name="დავით კლდიაშვილი" title="იურისტი" img={Board.photos.kldi} />
             </div>
