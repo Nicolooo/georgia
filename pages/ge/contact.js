@@ -24,7 +24,7 @@ const contact = () => {
             <FormC message="დიდი მადლობა,თქვენი მეილი მიღებულია" title="ჩვენ ვპასუხობთ ყველა მეილს" />
             </div>
         </div>
-        <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
+        <Footer main="Stand Against Illegal occupation" copyright="Copyright 2023 © Georgian Liberty"/>
         </>
     )
 }

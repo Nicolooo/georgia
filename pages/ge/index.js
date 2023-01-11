@@ -101,7 +101,7 @@ export default function Home() {
       <Hrid LANG="Ge" />
       <div ref={ref}>{isVisible && <Homea title="სტატისტიკა" tt={tt}/>}</div>
       <Switcher title="EN" link="/en"/>
-      <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
+      <Footer main="Stand Against Illegal occupation" copyright="Copyright 2023 © Georgian Liberty"/>
     </div>
   )
 }

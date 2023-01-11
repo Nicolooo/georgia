@@ -33,7 +33,7 @@ const About = () => {
                 {/* <Staff ok="Ge"/> */}
                 <Hrid LANG="Ge"/>
                 <Partners she="ge" look="პარტნიორები"/>
-                <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
+                <Footer main="Stand Against Illegal occupation" copyright="Copyright 2023 © Georgian Liberty"/>
             </div>
         </div>
         </>

@@ -24,7 +24,7 @@ const contact = () => {
             <FormC message="Thank you, your message has been submitted." title="WE RESPOND TO EVERY EMAIL" />
             </div>
         </div>
-        <Footer main="Stand Against Illegal occupation" copyright="Copyright 2021 © Georgian Liberty"/>
+        <Footer main="Stand Against Illegal occupation" copyright="Copyright 2023 © Georgian Liberty"/>
         </>
     )
 }
