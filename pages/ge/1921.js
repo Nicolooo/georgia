@@ -31,7 +31,7 @@ const measme = () => {
                 </p>
             </div>
             <Next options={linkz}/>
-            <Share url="/en/1921" title="გააზიარეთ" cite="ციტირება" cite2="1921.” ჯორჯიან ლიბერთი | 1921, September 27, 2021.  https://www.georgianliberty.com/ge/1921,           '"/>
+            <Share url="/en/1921" title="გააზიარეთ" cite1="ციტირება" cite2="1921.” ჯორჯიან ლიბერთი | 1921, September 27, 2021.  https://www.georgianliberty.com/ge/1921'"/>
         </div>
         </>
     )

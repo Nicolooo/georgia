@@ -14,7 +14,7 @@ const Cite = ({cite2}) => {
 
   return (
     <div className="cite-wrapper">
-        <h2 className="cite-h2">ციტირება</h2>
+        <h2 className="cite-h2">ციტირება/Cite</h2>
       <form>
         <textarea
           ref={textAreaRef}
@@ -23,7 +23,7 @@ const Cite = ({cite2}) => {
         />
       </form>
       <div className="cite-copy">
-          <button onClick={copyToClipboard} className='cite-button'>Copy</button> 
+          <button onClick={copyToClipboard} className='cite-button'>Copy/კოპირება</button> 
           <h2 className='cite-h3'>{copySuccess}</h2>
         </div>
     </div>

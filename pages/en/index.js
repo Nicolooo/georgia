@@ -88,7 +88,7 @@ const tt = {
 export default function Home() {
   const ref = useRef()
   const isVisible = useOnScreen(ref)
-  const text = "Georgian Liberty is a non-profit, non-governmental organization founded in September 2021 by three teenagers. Our goal is to raise awareness about conflict and occupied territories in Georgia, both locally and globally.";
+  const text = "Georgian Liberty is a non-profit, non-governmental organization founded in September 2021 by two teenagers. Our goal is to raise awareness about conflict and occupied territories in Georgia, both locally and globally.";
   return (
     <div>
       <Title title="Georgian Liberty"/>

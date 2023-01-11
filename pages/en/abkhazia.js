@@ -84,7 +84,7 @@ const abkhazia = () => {
                 </div>
             </div>
             <Next options={linkz}/>
-            <Share url="/en/abkhazia" title="Share" cite1="Cite" cite2="1992.” Georgian Liberty | Abkhazia, September 27, 2021.  https://www.georgianliberty.com/en/abkhazia,           '"/>
+            <Share url="/en/abkhazia" title="Share" cite1="Cite" cite2="1992.” Georgian Liberty | Abkhazia, September 27, 2021.  https://www.georgianliberty.com/en/abkhazia'"/>
         </div>
         </>
     )

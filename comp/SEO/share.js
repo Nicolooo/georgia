@@ -4,7 +4,7 @@ import Link from "next/link"
 import Cite from './cite'
 import Modal from 'react-modal';
 
-const Share = ({url,title,cite2}) => {
+const Share = ({url,title,cite2,cite1}) => {
     const fb = "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgeorgianliberty.com"
     const tw =  "https://twitter.com/intent/tweet?url=https://georgianliberty"
     const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -42,7 +42,7 @@ const Share = ({url,title,cite2}) => {
         <div className="share-wrapper">
             <Link href={fb + url}><a className="share-icon-fb"><Facebook /></a></Link>
             <Link href={tw +url}><a className="share-icon-tw"><Twitter /></a></Link>
-            <button onClick={openModal} className="cite-b">ციტირება</button>
+            <button onClick={openModal} className="cite-b">{cite1}</button>
         </div>
         </>
     )
