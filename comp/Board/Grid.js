@@ -12,6 +12,7 @@ const Ge = () => {
                 <Card name="VIKTOR KIPIANI" title="Chairman of `Geocase`" img={Board.photos.kipiani} />
                 <Card name="MIKHEIL JANELIDZE" title="Former Minister of Foreign Affairs of Georgia" img={Board.photos.janelidze} />
                 <Card name="GIORGI BILANISHVILI" title="Researcher of Rondeli Foundation" img={Board.photos.bilanishvili} />
+                <Card name="Gigi Gigiadze" title="Senior Researcher of Economic Policy Research Centre" img={Board.photos.gigiadze}/>
                 <Card name="TIKA RUKHADZE" title="Director of the National Palace" img={Board.photos.rukhadze} />
                 <Card name="LASHA CHANTLADZE" title="Ph.D in History" img={Board.photos.chantladze} />
                 <Card name="DAVID KLDIASHVILI" title="Lawyer" img={Board.photos.kldi} />
@@ -28,8 +29,9 @@ const En = () => {
                 <Card name="ნიკოლოზ სირბილაძე" title="“ჯორჯიან ლიბერთის” თანადამფუძნებელი." img={Board.photos.ns} />
                 <Card name="კახა კუჭავა" title="საქართველოს პარლამენტის ყოფილი თავმჯდომარე" img={Board.photos.kuchava} />
                 <Card name="ვიქტორ ყიფიანი" title=" `ჯეოქეისის` თავმდჯომარე" img={Board.photos.kipiani} />
-                <Card name="მიხეილ ჯანელიძე" title="საქართველოს ყოფილი საგარეო საქმეთა მინისტრი" img={Board.photos.janelidze} />
+                <Card name="მიხეილ ჯანელიძე" title="საქართველოს საგარეო საქმეთა ყოფილი მინისტრი" img={Board.photos.janelidze} />
                 <Card name="გიორგი ბილანიშვილი" title="რონდელის ფონდის მკვლევარი" img={Board.photos.bilanishvili} />
+                <Card name="გიგი გიგიაძე" title="ეკონომიკური პოლიტიკის კვლევის ცენტრის უფროსი მკვლევარი" img={Board.photos.gigiadze}/>
                 <Card name="თიკა რუხაძე" title="ეროვნული სასახლის დირექტორი" img={Board.photos.rukhadze} />
                 <Card name="ლაშა ჩანტლაძე" title="ისტორიის მეცნიერებათა დოქტორი" img={Board.photos.chantladze} />
                 <Card name="დავით კლდიაშვილი" title="იურისტი" img={Board.photos.kldi} />
