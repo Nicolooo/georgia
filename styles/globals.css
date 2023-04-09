@@ -1338,6 +1338,9 @@ a {
 	.about-wr{
 		height: 230vh!important;
 	}
+	.april-list{
+		height: 20vh;
+	}
 }
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 912px) {
@@ -2456,7 +2459,6 @@ a {
 	color: white;
 	font-family: var(--averca);
 	font-size: 1.5em;
-	padding: 0.3em;
 }
 .april-list{
 	height:150vh;
