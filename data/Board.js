@@ -10,7 +10,8 @@ const Board = {
         'kldi': '/b/kldi.png',
         'kipiani': '/b/kipiani.png',
         'gk': '/b/giorgikakhiani2.jpg',
-        'ns': '/b/nikolozsirbiladze.jpg'
+        'ns': '/b/nikolozsirbiladze.jpg',
+        'lel': '/b/leri.png'
     }
 }
 
