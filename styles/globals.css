@@ -1338,9 +1338,6 @@ a {
 	.about-wr{
 		height: 230vh!important;
 	}
-	.april-list{
-		height: 200vh!important;
-	}
 }
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 912px) {
@@ -2110,6 +2107,9 @@ a {
 	.pg-container{
 		height: 150vh!important;
 	}
+	.april-list{
+		height: 150vh!important;
+	}
   }
 
 
@@ -2160,6 +2160,9 @@ a {
   }
   @media screen and (max-width: 900px) {
 		.contactpage{
+			height: 150vh!important;
+		}
+		.april-list{
 			height: 150vh!important;
 		}
 		.pg-container{
@@ -2447,11 +2450,11 @@ a {
 }
 .april-main-sub{
 	color: white;
-	font-size: 2em;
+	font-size: 2rem;
 	font-family: var(--averca);
 }
 .april-list-headline{
-	font-size: 4em;
+	font-size: 4rem;
 	text-align: center;
 	font-family: var(--averca);
 	color: red;
