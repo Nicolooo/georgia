@@ -2165,6 +2165,9 @@ a {
 		.april-list{
 			height: 250vh!important;
 		}
+		.april-list-headline{
+			font-size: 3rem;
+		}
 		.pg-container{
 			height: 200vh!important;
 		}
