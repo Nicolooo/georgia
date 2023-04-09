@@ -1339,7 +1339,7 @@ a {
 		height: 230vh!important;
 	}
 	.april-list{
-		height: 200vh;
+		height: 200vh!important;
 	}
 }
 /* Medium devices (tablets, 768px and up) */
@@ -1592,6 +1592,9 @@ a {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+	}
+	.april-list{
+		height: 200vh!important;
 	}
 	.cite-textarea{
 		width: 15em!important;
