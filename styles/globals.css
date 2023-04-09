@@ -3,7 +3,7 @@
  * Fonts
  *
  */
-@font-face {
+ @font-face {
     font-family: 'AvertaCYBold';
     src: url('fonts/AvertaCYBold.eot');
     src: url('fonts/AvertaCYBold.eot') format('embedded-opentype'),
@@ -2428,4 +2428,42 @@ a {
 	border: none;
 	cursor: pointer;
 	transition-duration: .3s;
+}
+/*  9 APRIL TRAGEDY */
+.april-header{
+	height:50vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-transform: uppercase;
+}
+.april-main-sub{
+	color: white;
+	font-size: 2em;
+	font-family: var(--averca);
+}
+.april-list-headline{
+	font-size: 4em;
+	text-align: center;
+	font-family: var(--averca);
+	color: red;
+	text-transform: uppercase;
+}
+.april-list-name{
+	text-align: center;
+	color: white;
+	font-family: var(--averca);
+	font-size: 1.5em;
+	padding: 0.3em;
+}
+.april-list{
+	height:150vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-transform: uppercase;
 }
