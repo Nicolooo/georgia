@@ -3,7 +3,7 @@
  * Fonts
  *
  */
-@font-face {
+ @font-face {
     font-family: 'AvertaCYBold';
     src: url('fonts/AvertaCYBold.eot');
     src: url('fonts/AvertaCYBold.eot') format('embedded-opentype'),
@@ -1590,6 +1590,9 @@ a {
 		align-items: center;
 		flex-direction: column;
 	}
+	.april-list{
+		height: 300vh!important;
+	}
 	.cite-textarea{
 		width: 15em!important;
 		height: 10em!important;
@@ -2110,6 +2113,9 @@ a {
 	.pg-container{
 		height: 150vh!important;
 	}
+	.april-list{
+		height: 250vh!important;
+	}
   }
 
 
@@ -2161,6 +2167,12 @@ a {
   @media screen and (max-width: 900px) {
 		.contactpage{
 			height: 150vh!important;
+		}
+		.april-list{
+			height: 250vh!important;
+		}
+		.april-list-headline{
+			font-size: 2rem!important;
 		}
 		.pg-container{
 			height: 200vh!important;
@@ -2434,4 +2446,41 @@ a {
 	border: none;
 	cursor: pointer;
 	transition-duration: .3s;
+}
+/*  9 APRIL TRAGEDY */
+.april-header{
+	height:50vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-transform: uppercase;
+}
+.april-main-sub{
+	color: white;
+	font-size: 2rem;
+	font-family: var(--averca);
+}
+.april-list-headline{
+	font-size: 4rem;
+	text-align: center;
+	font-family: var(--averca);
+	color: red;
+	text-transform: uppercase;
+}
+.april-list-name{
+	text-align: center;
+	color: white;
+	font-family: var(--averca);
+	font-size: 1.5em;
+}
+.april-list{
+	height:100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-transform: uppercase;
 }
