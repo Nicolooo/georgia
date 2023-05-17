@@ -1,10 +1,10 @@
 import React from 'react'
-import Card from '../../comp/Contact/cards'
-import SEO from '../../comp/SEO/title'
-import Menu from '../../comp/Menu/Menu'
-import FormC from '../../comp/Contact/Form'
-import Footer from '../../comp/Footer/Footer'
-import Switcher from '../../comp/LangSwitcher/Switcher'
+import Card from '../../../comp/Contact/cards'
+import SEO from '../../../comp/SEO/title'
+import Menu from '../../../comp/Menu/Menu'
+import FormC from '../../../comp/Contact/Form'
+import Footer from '../../../comp/Footer/Footer'
+import Switcher from '../../../comp/LangSwitcher/Switcher'
 const contact = () => {
     return (
         <>

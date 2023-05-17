@@ -23,7 +23,7 @@ const slideData = [
   },
   {
     index: 1,
-    headline: 'დამოუკიდებლობის აღდგენა',
+    headline: 'დამოუკიდებლობის მოპოვება',
     qve: '1918',
     link: '/ge/1918',
     button: 'იხილეთ მეტი',

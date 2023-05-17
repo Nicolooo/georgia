@@ -16,7 +16,7 @@ const Ge = () => {
                 <Card name="Gigi Gigiadze" title="Senior Researcher of Economic Policy Research Centre" img={Board.photos.gigiadze}/>
                 <Card name="LASHA CHANTLADZE" title="Ph.D in History" img={Board.photos.chantladze} />
                 <Card name="DAVID KLDIASHVILI" title="Lawyer" img={Board.photos.kldi} />
-                <Card name="LERI DOBORJGINIDZE" title="Head of youth department" img={Board.photos.lel} />
+                <Card name="LERI DOBORJGINIDZE" title="Head of the youth department" img={Board.photos.lel} />
             </div>
         </div>
     )

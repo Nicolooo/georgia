@@ -8,8 +8,8 @@ import Cite from '../../comp/SEO/cite'
 const measme = () => {
     const linkz = {
         first_title: "1989",
-        first_link: "/ge/1918",
-        second_title: "1989",
+        first_link: "/ge/abkhazia",
+        second_title: "1918",
         second_link: "/ge/1918",
     }
     return (
