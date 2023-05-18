@@ -1339,9 +1339,13 @@ a {
 		height: 200vh!important;
 	}
 }
-@media (min-width: 375px) and (max-height: 812px) {
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) { 
 	.about-wr{
 		height: 400vh!important;
+		margin-bottom: 30rem!important;
 	}
 }
 /* Medium devices (tablets, 768px and up) */
