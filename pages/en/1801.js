@@ -7,17 +7,17 @@ import Next from '../../comp/next/yea'
 import Image from 'next/image'
 const Friends = () => {
     const linkz = {
-        first_title: "1992",
-        first_link: "/en/abkhazia",
-        second_title: "1921",
-        second_link: "/en/1921",
+        first_title: "1918",
+        first_link: "/en/1918",
+        second_title: "2008",
+        second_link: "/en/samachablo",
     }
 
     return (
         <>
-        <Title title="Georgian Liberty | 1801" meta="The second half of the 1980s was quite turbulent for the Soviet Union. The events that happened on the April of 9th of the 1989 were inevitable." />
+        <Title title="Georgian Liberty | 1801" meta="On July 24th, 1783, a “Friendship Agreement” known as the Treaty of Georgievsk was signed between the Kingdom of Kartli-Kakheti and the Russian Empire. According to this the Kingdom of Kartli-Kakheti came under the protection of the Russian Empire. Under the terms of the treaty, the Kingdom of Kartli-Kakheti refused to pursue an independent foreign policy, while Russia promised military assistance." />
             <Menu />
-            <Switcher title="Ge" link="/ge/1989"/>
+            <Switcher title="Ge" link="/ge/1801"/>
         <div className="abkhazia-wrapper container">
             <div className="abkhazia-title row"> 
                 <div className="april-header">
@@ -43,7 +43,7 @@ const Friends = () => {
                 <div className="jigari"></div>
             </div>
             <Next options={linkz} />
-            <Share url="/en/1989" title="Share the Article" cite1="Cite" cite2="1989.” Georgian Liberty | 1989, September 27, 2021.  https://www.georgianliberty.com/en/1989,           '"/>
+            <Share url="/en/1801" title="Share the Article" cite1="Cite" cite2="1801.” Georgian Liberty | 1801, September 27, 2021.  https://www.georgianliberty.com/en/1989,           '"/>
         </div>
         </>
     )

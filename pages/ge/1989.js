@@ -102,7 +102,7 @@ const merve = () => {
     return (
         <>
         <Title title="Georgian Liberty | 9 აპრილი" meta="1980-იანი წლები მეორე ნახევარი საკმაოდ ტურბულენტური იყო საბჭოთა კავშირისთვის." />
-            <Menu />
+            <Menu LANG="Ge"/>
             <Switcher title="Ge" link="/en/1989"/>
         <div className="abkhazia-wrapper container">
             <div className="abkhazia-title row"> 
