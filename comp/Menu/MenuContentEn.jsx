@@ -28,6 +28,7 @@ const En = [
     component: <span>Volunteer</span>,
   },
 ];
+
 export default function MenuContentEn() {
   const { open } = useContext(MenuContext);
   return (
