@@ -5,7 +5,7 @@ import Menu from '../../../comp/Menu/Menu'
 import Footer from '../../../comp/Footer/Footer'
 import Switcher from '../../../comp/LangSwitcher/Switcher'
 import IntGrid from '../../../comp/interGrid/Grid'
-const contact = () => {
+const Interviews = () => {
     return (
         <>
         <SEO title="Georgian Liberty | Interviews" meta="Interviews"/>
@@ -19,4 +19,4 @@ const contact = () => {
     )
 }
 
-export default contact
+export default Interviews
