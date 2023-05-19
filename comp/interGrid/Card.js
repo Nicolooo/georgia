@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-const Card = ({name,title,img}) => {
+const Card = ({name,title,img,link,text}) => {
     return (
     <div className="heroes-card">
         <Image src={img}
@@ -8,7 +8,7 @@ const Card = ({name,title,img}) => {
       <div className="heroes-card-text">
         <h3>{name}</h3>
         <p>{title}</p>
-        <button>Visit</button>
+        <a href={link}>{text}</button>
       </div>
     </div>
     )

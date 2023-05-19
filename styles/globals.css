@@ -774,6 +774,9 @@ a {
 .contactpage{
 	height: 100vh;
 }
+.volpage{
+	height: 120vh;
+}
 /* cards */
 .contact-cards{
 	display: flex;
@@ -1356,6 +1359,9 @@ a {
 }
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 912px) {
+	.volpage{
+		height: 200vh;
+	}
 	.contactpage{
 		height: 150vh!important;
 	}
@@ -2128,6 +2134,12 @@ a {
     font-size: 1.5em;
   }
 
+	@media only screen and (min-width: 1200px) and (max-width: 1380px)  {
+		.volpage{
+			height: 120vh;
+		}
+
+	}
 
 
   /* 1280 px */
@@ -2190,6 +2202,7 @@ a {
 		height: 300px;
 	}
   }
+
   @media screen and (max-width: 900px) {
 		.contactpage{
 			height: 150vh!important;
@@ -2389,8 +2402,6 @@ a {
 	margin-top: 15px;
 }
 
-
-
 /*  Ipad  */
 @media only screen and (min-width: 768px) and (max-width: 1000px)  {
 	.pg-container{
@@ -2510,7 +2521,6 @@ a {
 	flex-direction: column;
 	text-transform: uppercase;
 }
-
 .field-parent .honeypie{
 	display: flex;
 	align-items: center;

@@ -73,7 +73,7 @@ const FormV = ({message,title}) => {
       });
   };
   return (
-    <section className="scta">
+    <div className="scta">
       <h3 className="con-title">{title}</h3>
       <form onSubmit={handleOnSubmit} id="form" className="topBefore" autocomplete="false">
       <input
@@ -98,7 +98,6 @@ const FormV = ({message,title}) => {
           placeholder="EMAIL"
           className="form-input"
         />
-
           <input
           autocomplete="false"
           id="fb"
@@ -142,7 +141,7 @@ const FormV = ({message,title}) => {
         <div className="error">Error: {status.info.msg}</div>
       )}
       {!status.info.error && status.info.msg && <p className="jim">{status.info.msg}</p>}
-    </section>
+    </div>
   );
 };
 

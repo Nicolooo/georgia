@@ -11,7 +11,7 @@ const volunteer = () => {
         <SEO title="Georgian Liberty | გახდი მოხალისე" meta="Contact people behind the project, ask questions, report problems and give us suggestions."/>
         <Menu />
         <Switcher title="Ge" link="/ge/contact"/>
-        <div className="container-fluid vol">
+        <div className="container-fluid volpage">
             <div className="container">
                 <h3 className="contact-headline mb-5" data-aos="fade-up">გახდი მოხალისე</h3>
             </div>
