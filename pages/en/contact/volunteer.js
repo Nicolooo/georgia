@@ -11,7 +11,7 @@ const volunteer = () => {
         <SEO title="Georgian Liberty | Volunteer" meta="Contact people behind the project, ask questions, report problems and give us suggestions."/>
         <Menu />
         <Switcher title="Ge" link="/ge/contact"/>
-        <div className="container-fluid contactpage">
+        <div className="container-fluid volpage">
             <div className="container">
                 <h3 className="contact-headline mb-5" data-aos="fade-up">Volunteer</h3>
             </div>
@@ -24,7 +24,7 @@ const volunteer = () => {
             <FormV message="Thank you, your message has been submitted." title="WE RESPOND TO EVERY EMAIL" />
             </div>
         </div>
-        <Footer main="Stand Against Illegal occupation" copyright="Copyright 2023 © Georgian Liberty"/>
+        <Footer main="Stand Against Illegal Occupation" copyright="Copyright 2023 © Georgian Liberty"/>
         </>
     )
 }

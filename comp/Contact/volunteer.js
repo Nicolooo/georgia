@@ -34,7 +34,7 @@ const FormV = ({message,title}) => {
         type: '',
         time: '',
         fb: '',
-        phone: ''
+        phone: '',
       });
     } else {
       setStatus({
@@ -73,7 +73,7 @@ const FormV = ({message,title}) => {
       });
   };
   return (
-    <section className="scta">
+    <div className="scta">
       <h3 className="con-title">{title}</h3>
       <form onSubmit={handleOnSubmit} id="form" className="topBefore" autocomplete="false">
       <input
@@ -82,7 +82,7 @@ const FormV = ({message,title}) => {
           type="text"
           name="name"
           onChange={handleOnChange}
-          required
+          required={true}
           value={inputs.name}
           placeholder="NAME AND LAST NAME"
           className="form-input"
@@ -93,64 +93,41 @@ const FormV = ({message,title}) => {
           type="email"
           name="_replyto"
           onChange={handleOnChange}
-          required
+          required={true}
           value={inputs.email}
           placeholder="EMAIL"
           className="form-input"
         />
-        <input
-          autocomplete="false"
-          id="city"
-          type="text"
-          name="_replyto"
-          onChange={handleOnChange}
-          value={inputs.city}
-          placeholder="CiTY OF RESIDENCE"
-          className="form-input"
-        />
           <input
           autocomplete="false"
           id="fb"
           type="text"
           name="_replyto"
           onChange={handleOnChange}
-          required
-          value={inputs.age}
-          placeholder="AGE"
-          className="form-input"
-        />
-          <input
-          autocomplete="false"
-          id="fb"
-          type="text"
-          name="_replyto"
-          onChange={handleOnChange}
-          required
+          required={true}
           value={inputs.fb}
           placeholder="FACEBOOK PROFILE LINK"
           className="form-input"
         />
-           {/* <fieldset id="fs-frm-selects">
-            <label for="timely">CITY OF RESIDENCE</label>
-            <select name="timely" id="timely" required="true" onChange={handleOnChange} value={inputs.city}>
+            <fieldset id="fs-frm-selects" className="field-parent">
+            <select name="city" id="city" required="true" onChange={handleOnChange} value={inputs.city} className="honeypie">
                 <option value="" selected="" disabled="">Choose</option>
-                <option value="1">BATUMI</option>
-                <option value="3">TBILISI</option>
-                <option value="5">XOBI</option>
-                <option value="7">Disagree</option>
-                <option value="9">Strongly Disagree</option>
+                <option value="1">Batumi</option>
+                <option value="3">Tbilisi</option>
+                <option value="5">Xobi</option>
+                <option value="7">Kobuleti</option>
+                <option value="9">Zugdidi</option>
             </select>
         </fieldset>
-        <fieldset id="fs-frm-selects">
-            <label for="timely">AGE</label>
-            <select name="timely" id="timely" required="true" onChange={handleOnChange} value={inputs.age}>
-                <option value="" selected="" disabled="">Choose</option>
+        <fieldset id="fs-frm-selects" className="field-parent">
+            <select name="age" id="age" required="true" onChange={handleOnChange} value={inputs.age} className="honeypie">
+                <option value=""  selected="" disabled="">Age</option>
                 <option value="14-17">14-17</option>
                 <option value="18-21">18-21</option>
                 <option value="22-25">22-25</option>
                 <option value="25+">25+</option>
             </select>
-        </fieldset> */}
+        </fieldset> 
         
       <button type="submit" disabled={status.submitting} className="btn con-sub pp" onClick={handleOnSubmit}>
           {!status.submitting
@@ -164,7 +141,7 @@ const FormV = ({message,title}) => {
         <div className="error">Error: {status.info.msg}</div>
       )}
       {!status.info.error && status.info.msg && <p className="jim">{status.info.msg}</p>}
-    </section>
+    </div>
   );
 };
 
