@@ -17,7 +17,7 @@ const contact = () => {
                 <h3 className="contact-headline mb-5" data-aos="fade-up">კონტაქტი</h3>
             </div>
             <div className="container row">
-                <Card title="გაგვიზიარეთ" body="მოგვწერეთ რეკომენდაციები რათა განვავბითაროთ პლატფორმა"/>
+                <Card title="გაგვიზიარეთ" body="მოგვწერეთ რეკომენდაციები რათა განვავითაროთ პლატფორმა"/>
                 <Card title="დაგვიჭირეთ მხარი" body="ჩვენ ვიღებთ ყველა სახის დახმარებას."/>
                 <Card title="გაავრცელეთ" body="გაავრცელეთ პროექტი რათა გავაგებინოთ მეტ ხალხს!"/>
             </div>

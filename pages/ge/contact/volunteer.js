@@ -10,10 +10,10 @@ const volunteer = () => {
         <>
         <SEO title="Georgian Liberty | გახდი მოხალისე" meta="Contact people behind the project, ask questions, report problems and give us suggestions."/>
         <Menu />
-        <Switcher title="Ge" link="/ge/contact"/>
+        <Switcher title="Ge" link="/ge/contact/volunteer"/>
         <div className="container-fluid volpage">
             <div className="container">
-                <h3 className="contact-headline mb-5" data-aos="fade-up">გახდი მოხალისე</h3>
+                <h3 className="contact-headline mb-5" data-aos="fade-up">ჩაერთე პროექტში</h3>
             </div>
             <div className="container row">
                 <Card title="Share" body="Tell us about your experience, thoughts or recommendations."/>
@@ -21,7 +21,7 @@ const volunteer = () => {
                 <Card title="Put a word" body="Share our project to your friends and family to increase awareness."/>
             </div>
             <div className="contact-form container yes">
-            <FormE message="Thank you, your message has been submitted." title="ჩვენ ვპასუხობთ ყველა განცხადებას" />
+            <FormE message="დიდი მადლობა, თქვენი განცხადება მირებულია" title="ჩვენ ვპასუხობთ ყველა განცხადებას" />
             </div>
         </div>
         <Footer main="Stand Against Illegal occupation" copyright="Copyright 2023 © Georgian Liberty"/>

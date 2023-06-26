@@ -73,7 +73,7 @@ const FormE = ({message,title}) => {
       });
   };
   return (
-    <section className="scta">
+    <div className="scta">
       <h3 className="con-title">{title}</h3>
       <form onSubmit={handleOnSubmit} id="form" className="topBefore" autocomplete="false">
       <input
@@ -109,7 +109,6 @@ const FormE = ({message,title}) => {
           placeholder="ტელ.ნომერი"
           className="form-input"
         />
-
           <input
           autocomplete="false"
           id="fb"
@@ -118,37 +117,25 @@ const FormE = ({message,title}) => {
           onChange={handleOnChange}
           required={true}
           value={inputs.fb}
-          placeholder="Facebook პროფილის ბმული"
+          placeholder="FACEBOOK-ის პროფაილის ლინკი"
           className="form-input"
         />
             <fieldset id="fs-frm-selects" className="field-parent">
             <select name="city" id="city" required="true" onChange={handleOnChange} value={inputs.city} className="honeypie">
                 <option value="" selected="" disabled="">საცხოვრებელი ადგილი</option>
-                <option value="1">თბილისი</option>
-                <option value="3">ბათუმი</option>
-                <option value="5">რუსთავი</option>
-                <option value="7">ქუთაისი</option>
-                <option value="8">გორი</option>
-                <option value="9">თელავი</option>
-                <option value="10">ფოთი</option>
-                <option value="11">ზუგდიდი</option>
-                <option value="12">სხვა</option>
+                <option value="თბილისი">თბილისი</option>
+                <option value="ბათუმი">ბათუმი</option>
+                <option value="ქუთაისი">ქუთაისი</option>
+                <option value="რუსთავი">რუსთავი</option>
+                <option value="გორი">გორი</option>
+                <option value="თელავი">თელავი</option>
+                <option value="ფოთი">ფოთი</option>
+                <option value="ზუგდიდი">ზუგდიდი</option>
+                <option value="სხვა">სხვა</option>
             </select>
         </fieldset>
         <fieldset id="fs-frm-selects" className="field-parent">
-            <select name="city" id="city" required="true" onChange={handleOnChange} value={inputs.type} className="honeypie">
-                <option value="" selected="" disabled="">საქმიანობა</option>
-                <option value="1">საორგანიზაციო სამუშაო</option>
-                <option value="3">ღონისძიებებზე მუშაობა</option>
-                <option value="5">ციფრული მედია (ფოტო/ვიდეო გადაღება, მონტაჟი, გრაფიკული დიზაინი, კონტენტის შექმნა)</option>
-                <option value="7">პლატფორმის განვითარება (პროგრამული მხარდაჭერა, გრაფიკული დიზაინი)</option>
-                <option value="8">დისტანციურად მუშაობა</option>
-                <option value="9">ანალიტიკა/კვლევა/თარგმნა</option>
-                <option value="10">სხვა</option>
-            </select>
-        </fieldset>
-        <fieldset id="fs-frm-selects" className="field-parent">
-            <select name="type" id="type" required="true" onChange={handleOnChange} value={inputs.age} className="honeypie">
+            <select name="age" id="age" required="true" onChange={handleOnChange} value={inputs.age} className="honeypie">
                 <option value=""  selected="" disabled="">ასაკი</option>
                 <option value="14-17">14-17</option>
                 <option value="18-21">18-21</option>
@@ -156,29 +143,39 @@ const FormE = ({message,title}) => {
                 <option value="25+">25+</option>
             </select>
         </fieldset> 
-         <fieldset id="fs-frm-selects" className="field-parent">
-            <select name="time" id="time" required="true" onChange={handleOnChange} value={inputs.age} className="honeypie">
-                <option value=""  selected="" disabled="">მუშაობის სიხშირე</option>
-                <option value="14-17">ყოველდღიური</option>
-                <option value="18-21">2-4 სამუშაო დღე</option>
-                <option value="22-25">22-25</option>
-                <option value="25+">კვირაში ერთხელ</option>
+           <fieldset id="fs-frm-selects" className="field-parent">
+            <select name="type" id="type" required="true" onChange={handleOnChange} value={inputs.type} className="honeypie">
+                <option value="" selected="" disabled="">საქმიანობა</option>
+                <option value="საორგანიზაციო სამუშაო">საორგანიზაციო სამუშაო</option>
+                <option value="ღონისძიებებზე მუშაობა">ღონისძიებებზე მუშაობა</option>
+                <option value="ციფრული მედია (ფოტო/ვიდეო გადაღება, მონტაჟი, გრაფიკული დიზაინი, კონტენტის შექმნა)">ციფრული მედია (ფოტო/ვიდეო გადაღება, მონტაჟი, გრაფიკული დიზაინი, კონტენტის შექმნა)</option>
+                <option value="პლატფორმის განვითარება (პროგრამული მხარდაჭერა, გრაფიკული დიზაინი)">Platform development (Software support, Graphic Design)</option>
+                <option value="დისტანციურად მუშაობა">დისტანციურად მუშაობა</option>
+                <option value="ანალიტიკა/კვლევა/თარგმნა">ანალიტიკა/კვლევა/თარგმნა</option>
+                <option value="სხვა">სხვა</option>
             </select>
-        </fieldset> 
-        
+        </fieldset>
+            <fieldset id="fs-frm-selects" className="field-parent">
+            <select name="time" id="time" required="true" onChange={handleOnChange} value={inputs.time} className="honeypie">
+                <option value="" selected="" disabled="">მუშაობის სიხშირე</option>
+                <option value="ყოველდღიური">ყოველდღიური</option>
+                <option value="2-4 სამუშაო დღე">2-4 სამუშაო დღე</option>
+                <option value="კვირაში ერთხელ">კვირაში ერთხელ</option>
+            </select>
+        </fieldset>
       <button type="submit" disabled={status.submitting} className="btn con-sub pp" onClick={handleOnSubmit}>
           {!status.submitting
             ? !status.submitted
-              ? 'Submit'
-              : 'Submitted'
-            : 'Submitting...'}
+              ? 'გაგზავნა'
+              : 'წარმატებით გაიგზავნა'
+            : 'იგზავნება...'}
         </button>
       </form>
       {status.info.error && (
         <div className="error">Error: {status.info.msg}</div>
       )}
       {!status.info.error && status.info.msg && <p className="jim">{status.info.msg}</p>}
-    </section>
+    </div>
   );
 };
 
