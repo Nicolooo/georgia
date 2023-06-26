@@ -1602,6 +1602,10 @@ a {
 }
 /* Only for Phones */
 @media (max-width: 540px) {
+	.inv-video iframe{
+		width: 70vw;
+		height: 40vh;
+	}
 	/* kk */
 	.cite-wrapper{
 		width: 60vw;
