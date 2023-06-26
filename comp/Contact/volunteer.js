@@ -100,7 +100,7 @@ const FormV = ({message,title}) => {
         />
          <input
           autocomplete="false"
-          id="text"
+          id="phone"
           type="text"
           name="_replyto"
           onChange={handleOnChange}
@@ -156,7 +156,7 @@ const FormV = ({message,title}) => {
             </select>
         </fieldset>
             <fieldset id="fs-frm-selects" className="field-parent">
-            <select name="type" id="type" required="true" onChange={handleOnChange} value={inputs.time} className="honeypie">
+            <select name="time" id="time" required="true" onChange={handleOnChange} value={inputs.time} className="honeypie">
                 <option value="" selected="" disabled="">WORKING TIME</option>
                 <option value="Everyday">Everyday</option>
                 <option value="2-4 Working Days">2-4 Working Days</option>
