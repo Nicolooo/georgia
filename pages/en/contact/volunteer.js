@@ -10,7 +10,7 @@ const volunteer = () => {
         <>
         <SEO title="Georgian Liberty | Volunteer" meta="Contact people behind the project, ask questions, report problems and give us suggestions."/>
         <Menu />
-        <Switcher title="Ge" link="/ge/contact"/>
+        <Switcher title="Ge" link="/ge/volunteer"/>
         <div className="container-fluid volpage">
             <div className="container">
                 <h3 className="contact-headline mb-5" data-aos="fade-up">Volunteer</h3>
